@@ -11,14 +11,6 @@
         "quarter": "Q3",
         "status": "in-progress",
         "author": "PX Blue"
-      },
-      {
-        "name": "Website Components",
-        "description": "Add new components specifically for use on websites (e.g., marketing sites)",
-        "year": 2021,
-        "quarter": "Q3",
-        "status": "backlog",
-        "author": "PX Blue"
       }
     ]
   },

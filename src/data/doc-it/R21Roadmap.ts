@@ -38,14 +38,14 @@ export const roadmap: RoadmapBucket[] = [
                 status: 'in-progress',
                 author: 'PX Blue',
             },
-            {
-                name: 'Website Components',
-                description: 'Add new components specifically for use on websites (e.g., marketing sites)',
-                year: CURRENT_YEAR,
-                quarter: CURRENT_QUARTER,
-                status: 'backlog',
-                author: 'PX Blue',
-            },
+            // {
+            //     name: 'Website Components',
+            //     description: 'Add new components specifically for use on websites (e.g., marketing sites)',
+            //     year: CURRENT_YEAR,
+            //     quarter: CURRENT_QUARTER,
+            //     status: 'backlog',
+            //     author: 'PX Blue',
+            // },
         ],
     },
     {
