@@ -35,7 +35,7 @@ export const roadmap: RoadmapBucket[] = [
                 description: 'Updated system components for keyboards, cursors, notifications, etc.',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'in-progress',
+                status: 'finished',
                 author: 'PX Blue',
             },
             // {
@@ -82,7 +82,7 @@ export const roadmap: RoadmapBucket[] = [
                 description: 'Dynamically filled SVG progress icons',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'in-progress',
+                status: 'finished',
                 author: 'PX Blue',
             }
         ],
