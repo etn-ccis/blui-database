@@ -9,7 +9,7 @@
         "description": "Updated system components for keyboards, cursors, notifications, etc.",
         "year": 2021,
         "quarter": "Q3",
-        "status": "in-progress",
+        "status": "finished",
         "author": "PX Blue"
       }
     ]
@@ -50,7 +50,7 @@
         "description": "Dynamically filled SVG progress icons",
         "year": 2021,
         "quarter": "Q3",
-        "status": "in-progress",
+        "status": "finished",
         "author": "PX Blue"
       }
     ]
