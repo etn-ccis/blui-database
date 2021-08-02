@@ -35,7 +35,7 @@ export const roadmap: RoadmapBucket[] = [
                 description: 'Updated system components for keyboards, cursors, notifications, etc.',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'in-progress',
+                status: 'finished',
                 author: 'PX Blue',
             },
             // {
@@ -74,7 +74,7 @@ export const roadmap: RoadmapBucket[] = [
                 description: 'Improved theming support via pre-styled wrapper components for React Native Paper',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'backlog',
+                status: 'in-progress',
                 author: 'PX Blue',
             },
             {
@@ -82,7 +82,7 @@ export const roadmap: RoadmapBucket[] = [
                 description: 'Dynamically filled SVG progress icons',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'in-progress',
+                status: 'finished',
                 author: 'PX Blue',
             }
         ],
