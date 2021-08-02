@@ -74,7 +74,7 @@ export const roadmap: RoadmapBucket[] = [
                 description: 'Improved theming support via pre-styled wrapper components for React Native Paper',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'backlog',
+                status: 'in-progress',
                 author: 'PX Blue',
             },
             {
