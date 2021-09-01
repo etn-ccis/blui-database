@@ -58,6 +58,21 @@ export const roadmap: RoadmapBucket[] = [
         ],
     },
     {
+        name: 'pxblue.github.io',
+        description: 'The PX Blue documentation site',
+        type: 'design',
+        items: [
+            {
+                name: 'Device / Network Commissioning',
+                description: 'New design patterns for setting up a hardware device',
+                year: CURRENT_YEAR,
+                quarter: CURRENT_QUARTER,
+                status: 'backlog',
+                author: 'PX Blue',
+            },
+        ],
+    },
+    {
         name: 'React Native Component Library',
         description: 'Reusable UI elements from @pxblue/react-native-components',
         type: 'development',

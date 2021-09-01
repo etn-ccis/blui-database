@@ -97,7 +97,7 @@ export const roadmap: RoadmapBucket[] = [
                 description: 'New design patterns for setting up a hardware device',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'backlog',
+                status: 'deferred',
                 author: 'PX Blue',
             },
         ],
