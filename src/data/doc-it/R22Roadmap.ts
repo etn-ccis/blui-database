@@ -42,6 +42,21 @@ export const roadmap: RoadmapBucket[] = [
         ],
     },
     {
+        name: 'Figma Design Patterns',
+        description: 'Adding design pattern examples to Figma',
+        type: 'design',
+        items: [
+            {
+                name: 'Visualization Components',
+                description: 'Design reusable visualization components',
+                year: CURRENT_YEAR,
+                quarter: CURRENT_QUARTER,
+                status: 'deferred',
+                author: 'PX Blue',
+            },
+        ],
+    },
+    {
         name: 'React Component Library',
         description: 'Reusable UI elements from @pxblue/react-components',
         type: 'development',
@@ -84,6 +99,22 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
+                author: 'PX Blue',
+            },
+        ],
+    },
+    {
+        name: 'Reusable Workflows',
+        description: 'Components for implementing common workflows across applications',
+        type: 'development',
+        framework: ['all'],
+        items: [
+            {
+                name: 'Authentication Workflow',
+                description: 'Add support for username-based login in the authentication workflows ',
+                year: CURRENT_YEAR,
+                quarter: CURRENT_QUARTER,
+                status: 'deferred',
                 author: 'PX Blue',
             },
         ],
