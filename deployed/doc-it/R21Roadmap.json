@@ -24,7 +24,7 @@
         "description": "Design reusable visualization components",
         "year": 2021,
         "quarter": "Q3",
-        "status": "backlog",
+        "status": "deferred",
         "author": "PX Blue"
       }
     ]
@@ -65,7 +65,7 @@
         "description": "New design patterns for setting up a hardware device",
         "year": 2021,
         "quarter": "Q3",
-        "status": "backlog",
+        "status": "deferred",
         "author": "PX Blue"
       }
     ]
@@ -101,7 +101,7 @@
         "description": "Add support for username-based login in the authentication workflows ",
         "year": 2021,
         "quarter": "Q3",
-        "status": "backlog",
+        "status": "deferred",
         "author": "PX Blue"
       }
     ]
@@ -119,7 +119,7 @@
         "description": "New icons to represent more electrical devices and channels",
         "year": 2021,
         "quarter": "Q3",
-        "status": "in-progress",
+        "status": "finished",
         "author": "PX Blue"
       }
     ]
