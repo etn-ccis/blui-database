@@ -59,7 +59,7 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'deferred',
-                author: 'PX Blue',
+                author: 'Innersource',
             },
         ],
     },
