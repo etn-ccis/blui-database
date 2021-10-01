@@ -26,60 +26,13 @@ type RoadmapBucket = {
 
 export const roadmap: RoadmapBucket[] = [
     {
-        name: 'Angular Component Library',
-        description: 'Reusable UI elements from @pxblue/angular-components',
-        type: 'development',
-        framework: ['angular', 'ionic'],
-        items: [ 
-            {
-                name: 'Visualization Components',
-                description: 'Reusable components for common visualization elements',
-                year: CURRENT_YEAR,
-                quarter: CURRENT_QUARTER,
-                status: 'backlog',
-                author: 'PX Blue',
-            },
-        ],
-    },
-    {
-        name: 'Figma Design Patterns',
-        description: 'Adding design pattern examples to Figma',
-        type: 'design',
-        items: [
-            {
-                name: 'Visualization Components',
-                description: 'Design reusable visualization components',
-                year: CURRENT_YEAR,
-                quarter: CURRENT_QUARTER,
-                status: 'deferred',
-                author: 'PX Blue',
-            },
-        ],
-    },
-    {
-        name: 'React Component Library',
-        description: 'Reusable UI elements from @pxblue/react-components',
-        type: 'development',
-        framework: ['react'],
-        items: [ 
-            {
-                name: 'Visualization Components',
-                description: 'Reusable components for common visualization elements',
-                year: CURRENT_YEAR,
-                quarter: CURRENT_QUARTER,
-                status: 'backlog',
-                author: 'PX Blue',
-            },
-        ],
-    },
-    {
         name: 'pxblue.github.io',
         description: 'The PX Blue documentation site',
-        type: 'design',
+        type: 'development',
         items: [
             {
-                name: 'Device / Network Commissioning',
-                description: 'New design patterns for setting up a hardware device',
+                name: 'Brightlayer UI Re-brand',
+                description: 'Updating all of our documentation and resources to use the new platform name',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
@@ -88,46 +41,14 @@ export const roadmap: RoadmapBucket[] = [
         ],
     },
     {
-        name: 'React Native Component Library',
-        description: 'Reusable UI elements from @pxblue/react-native-components',
+        name: 'Code Examples',
+        description: 'Basic code snippets showing how to implement various design patterns',
         type: 'development',
-        framework: ['react-native'],
-        items: [ 
-            {
-                name: 'Visualization Components',
-                description: 'Reusable components for common visualization elements',
-                year: CURRENT_YEAR,
-                quarter: CURRENT_QUARTER,
-                status: 'backlog',
-                author: 'PX Blue',
-            },
-        ],
-    },
-    {
-        name: 'Reusable Workflows',
-        description: 'Components for implementing common workflows across applications',
-        type: 'development',
-        framework: ['all'],
+        framework: ['react', 'angular'],
         items: [
             {
-                name: 'Authentication Workflow',
-                description: 'Add support for username-based login in the authentication workflows ',
-                year: CURRENT_YEAR,
-                quarter: CURRENT_QUARTER,
-                status: 'deferred',
-                author: 'PX Blue',
-            },
-        ],
-    },
-    {
-        name: 'Themes',
-        description: 'Styles and colors for applications',
-        type: 'development',
-        framework: ['all'],
-        items: [ 
-            {
-                name: 'Accessible Themes',
-                description: 'Exploration of more accessible themes',
+                name: 'Updated Design Pattern Examples',
+                description: 'More comprehensive examples for List patterns',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
@@ -142,13 +63,13 @@ export const roadmap: RoadmapBucket[] = [
         framework: ['all'],
         items: [
             {
-                name: 'Training Materials',
-                description: 'More substantial training materials that show you how to use PX Blue resources effectively',
+                name: 'Training Material Research',
+                description: 'Research and planning initiative for more comprehensive training materials',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
                 author: 'PX Blue',
             },
-         ],
+        ],
     },
 ];
