@@ -1,118 +1,12 @@
 [
   {
-    "name": "Angular Component Library",
-    "description": "Reusable UI elements from @pxblue/angular-components",
-    "type": "development",
-    "framework": [
-      "angular",
-      "ionic"
-    ],
-    "items": [
-      {
-        "name": "Visualization Components",
-        "description": "Reusable components for common visualization elements",
-        "year": 2021,
-        "quarter": "Q4",
-        "status": "backlog",
-        "author": "PX Blue"
-      }
-    ]
-  },
-  {
-    "name": "Figma Design Patterns",
-    "description": "Adding design pattern examples to Figma",
-    "type": "design",
-    "items": [
-      {
-        "name": "Visualization Components",
-        "description": "Design reusable visualization components",
-        "year": 2021,
-        "quarter": "Q4",
-        "status": "deferred",
-        "author": "PX Blue"
-      }
-    ]
-  },
-  {
-    "name": "React Component Library",
-    "description": "Reusable UI elements from @pxblue/react-components",
-    "type": "development",
-    "framework": [
-      "react"
-    ],
-    "items": [
-      {
-        "name": "Visualization Components",
-        "description": "Reusable components for common visualization elements",
-        "year": 2021,
-        "quarter": "Q4",
-        "status": "backlog",
-        "author": "PX Blue"
-      }
-    ]
-  },
-  {
     "name": "pxblue.github.io",
     "description": "The PX Blue documentation site",
-    "type": "design",
-    "items": [
-      {
-        "name": "Device / Network Commissioning",
-        "description": "New design patterns for setting up a hardware device",
-        "year": 2021,
-        "quarter": "Q4",
-        "status": "backlog",
-        "author": "PX Blue"
-      }
-    ]
-  },
-  {
-    "name": "React Native Component Library",
-    "description": "Reusable UI elements from @pxblue/react-native-components",
     "type": "development",
-    "framework": [
-      "react-native"
-    ],
     "items": [
       {
-        "name": "Visualization Components",
-        "description": "Reusable components for common visualization elements",
-        "year": 2021,
-        "quarter": "Q4",
-        "status": "backlog",
-        "author": "PX Blue"
-      }
-    ]
-  },
-  {
-    "name": "Reusable Workflows",
-    "description": "Components for implementing common workflows across applications",
-    "type": "development",
-    "framework": [
-      "all"
-    ],
-    "items": [
-      {
-        "name": "Authentication Workflow",
-        "description": "Add support for username-based login in the authentication workflows ",
-        "year": 2021,
-        "quarter": "Q4",
-        "status": "deferred",
-        "author": "PX Blue"
-      }
-    ]
-  },
-  {
-    "name": "Themes",
-    "description": "Styles and colors for applications",
-    "type": "development",
-    "framework": [
-      "all"
-    ],
-    "items": [
-      {
-        "name": "Accessible Themes",
-        "description": "Exploration of more accessible themes",
+        "name": "Brightlayer UI Re-brand",
+        "description": "Updating all of our documentation and resources to use the new platform name",
         "year": 2021,
         "quarter": "Q4",
         "status": "backlog",
@@ -129,8 +23,8 @@
     ],
     "items": [
       {
-        "name": "Training Materials",
-        "description": "More substantial training materials that show you how to use PX Blue resources effectively",
+        "name": "Training Material Research",
+        "description": "Research and planning initiative for more comprehensive training materials",
         "year": 2021,
         "quarter": "Q4",
         "status": "backlog",
