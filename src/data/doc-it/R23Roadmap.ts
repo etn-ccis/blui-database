@@ -114,7 +114,7 @@ export const roadmap: RoadmapBucket[] = [
                 description: 'Add support for username-based login in the authentication workflows ',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'deferred',
+                status: 'backlog',
                 author: 'PX Blue',
             },
         ],

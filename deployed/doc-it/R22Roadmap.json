@@ -15,6 +15,25 @@
     ]
   },
   {
+    "name": "Code Examples",
+    "description": "Basic code snippets showing how to implement various design patterns",
+    "type": "development",
+    "framework": [
+      "react",
+      "angular"
+    ],
+    "items": [
+      {
+        "name": "Updated Design Pattern Examples",
+        "description": "More comprehensive examples for List patterns",
+        "year": 2021,
+        "quarter": "Q4",
+        "status": "backlog",
+        "author": "PX Blue"
+      }
+    ]
+  },
+  {
     "name": "Utilities",
     "description": "Assorted tools for helping you work faster",
     "type": "development",

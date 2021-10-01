@@ -97,7 +97,7 @@
         "description": "Add support for username-based login in the authentication workflows ",
         "year": 2022,
         "quarter": "Q1",
-        "status": "deferred",
+        "status": "backlog",
         "author": "PX Blue"
       }
     ]

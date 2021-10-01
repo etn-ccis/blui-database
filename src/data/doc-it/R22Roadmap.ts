@@ -41,6 +41,22 @@ export const roadmap: RoadmapBucket[] = [
         ],
     },
     {
+        name: 'Code Examples',
+        description: 'Basic code snippets showing how to implement various design patterns',
+        type: 'development',
+        framework: ['react', 'angular'],
+        items: [
+            {
+                name: 'Updated Design Pattern Examples',
+                description: 'More comprehensive examples for List patterns',
+                year: CURRENT_YEAR,
+                quarter: CURRENT_QUARTER,
+                status: 'backlog',
+                author: 'PX Blue',
+            },
+        ],
+    },
+    {
         name: 'Utilities',
         description: 'Assorted tools for helping you work faster',
         type: 'development',
@@ -54,6 +70,6 @@ export const roadmap: RoadmapBucket[] = [
                 status: 'backlog',
                 author: 'PX Blue',
             },
-         ],
+        ],
     },
 ];
