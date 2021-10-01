@@ -51,7 +51,7 @@ export const roadmap: RoadmapBucket[] = [
                 description: 'Design reusable visualization components',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'deferred',
+                status: 'backlog',
                 author: 'PX Blue',
             },
         ],
