@@ -18,7 +18,7 @@
         "year": 2020,
         "quarter": "Q3",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       }
     ]
   },
@@ -33,7 +33,7 @@
         "year": 2020,
         "quarter": "Q3",
         "status": "deferred",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       },
       {
         "name": "Search",
@@ -41,7 +41,7 @@
         "year": 2020,
         "quarter": "Q3",
         "status": "deferred",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       },
       {
         "name": "App Bar",
@@ -49,7 +49,7 @@
         "year": 2020,
         "quarter": "Q3",
         "status": "deferred",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       },
       {
         "name": "Forms",
@@ -57,7 +57,7 @@
         "year": 2020,
         "quarter": "Q3",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       },
       {
         "name": "Internationalization",
@@ -65,7 +65,7 @@
         "year": 2020,
         "quarter": "Q3",
         "status": "deferred",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       },
       {
         "name": "Lists",
@@ -73,7 +73,7 @@
         "year": 2020,
         "quarter": "Q3",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       },
       {
         "name": "Loading States",
@@ -81,7 +81,7 @@
         "year": 2020,
         "quarter": "Q3",
         "status": "deferred",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       },
       {
         "name": "Visualization",
@@ -89,13 +89,13 @@
         "year": 2020,
         "quarter": "Q3",
         "status": "deferred",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       }
     ]
   },
   {
     "name": "Angular Component Library",
-    "description": "Reusable UI elements from @pxblue/angular-components",
+    "description": "Reusable UI elements from @brightlayer-ui/angular-components",
     "type": "development",
     "framework": [
       "angular",
@@ -108,7 +108,7 @@
         "year": 2020,
         "quarter": "Q3",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       },
       {
         "name": "Mobile Stepper",
@@ -116,13 +116,13 @@
         "year": 2020,
         "quarter": "Q3",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       }
     ]
   },
   {
     "name": "React Component Library",
-    "description": "Reusable UI elements from @pxblue/react-components",
+    "description": "Reusable UI elements from @brightlayer-ui/react-components",
     "type": "development",
     "framework": [
       "react"
@@ -131,7 +131,7 @@
   },
   {
     "name": "React Native Component Library",
-    "description": "Reusable UI elements from @pxblue/react-native-components",
+    "description": "Reusable UI elements from @brightlayer-ui/react-native-components",
     "type": "development",
     "framework": [
       "react-native"
@@ -139,8 +139,8 @@
     "items": []
   },
   {
-    "name": "pxblue.github.io",
-    "description": "The PX Blue documentation site",
+    "name": "brightlayer-ui.github.io",
+    "description": "The Brightlayer UI documentation site",
     "type": "design",
     "items": [
       {
@@ -149,15 +149,15 @@
         "year": 2020,
         "quarter": "Q3",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       },
       {
         "name": "Iconography Page",
-        "description": "Reorganization of how to view and use PX Blue icons",
+        "description": "Reorganization of how to view and use Brightlayer UI icons",
         "year": 2020,
         "quarter": "Q3",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       }
     ]
   },
@@ -184,7 +184,7 @@
         "year": 2020,
         "quarter": "Q3",
         "status": "finished",
-        "author": "PX Blue",
+        "author": "Brightlayer UI",
         "framework": [
           "angular"
         ]
@@ -200,12 +200,12 @@
     ],
     "items": [
       {
-        "name": "PX Blue CLI",
+        "name": "Brightlayer UI CLI",
         "description": "React project templates for the CLI",
         "year": 2020,
         "quarter": "Q3",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       }
     ]
   }

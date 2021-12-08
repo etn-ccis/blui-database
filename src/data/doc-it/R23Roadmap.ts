@@ -27,7 +27,7 @@ type RoadmapBucket = {
 export const roadmap: RoadmapBucket[] = [
     {
         name: 'Angular Component Library',
-        description: 'Reusable UI elements from @pxblue/angular-components',
+        description: 'Reusable UI elements from @brightlayer-ui/angular-components',
         type: 'development',
         framework: ['angular', 'ionic'],
         items: [ 
@@ -37,7 +37,7 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
-                author: 'PX Blue',
+                author: 'Brightlayer UI',
             },
         ],
     },
@@ -52,13 +52,13 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
-                author: 'PX Blue',
+                author: 'Brightlayer UI',
             },
         ],
     },
     {
         name: 'React Component Library',
-        description: 'Reusable UI elements from @pxblue/react-components',
+        description: 'Reusable UI elements from @brightlayer-ui/react-components',
         type: 'development',
         framework: ['react'],
         items: [ 
@@ -68,13 +68,13 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
-                author: 'PX Blue',
+                author: 'Brightlayer UI',
             },
         ],
     },
     {
-        name: 'pxblue.github.io',
-        description: 'The PX Blue documentation site',
+        name: 'brightlayer-ui.github.io',
+        description: 'The Brightlayer UI documentation site',
         type: 'design',
         items: [
             {
@@ -83,13 +83,13 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
-                author: 'PX Blue',
+                author: 'Brightlayer UI',
             },
         ],
     },
     {
         name: 'React Native Component Library',
-        description: 'Reusable UI elements from @pxblue/react-native-components',
+        description: 'Reusable UI elements from @brightlayer-ui/react-native-components',
         type: 'development',
         framework: ['react-native'],
         items: [ 
@@ -99,7 +99,7 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
-                author: 'PX Blue',
+                author: 'Brightlayer UI',
             },
         ],
     },
@@ -115,7 +115,7 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
-                author: 'PX Blue',
+                author: 'Brightlayer UI',
             },
         ],
     },
@@ -131,7 +131,7 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
-                author: 'PX Blue',
+                author: 'Brightlayer UI',
             },
         ],
     },
@@ -143,11 +143,11 @@ export const roadmap: RoadmapBucket[] = [
         items: [
             {
                 name: 'Training Materials',
-                description: 'More substantial training materials that show you how to use PX Blue resources effectively',
+                description: 'More substantial training materials that show you how to use Brightlayer UI resources effectively',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
-                author: 'PX Blue',
+                author: 'Brightlayer UI',
             },
          ],
     },

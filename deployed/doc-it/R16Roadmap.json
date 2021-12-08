@@ -1,7 +1,7 @@
 [
   {
     "name": "Angular Component Library",
-    "description": "Reusable UI elements from @pxblue/angular-components",
+    "description": "Reusable UI elements from @brightlayer-ui/angular-components",
     "type": "development",
     "framework": [
       "angular",
@@ -14,7 +14,7 @@
         "year": 2020,
         "quarter": "Q2",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       },
       {
         "name": "Info List Item",
@@ -22,7 +22,7 @@
         "year": 2020,
         "quarter": "Q2",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       },
       {
         "name": "List Item Tag",
@@ -30,7 +30,7 @@
         "year": 2020,
         "quarter": "Q2",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       },
       {
         "name": "Score Card",
@@ -38,13 +38,13 @@
         "year": 2020,
         "quarter": "Q2",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       }
     ]
   },
   {
     "name": "React Component Library",
-    "description": "Reusable UI elements from @pxblue/react-components",
+    "description": "Reusable UI elements from @brightlayer-ui/react-components",
     "type": "development",
     "framework": [
       "react"
@@ -56,7 +56,7 @@
         "year": 2020,
         "quarter": "Q2",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       },
       {
         "name": "User Menu",
@@ -64,7 +64,7 @@
         "year": 2020,
         "quarter": "Q2",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       },
       {
         "name": "Selection Toolbar",
@@ -72,13 +72,13 @@
         "year": 2020,
         "quarter": "Q2",
         "status": "deferred",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       }
     ]
   },
   {
     "name": "React Native Component Library",
-    "description": "Reusable UI elements from @pxblue/react-native-components",
+    "description": "Reusable UI elements from @brightlayer-ui/react-native-components",
     "type": "development",
     "framework": [
       "react-native"
@@ -90,7 +90,7 @@
         "year": 2020,
         "quarter": "Q2",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       },
       {
         "name": "Layout Components",
@@ -98,7 +98,7 @@
         "year": 2020,
         "quarter": "Q2",
         "status": "deferred",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       },
       {
         "name": "Selection Toolbar",
@@ -106,22 +106,22 @@
         "year": 2020,
         "quarter": "Q2",
         "status": "deferred",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       }
     ]
   },
   {
-    "name": "pxblue.github.io",
-    "description": "The PX Blue documentation site",
+    "name": "brightlayer-ui.github.io",
+    "description": "The Brightlayer UI documentation site",
     "type": "all",
     "items": [
       {
         "name": "Designer Documentation",
-        "description": "Expanded documentation for using PX Blue as a designer",
+        "description": "Expanded documentation for using Brightlayer UI as a designer",
         "year": 2020,
         "quarter": "Q2",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       },
       {
         "name": "Design Patterns",
@@ -129,7 +129,7 @@
         "year": 2020,
         "quarter": "Q2",
         "status": "deferred",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       },
       {
         "name": "Downloadable Assets",
@@ -137,7 +137,7 @@
         "year": 2020,
         "quarter": "Q2",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       }
     ]
   },
@@ -155,7 +155,7 @@
         "year": 2020,
         "quarter": "Q2",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       },
       {
         "name": "Enhanced Internationalization Support",
@@ -163,7 +163,7 @@
         "year": 2020,
         "quarter": "Q2",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       }
     ]
   },
@@ -197,12 +197,12 @@
     ],
     "items": [
       {
-        "name": "PX Blue CLI",
-        "description": "A command-line interface for starting new projects with automatic PX Blue integration",
+        "name": "Brightlayer UI CLI",
+        "description": "A command-line interface for starting new projects with automatic Brightlayer UI integration",
         "year": 2020,
         "quarter": "Q2",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       }
     ]
   }

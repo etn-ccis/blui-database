@@ -10,7 +10,7 @@
         "year": 2021,
         "quarter": "Q3",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       }
     ]
   },
@@ -31,7 +31,7 @@
   },
   {
     "name": "React Native Component Library",
-    "description": "Reusable UI elements from @pxblue/react-native-components",
+    "description": "Reusable UI elements from @brightlayer-ui/react-native-components",
     "type": "development",
     "framework": [
       "react-native"
@@ -43,7 +43,7 @@
         "year": 2021,
         "quarter": "Q3",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       },
       {
         "name": "Progress Icons",
@@ -51,13 +51,13 @@
         "year": 2021,
         "quarter": "Q3",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       }
     ]
   },
   {
-    "name": "pxblue.github.io",
-    "description": "The PX Blue documentation site",
+    "name": "brightlayer-ui.github.io",
+    "description": "The Brightlayer UI documentation site",
     "type": "design",
     "items": [
       {
@@ -66,7 +66,7 @@
         "year": 2021,
         "quarter": "Q3",
         "status": "deferred",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       }
     ]
   },
@@ -84,7 +84,7 @@
         "year": 2021,
         "quarter": "Q3",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       }
     ]
   },
@@ -102,7 +102,7 @@
         "year": 2021,
         "quarter": "Q3",
         "status": "deferred",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       }
     ]
   },
@@ -120,7 +120,7 @@
         "year": 2021,
         "quarter": "Q3",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       }
     ]
   }

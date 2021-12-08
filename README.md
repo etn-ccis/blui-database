@@ -1,6 +1,6 @@
-# pxb-database
+# blui-database
 
-This repo contains data used within the [PX Blue Home](https://pxblue.github.io) documentation website.
+This repo contains data used within the [Brightlayer UI Home](https://brightlayer-ui.github.io) documentation website.
 The database is accessible in a JSON format and is enforced and built using typescript.
 
 Our database is served through the Github API.

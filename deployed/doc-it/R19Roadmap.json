@@ -16,7 +16,7 @@
         "year": 2021,
         "quarter": "Q1",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       },
       {
         "name": "Search",
@@ -24,7 +24,7 @@
         "year": 2021,
         "quarter": "Q1",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       },
       {
         "name": "App Bar",
@@ -32,7 +32,7 @@
         "year": 2021,
         "quarter": "Q1",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       },
       {
         "name": "Loading States",
@@ -40,7 +40,7 @@
         "year": 2021,
         "quarter": "Q1",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       },
       {
         "name": "Internationalization",
@@ -48,7 +48,7 @@
         "year": 2021,
         "quarter": "Q1",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       },
       {
         "name": "Overlays",
@@ -56,7 +56,7 @@
         "year": 2021,
         "quarter": "Q1",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       },
       {
         "name": "Visualization",
@@ -64,7 +64,7 @@
         "year": 2021,
         "quarter": "Q1",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       },
       {
         "name": "Steppers",
@@ -72,13 +72,13 @@
         "year": 2021,
         "quarter": "Q1",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       }
     ]
   },
   {
     "name": "Angular Component Library",
-    "description": "Reusable UI elements from @pxblue/angular-components",
+    "description": "Reusable UI elements from @brightlayer-ui/angular-components",
     "type": "development",
     "framework": [
       "angular",
@@ -88,7 +88,7 @@
   },
   {
     "name": "React Component Library",
-    "description": "Reusable UI elements from @pxblue/react-components",
+    "description": "Reusable UI elements from @brightlayer-ui/react-components",
     "type": "development",
     "framework": [
       "react"
@@ -100,13 +100,13 @@
         "year": 2021,
         "quarter": "Q1",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       }
     ]
   },
   {
     "name": "React Native Component Library",
-    "description": "Reusable UI elements from @pxblue/react-native-components",
+    "description": "Reusable UI elements from @brightlayer-ui/react-native-components",
     "type": "development",
     "framework": [
       "react-native"
@@ -118,7 +118,7 @@
         "year": 2021,
         "quarter": "Q1",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       },
       {
         "name": "User Menu",
@@ -126,13 +126,13 @@
         "year": 2021,
         "quarter": "Q1",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       }
     ]
   },
   {
-    "name": "pxblue.github.io",
-    "description": "The PX Blue documentation site",
+    "name": "brightlayer-ui.github.io",
+    "description": "The Brightlayer UI documentation site",
     "type": "design",
     "items": [
       {
@@ -141,7 +141,7 @@
         "year": 2021,
         "quarter": "Q1",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       },
       {
         "name": "Account Menu Design Pattern",
@@ -149,7 +149,7 @@
         "year": 2021,
         "quarter": "Q1",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       }
     ]
   },
@@ -167,7 +167,7 @@
         "year": 2021,
         "quarter": "Q1",
         "status": "deferred",
-        "author": "PX Blue",
+        "author": "Brightlayer UI",
         "framework": [
           "ionic",
           "react-native"
@@ -179,7 +179,7 @@
         "year": 2021,
         "quarter": "Q1",
         "status": "deferred",
-        "author": "PX Blue",
+        "author": "Brightlayer UI",
         "framework": [
           "ionic",
           "react-native"
@@ -201,7 +201,7 @@
         "year": 2021,
         "quarter": "Q1",
         "status": "finished",
-        "author": "PX Blue",
+        "author": "Brightlayer UI",
         "framework": [
           "react-native"
         ]
@@ -212,7 +212,7 @@
         "year": 2021,
         "quarter": "Q1",
         "status": "finished",
-        "author": "PX Blue",
+        "author": "Brightlayer UI",
         "framework": [
           "react"
         ]
@@ -223,7 +223,7 @@
         "year": 2021,
         "quarter": "Q1",
         "status": "finished",
-        "author": "PX Blue",
+        "author": "Brightlayer UI",
         "framework": [
           "angular"
         ]
@@ -244,7 +244,7 @@
         "year": 2021,
         "quarter": "Q1",
         "status": "finished",
-        "author": "PX Blue",
+        "author": "Brightlayer UI",
         "framework": [
           "angular",
           "react"
@@ -256,7 +256,7 @@
         "year": 2021,
         "quarter": "Q1",
         "status": "finished",
-        "author": "PX Blue",
+        "author": "Brightlayer UI",
         "framework": [
           "react-native"
         ]
@@ -273,27 +273,27 @@
     "items": [
       {
         "name": "Video Tutorials",
-        "description": "Video tutorials showing how to use PX Blue tools & resources",
+        "description": "Video tutorials showing how to use Brightlayer UI tools & resources",
         "year": 2021,
         "quarter": "Q1",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       },
       {
-        "name": "PX Blue CLI - Angular",
+        "name": "Brightlayer UI CLI - Angular",
         "description": "Angular project templates for the CLI",
         "year": 2021,
         "quarter": "Q1",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       },
       {
-        "name": "PX Blue CLI - React Native",
+        "name": "Brightlayer UI CLI - React Native",
         "description": "React Native project templates for the CLI",
         "year": 2021,
         "quarter": "Q1",
         "status": "finished",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       }
     ]
   }
