@@ -1,7 +1,7 @@
 [
   {
-    "name": "pxblue.github.io",
-    "description": "The PX Blue documentation site",
+    "name": "brightlayer-ui.github.io",
+    "description": "The Brightlayer UI documentation site",
     "type": "development",
     "items": [
       {
@@ -10,7 +10,7 @@
         "year": 2021,
         "quarter": "Q4",
         "status": "in-progress",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       }
     ]
   },
@@ -29,7 +29,7 @@
         "year": 2021,
         "quarter": "Q4",
         "status": "in-progress",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       }
     ]
   },
@@ -47,7 +47,7 @@
         "year": 2021,
         "quarter": "Q4",
         "status": "in-progress",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       }
     ]
   }
