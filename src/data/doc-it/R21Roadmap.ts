@@ -36,7 +36,7 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'finished',
-                author: 'Brightlayer UI',
+                author: 'PX Blue',
             },
         ],
     },
@@ -57,7 +57,7 @@ export const roadmap: RoadmapBucket[] = [
     },
     {
         name: 'React Native Component Library',
-        description: 'Reusable UI elements from @brightlayer-ui/react-native-components',
+        description: 'Reusable UI elements from @pxblue/react-native-components',
         type: 'development',
         framework: ['react-native'],
         items: [ 
@@ -67,7 +67,7 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'finished',
-                author: 'Brightlayer UI',
+                author: 'PX Blue',
             },
             {
                 name: 'Progress Icons',
@@ -75,13 +75,13 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'finished',
-                author: 'Brightlayer UI',
+                author: 'PX Blue',
             }
         ],
     },
     {
-        name: 'brightlayer-ui.github.io',
-        description: 'The Brightlayer UI documentation site',
+        name: 'pxblue.github.io',
+        description: 'The PX Blue documentation site',
         type: 'design',
         items: [ 
             {
@@ -90,7 +90,7 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'deferred',
-                author: 'Brightlayer UI',
+                author: 'PX Blue',
             },
         ],
     },
@@ -106,7 +106,7 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'finished',
-                author: 'Brightlayer UI',
+                author: 'PX Blue',
             },
         ],
     },
@@ -122,7 +122,7 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'deferred',
-                author: 'Brightlayer UI',
+                author: 'PX Blue',
             },
         ],
     },
@@ -138,7 +138,7 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'finished',
-                author: 'Brightlayer UI', 
+                author: 'PX Blue', 
             }
         ],
     },

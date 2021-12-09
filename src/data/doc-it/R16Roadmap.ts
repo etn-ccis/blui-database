@@ -27,7 +27,7 @@ type RoadmapBucket = {
 export const roadmap: RoadmapBucket[] = [
     {
         name: 'Angular Component Library',
-        description: 'Reusable UI elements from @brightlayer-ui/angular-components',
+        description: 'Reusable UI elements from @pxblue/angular-components',
         type: 'development',
         framework: ['angular', 'ionic'],
         items: [
@@ -37,7 +37,7 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'finished',
-                author: 'Brightlayer UI',
+                author: 'PX Blue',
             },
             {
                 name: 'Info List Item',
@@ -45,7 +45,7 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'finished',
-                author: 'Brightlayer UI',
+                author: 'PX Blue',
             },
             {
                 name: 'List Item Tag',
@@ -53,7 +53,7 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'finished',
-                author: 'Brightlayer UI',
+                author: 'PX Blue',
             },
             {
                 name: 'Score Card',
@@ -61,13 +61,13 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'finished',
-                author: 'Brightlayer UI',
+                author: 'PX Blue',
             },
         ],
     },
     {
         name: 'React Component Library',
-        description: 'Reusable UI elements from @brightlayer-ui/react-components',
+        description: 'Reusable UI elements from @pxblue/react-components',
         type: 'development',
         framework: ['react'],
         items: [
@@ -77,7 +77,7 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'finished',
-                author: 'Brightlayer UI',
+                author: 'PX Blue',
             },
             {
                 name: 'User Menu',
@@ -85,7 +85,7 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'finished',
-                author: 'Brightlayer UI',
+                author: 'PX Blue',
             },
             {
                 name: 'Selection Toolbar',
@@ -93,13 +93,13 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'deferred',
-                author: 'Brightlayer UI',
+                author: 'PX Blue',
             },
         ],
     },
     {
         name: 'React Native Component Library',
-        description: 'Reusable UI elements from @brightlayer-ui/react-native-components',
+        description: 'Reusable UI elements from @pxblue/react-native-components',
         type: 'development',
         framework: ['react-native'],
         items: [
@@ -109,7 +109,7 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'finished',
-                author: 'Brightlayer UI',
+                author: 'PX Blue',
             },
             {
                 name: 'Layout Components',
@@ -117,7 +117,7 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'deferred',
-                author: 'Brightlayer UI',
+                author: 'PX Blue',
             },
             {
                 name: 'Selection Toolbar',
@@ -125,22 +125,22 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'deferred',
-                author: 'Brightlayer UI',
+                author: 'PX Blue',
             },
         ],
     },
     {
-        name: 'brightlayer-ui.github.io',
-        description: 'The Brightlayer UI documentation site',
+        name: 'pxblue.github.io',
+        description: 'The PX Blue documentation site',
         type: 'all',
         items: [
             {
                 name: 'Designer Documentation',
-                description: 'Expanded documentation for using Brightlayer UI as a designer',
+                description: 'Expanded documentation for using PX Blue as a designer',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'finished',
-                author: 'Brightlayer UI',
+                author: 'PX Blue',
             },
             {
                 name: 'Design Patterns',
@@ -148,7 +148,7 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'deferred',
-                author: 'Brightlayer UI',
+                author: 'PX Blue',
             },
             {
                 name: 'Downloadable Assets',
@@ -156,7 +156,7 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'finished',
-                author: 'Brightlayer UI',
+                author: 'PX Blue',
             },
         ],
     },
@@ -172,7 +172,7 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'finished',
-                author: 'Brightlayer UI',
+                author: 'PX Blue',
             },
             {
                 name: 'Enhanced Internationalization Support',
@@ -180,7 +180,7 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'finished',
-                author: 'Brightlayer UI',
+                author: 'PX Blue',
             }
         ],
     },
@@ -208,12 +208,12 @@ export const roadmap: RoadmapBucket[] = [
         framework: ['all'],
         items: [
             {
-                name: 'Brightlayer UI CLI',
-                description: 'A command-line interface for starting new projects with automatic Brightlayer UI integration',
+                name: 'PX Blue CLI',
+                description: 'A command-line interface for starting new projects with automatic PX Blue integration',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'finished',
-                author: 'Brightlayer UI',
+                author: 'PX Blue',
             },
         ],
     },
