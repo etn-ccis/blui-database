@@ -1,6 +1,6 @@
 {
     "name": "blui-database",
-    "version": "1.0.0-beta.0",
+    "version": "1.0.0",
     "description": "Public static data accessible through the Git API",
     "scripts": {
         "build": "tsc",
