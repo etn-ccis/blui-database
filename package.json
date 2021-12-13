@@ -1,6 +1,6 @@
 {
-    "name": "pxb-database",
-    "version": "1.0.0",
+    "name": "blui-database",
+    "version": "0.0.0",
     "description": "Public static data accessible through the Git API",
     "scripts": {
         "build": "tsc",
@@ -8,12 +8,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/pxblue/pxb-database"
+        "url": "https://github.com/brightlayer-ui/blui-database"
     },
-    "author": "pxblue <pxblue@eaton.com>",
+    "author": "brightlayer-ui <brightlayer-ui@eaton.com>",
     "license": "BSD-3-Clause",
     "bugs": {
-        "url": "https://github.com/pxblue/pxb-database/issues"
+        "url": "https://github.com/brightlayer-ui/blui-database/issues"
     },
     "devDependencies": {
         "@types/node": "^13.13.4",

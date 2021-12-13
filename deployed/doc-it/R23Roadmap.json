@@ -1,7 +1,7 @@
 [
   {
     "name": "Angular Component Library",
-    "description": "Reusable UI elements from @pxblue/angular-components",
+    "description": "Reusable UI elements from @brightlayer-ui/angular-components",
     "type": "development",
     "framework": [
       "angular",
@@ -14,7 +14,7 @@
         "year": 2022,
         "quarter": "Q1",
         "status": "backlog",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       }
     ]
   },
@@ -29,13 +29,13 @@
         "year": 2022,
         "quarter": "Q1",
         "status": "backlog",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       }
     ]
   },
   {
     "name": "React Component Library",
-    "description": "Reusable UI elements from @pxblue/react-components",
+    "description": "Reusable UI elements from @brightlayer-ui/react-components",
     "type": "development",
     "framework": [
       "react"
@@ -47,13 +47,13 @@
         "year": 2022,
         "quarter": "Q1",
         "status": "backlog",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       }
     ]
   },
   {
-    "name": "pxblue.github.io",
-    "description": "The PX Blue documentation site",
+    "name": "brightlayer-ui.github.io",
+    "description": "The Brightlayer UI documentation site",
     "type": "design",
     "items": [
       {
@@ -62,13 +62,13 @@
         "year": 2022,
         "quarter": "Q1",
         "status": "backlog",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       }
     ]
   },
   {
     "name": "React Native Component Library",
-    "description": "Reusable UI elements from @pxblue/react-native-components",
+    "description": "Reusable UI elements from @brightlayer-ui/react-native-components",
     "type": "development",
     "framework": [
       "react-native"
@@ -80,7 +80,7 @@
         "year": 2022,
         "quarter": "Q1",
         "status": "backlog",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       }
     ]
   },
@@ -98,7 +98,7 @@
         "year": 2022,
         "quarter": "Q1",
         "status": "backlog",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       }
     ]
   },
@@ -116,7 +116,7 @@
         "year": 2022,
         "quarter": "Q1",
         "status": "backlog",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       }
     ]
   },
@@ -130,11 +130,11 @@
     "items": [
       {
         "name": "Training Materials",
-        "description": "More substantial training materials that show you how to use PX Blue resources effectively",
+        "description": "More substantial training materials that show you how to use Brightlayer UI resources effectively",
         "year": 2022,
         "quarter": "Q1",
         "status": "backlog",
-        "author": "PX Blue"
+        "author": "Brightlayer UI"
       }
     ]
   }

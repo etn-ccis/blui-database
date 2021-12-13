@@ -26,8 +26,8 @@ type RoadmapBucket = {
 
 export const roadmap: RoadmapBucket[] = [
     {
-        name: 'pxblue.github.io',
-        description: 'The PX Blue documentation site',
+        name: 'brightlayer-ui.github.io',
+        description: 'The Brightlayer UI documentation site',
         type: 'development',
         items: [
             {
@@ -36,7 +36,7 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'in-progress',
-                author: 'PX Blue',
+                author: 'Brightlayer UI',
             },
         ],
     },
@@ -52,7 +52,7 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'in-progress',
-                author: 'PX Blue',
+                author: 'Brightlayer UI',
             },
         ],
     },
@@ -68,7 +68,7 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'in-progress',
-                author: 'PX Blue',
+                author: 'Brightlayer UI',
             },
         ],
     },
