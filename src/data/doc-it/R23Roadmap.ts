@@ -29,7 +29,7 @@ export const roadmap: RoadmapBucket[] = [
         name: 'Angular Component Library',
         description: 'Reusable UI elements from @brightlayer-ui/angular-components',
         type: 'development',
-        framework: ['angular', 'ionic'],
+        framework: ['angular'],
         items: [
             {
                 name: 'Angular 13 Support',
@@ -61,7 +61,7 @@ export const roadmap: RoadmapBucket[] = [
         description: 'Reusable UI elements from @brightlayer-ui/react-components',
         type: 'development',
         framework: ['react'],
-        items: [ 
+        items: [
             {
                 name: 'MUI 5 Support',
                 description: 'Update component library to build using MUI version 5',
@@ -86,29 +86,13 @@ export const roadmap: RoadmapBucket[] = [
                 author: 'Brightlayer UI',
             },
             {
-                name: 'Mobile Charting Guidelines',
-                description: 'New design patterns for charting on mobile devices',
+                name: 'Mobile Charting Exploration',
+                description: 'Begin research regarding charting on mobile devices',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
                 author: 'Brightlayer UI',
             },
         ],
-    },
-    {
-        name: 'Utilities',
-        description: 'Assorted tools for helping you work faster',
-        type: 'development',
-        framework: ['all'],
-        items: [
-            {
-                name: 'Bootcamp Training Materials',
-                description: 'More substantial training materials that show you how to use Brightlayer UI resources effectively',
-                year: CURRENT_YEAR,
-                quarter: CURRENT_QUARTER,
-                status: 'backlog',
-                author: 'Brightlayer UI',
-            },
-         ],
     },
 ];

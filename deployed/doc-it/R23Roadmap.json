@@ -4,8 +4,7 @@
     "description": "Reusable UI elements from @brightlayer-ui/angular-components",
     "type": "development",
     "framework": [
-      "angular",
-      "ionic"
+      "angular"
     ],
     "items": [
       {
@@ -65,26 +64,8 @@
         "author": "Brightlayer UI"
       },
       {
-        "name": "Mobile Charting Guidelines",
-        "description": "New design patterns for charting on mobile devices",
-        "year": 2022,
-        "quarter": "Q1",
-        "status": "backlog",
-        "author": "Brightlayer UI"
-      }
-    ]
-  },
-  {
-    "name": "Utilities",
-    "description": "Assorted tools for helping you work faster",
-    "type": "development",
-    "framework": [
-      "all"
-    ],
-    "items": [
-      {
-        "name": "Bootcamp Training Materials",
-        "description": "More substantial training materials that show you how to use Brightlayer UI resources effectively",
+        "name": "Mobile Charting Exploration",
+        "description": "Begin research regarding charting on mobile devices",
         "year": 2022,
         "quarter": "Q1",
         "status": "backlog",
