@@ -9,8 +9,8 @@
     ],
     "items": [
       {
-        "name": "Visualization Components",
-        "description": "Reusable components for common visualization elements",
+        "name": "Angular 13 Support",
+        "description": "Update component library to build using Angular version 13",
         "year": 2022,
         "quarter": "Q1",
         "status": "backlog",
@@ -42,8 +42,8 @@
     ],
     "items": [
       {
-        "name": "Visualization Components",
-        "description": "Reusable components for common visualization elements",
+        "name": "MUI 5 Support",
+        "description": "Update component library to build using MUI version 5",
         "year": 2022,
         "quarter": "Q1",
         "status": "backlog",
@@ -63,56 +63,10 @@
         "quarter": "Q1",
         "status": "backlog",
         "author": "Brightlayer UI"
-      }
-    ]
-  },
-  {
-    "name": "React Native Component Library",
-    "description": "Reusable UI elements from @brightlayer-ui/react-native-components",
-    "type": "development",
-    "framework": [
-      "react-native"
-    ],
-    "items": [
+      },
       {
-        "name": "Visualization Components",
-        "description": "Reusable components for common visualization elements",
-        "year": 2022,
-        "quarter": "Q1",
-        "status": "backlog",
-        "author": "Brightlayer UI"
-      }
-    ]
-  },
-  {
-    "name": "Reusable Workflows",
-    "description": "Components for implementing common workflows across applications",
-    "type": "development",
-    "framework": [
-      "all"
-    ],
-    "items": [
-      {
-        "name": "Authentication Workflow",
-        "description": "Add support for username-based login in the authentication workflows ",
-        "year": 2022,
-        "quarter": "Q1",
-        "status": "backlog",
-        "author": "Brightlayer UI"
-      }
-    ]
-  },
-  {
-    "name": "Themes",
-    "description": "Styles and colors for applications",
-    "type": "development",
-    "framework": [
-      "all"
-    ],
-    "items": [
-      {
-        "name": "Accessible Themes",
-        "description": "Exploration of more accessible themes",
+        "name": "Mobile Charting Guidelines",
+        "description": "New design patterns for charting on mobile devices",
         "year": 2022,
         "quarter": "Q1",
         "status": "backlog",
@@ -129,7 +83,7 @@
     ],
     "items": [
       {
-        "name": "Training Materials",
+        "name": "Bootcamp Training Materials",
         "description": "More substantial training materials that show you how to use Brightlayer UI resources effectively",
         "year": 2022,
         "quarter": "Q1",

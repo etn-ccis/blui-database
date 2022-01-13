@@ -30,10 +30,10 @@ export const roadmap: RoadmapBucket[] = [
         description: 'Reusable UI elements from @brightlayer-ui/angular-components',
         type: 'development',
         framework: ['angular', 'ionic'],
-        items: [ 
+        items: [
             {
-                name: 'Visualization Components',
-                description: 'Reusable components for common visualization elements',
+                name: 'Angular 13 Support',
+                description: 'Update component library to build using Angular version 13',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
@@ -63,8 +63,8 @@ export const roadmap: RoadmapBucket[] = [
         framework: ['react'],
         items: [ 
             {
-                name: 'Visualization Components',
-                description: 'Reusable components for common visualization elements',
+                name: 'MUI 5 Support',
+                description: 'Update component library to build using MUI version 5',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
@@ -85,49 +85,9 @@ export const roadmap: RoadmapBucket[] = [
                 status: 'backlog',
                 author: 'Brightlayer UI',
             },
-        ],
-    },
-    {
-        name: 'React Native Component Library',
-        description: 'Reusable UI elements from @brightlayer-ui/react-native-components',
-        type: 'development',
-        framework: ['react-native'],
-        items: [ 
             {
-                name: 'Visualization Components',
-                description: 'Reusable components for common visualization elements',
-                year: CURRENT_YEAR,
-                quarter: CURRENT_QUARTER,
-                status: 'backlog',
-                author: 'Brightlayer UI',
-            },
-        ],
-    },
-    {
-        name: 'Reusable Workflows',
-        description: 'Components for implementing common workflows across applications',
-        type: 'development',
-        framework: ['all'],
-        items: [
-            {
-                name: 'Authentication Workflow',
-                description: 'Add support for username-based login in the authentication workflows ',
-                year: CURRENT_YEAR,
-                quarter: CURRENT_QUARTER,
-                status: 'backlog',
-                author: 'Brightlayer UI',
-            },
-        ],
-    },
-    {
-        name: 'Themes',
-        description: 'Styles and colors for applications',
-        type: 'development',
-        framework: ['all'],
-        items: [ 
-            {
-                name: 'Accessible Themes',
-                description: 'Exploration of more accessible themes',
+                name: 'Mobile Charting Guidelines',
+                description: 'New design patterns for charting on mobile devices',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
@@ -142,7 +102,7 @@ export const roadmap: RoadmapBucket[] = [
         framework: ['all'],
         items: [
             {
-                name: 'Training Materials',
+                name: 'Bootcamp Training Materials',
                 description: 'More substantial training materials that show you how to use Brightlayer UI resources effectively',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
