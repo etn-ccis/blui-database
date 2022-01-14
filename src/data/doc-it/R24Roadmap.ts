@@ -4,7 +4,7 @@ export type Status = 'backlog' | 'in-progress' | 'pre-release' | 'deferred' | 'f
 export type Quarter = 'Q1' | 'Q2' | 'Q3' | 'Q4';
 
 const CURRENT_YEAR = 2022;
-const CURRENT_QUARTER: Quarter = 'Q1';
+const CURRENT_QUARTER: Quarter = 'Q2';
 
 export type RoadmapItem = {
     name: string;
@@ -32,8 +32,8 @@ export const roadmap: RoadmapBucket[] = [
         framework: ['angular'],
         items: [
             {
-                name: 'Angular 13 Support',
-                description: 'Update component library to build using Angular version 13',
+                name: 'Visualization Components',
+                description: 'Reusable components for common visualization elements',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
@@ -63,8 +63,8 @@ export const roadmap: RoadmapBucket[] = [
         framework: ['react'],
         items: [
             {
-                name: 'MUI 5 Support',
-                description: 'Update component library to build using MUI version 5',
+                name: 'Visualization Components',
+                description: 'Reusable components for common visualization elements',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
@@ -78,24 +78,40 @@ export const roadmap: RoadmapBucket[] = [
         type: 'design',
         items: [
             {
-                name: 'Device / Network Commissioning',
-                description: 'New design patterns for setting up a hardware device',
+                name: 'Iconography Guidelines',
+                description: 'Refactoring our icons page and updating guidelines on using icons',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
                 author: 'Brightlayer UI',
             },
+        ],
+    },
+    {
+        name: 'React Native Component Library',
+        description: 'Reusable UI elements from @brightlayer-ui/react-native-components',
+        type: 'development',
+        framework: ['react-native'],
+        items: [
             {
-                name: 'Table Design Patterns',
-                description: 'Expanded documentation on how and when to use tables',
+                name: 'Visualization Components',
+                description: 'Reusable components for common visualization elements',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'finished',
+                status: 'backlog',
                 author: 'Brightlayer UI',
             },
+        ],
+    },
+    {
+        name: 'Utilities',
+        description: 'Assorted tools for helping you work faster',
+        type: 'development',
+        framework: ['all'],
+        items: [
             {
-                name: 'Mobile Charting Exploration',
-                description: 'Begin research regarding charting on mobile devices',
+                name: 'Bootcamp Training Materials',
+                description: 'More substantial training materials that show you how to use Brightlayer UI resources effectively',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',

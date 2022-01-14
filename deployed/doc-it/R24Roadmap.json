@@ -8,10 +8,10 @@
     ],
     "items": [
       {
-        "name": "Angular 13 Support",
-        "description": "Update component library to build using Angular version 13",
+        "name": "Visualization Components",
+        "description": "Reusable components for common visualization elements",
         "year": 2022,
-        "quarter": "Q1",
+        "quarter": "Q2",
         "status": "backlog",
         "author": "Brightlayer UI"
       }
@@ -26,7 +26,7 @@
         "name": "Visualization Components",
         "description": "Design reusable visualization components",
         "year": 2022,
-        "quarter": "Q1",
+        "quarter": "Q2",
         "status": "backlog",
         "author": "Brightlayer UI"
       }
@@ -41,10 +41,10 @@
     ],
     "items": [
       {
-        "name": "MUI 5 Support",
-        "description": "Update component library to build using MUI version 5",
+        "name": "Visualization Components",
+        "description": "Reusable components for common visualization elements",
         "year": 2022,
-        "quarter": "Q1",
+        "quarter": "Q2",
         "status": "backlog",
         "author": "Brightlayer UI"
       }
@@ -56,26 +56,46 @@
     "type": "design",
     "items": [
       {
-        "name": "Device / Network Commissioning",
-        "description": "New design patterns for setting up a hardware device",
+        "name": "Iconography Guidelines",
+        "description": "Refactoring our icons page and updating guidelines on using icons",
         "year": 2022,
-        "quarter": "Q1",
+        "quarter": "Q2",
         "status": "backlog",
         "author": "Brightlayer UI"
-      },
+      }
+    ]
+  },
+  {
+    "name": "React Native Component Library",
+    "description": "Reusable UI elements from @brightlayer-ui/react-native-components",
+    "type": "development",
+    "framework": [
+      "react-native"
+    ],
+    "items": [
       {
-        "name": "Table Design Patterns",
-        "description": "Expanded documentation on how and when to use tables",
+        "name": "Visualization Components",
+        "description": "Reusable components for common visualization elements",
         "year": 2022,
-        "quarter": "Q1",
-        "status": "finished",
+        "quarter": "Q2",
+        "status": "backlog",
         "author": "Brightlayer UI"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Utilities",
+    "description": "Assorted tools for helping you work faster",
+    "type": "development",
+    "framework": [
+      "all"
+    ],
+    "items": [
       {
-        "name": "Mobile Charting Exploration",
-        "description": "Begin research regarding charting on mobile devices",
+        "name": "Bootcamp Training Materials",
+        "description": "More substantial training materials that show you how to use Brightlayer UI resources effectively",
         "year": 2022,
-        "quarter": "Q1",
+        "quarter": "Q2",
         "status": "backlog",
         "author": "Brightlayer UI"
       }
