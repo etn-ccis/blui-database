@@ -64,6 +64,14 @@
         "author": "Brightlayer UI"
       },
       {
+        "name": "Table Design Patterns",
+        "description": "Expanded documentation on how and when to use tables",
+        "year": 2022,
+        "quarter": "Q1",
+        "status": "finished",
+        "author": "Brightlayer UI"
+      },
+      {
         "name": "Mobile Charting Exploration",
         "description": "Begin research regarding charting on mobile devices",
         "year": 2022,

@@ -86,6 +86,14 @@ export const roadmap: RoadmapBucket[] = [
                 author: 'Brightlayer UI',
             },
             {
+                name: 'Table Design Patterns',
+                description: 'Expanded documentation on how and when to use tables',
+                year: CURRENT_YEAR,
+                quarter: CURRENT_QUARTER,
+                status: 'finished',
+                author: 'Brightlayer UI',
+            },
+            {
                 name: 'Mobile Charting Exploration',
                 description: 'Begin research regarding charting on mobile devices',
                 year: CURRENT_YEAR,

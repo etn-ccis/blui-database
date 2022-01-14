@@ -62,14 +62,6 @@
         "quarter": "Q2",
         "status": "backlog",
         "author": "Brightlayer UI"
-      },
-      {
-        "name": "Component Library Sandbox and Documentation",
-        "description": "Explore Storybook alternatives; begin development towards a new component library sandbox",
-        "year": 2022,
-        "quarter": "Q2",
-        "status": "backlog",
-        "author": "Brightlayer UI"
       }
     ]
   },
@@ -102,30 +94,6 @@
       {
         "name": "Bootcamp Training Materials",
         "description": "More substantial training materials that show you how to use Brightlayer UI resources effectively",
-        "year": 2022,
-        "quarter": "Q2",
-        "status": "backlog",
-        "author": "Brightlayer UI"
-      },
-      {
-        "name": "Windows Support",
-        "description": "Making sure all Brightlayer UI resources run seamlessly on both Mac and Windows devices ",
-        "year": 2022,
-        "quarter": "Q2",
-        "status": "backlog",
-        "author": "Brightlayer UI"
-      },
-      {
-        "name": "Iconography Guidelines",
-        "description": "Refactoring our icons page and updating guidelines on using icons",
-        "year": 2022,
-        "quarter": "Q2",
-        "status": "backlog",
-        "author": "Brightlayer UI"
-      },
-      {
-        "name": "Component Library Sandbox and Documentation",
-        "description": "Explore Storybook alternatives; begin development towards a new component library sandbox",
         "year": 2022,
         "quarter": "Q2",
         "status": "backlog",
