@@ -1,4 +1,5 @@
 const fs = require('fs');
+import { roadmap as R24 } from "./data/doc-it/R24Roadmap";
 import { roadmap as R23 } from "./data/doc-it/R23Roadmap";
 import { roadmap as R22 } from "./data/doc-it/R22Roadmap";
 import { roadmap as R21 } from "./data/doc-it/R21Roadmap";
@@ -14,6 +15,10 @@ type DataRecord = {
 }
 
 const entries: DataRecord[] = [
+    {
+        collectionName: 'doc-it/R24Roadmap',
+        dataSource: R24
+    },
     {
         collectionName: 'doc-it/R23Roadmap',
         dataSource: R23
