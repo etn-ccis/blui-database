@@ -24,7 +24,7 @@
     "items": [
       {
         "name": "Visualization Components",
-        "description": "Design reusable visualization components",
+        "description": "Initial guidelines for basic chart usage",
         "year": 2022,
         "quarter": "Q1",
         "status": "backlog",
@@ -55,14 +55,6 @@
     "description": "The Brightlayer UI documentation site",
     "type": "design",
     "items": [
-      {
-        "name": "Device / Network Commissioning",
-        "description": "New design patterns for setting up a hardware device",
-        "year": 2022,
-        "quarter": "Q1",
-        "status": "backlog",
-        "author": "Brightlayer UI"
-      },
       {
         "name": "Table Design Patterns",
         "description": "Expanded documentation on how and when to use tables",
