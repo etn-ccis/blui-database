@@ -36,7 +36,7 @@ export const roadmap: RoadmapBucket[] = [
                 description: 'Update component library to build using Angular version 13',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'backlog',
+                status: 'in-progress',
                 author: 'Brightlayer UI',
             },
         ],
@@ -47,8 +47,8 @@ export const roadmap: RoadmapBucket[] = [
         type: 'design',
         items: [
             {
-                name: 'Visualization Components',
-                description: 'Design reusable visualization components',
+                name: 'Visualization Guidelines',
+                description: 'Initial guidelines for basic chart usage',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
@@ -67,7 +67,7 @@ export const roadmap: RoadmapBucket[] = [
                 description: 'Update component library to build using MUI version 5',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'backlog',
+                status: 'in-progress',
                 author: 'Brightlayer UI',
             },
         ],
@@ -77,14 +77,6 @@ export const roadmap: RoadmapBucket[] = [
         description: 'The Brightlayer UI documentation site',
         type: 'design',
         items: [
-            {
-                name: 'Device / Network Commissioning',
-                description: 'New design patterns for setting up a hardware device',
-                year: CURRENT_YEAR,
-                quarter: CURRENT_QUARTER,
-                status: 'backlog',
-                author: 'Brightlayer UI',
-            },
             {
                 name: 'Table Design Patterns',
                 description: 'Expanded documentation on how and when to use tables',
