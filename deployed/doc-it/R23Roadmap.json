@@ -27,7 +27,7 @@
         "description": "Initial guidelines for basic chart usage",
         "year": 2022,
         "quarter": "Q1",
-        "status": "backlog",
+        "status": "in-progress",
         "author": "Brightlayer UI"
       }
     ]
@@ -68,7 +68,7 @@
         "description": "Begin research regarding charting on mobile devices",
         "year": 2022,
         "quarter": "Q1",
-        "status": "backlog",
+        "status": "in-progress",
         "author": "Brightlayer UI"
       }
     ]
