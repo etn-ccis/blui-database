@@ -51,7 +51,7 @@ export const roadmap: RoadmapBucket[] = [
                 description: 'Initial guidelines for basic chart usage',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'in-progress',
+                status: 'finished',
                 author: 'Brightlayer UI',
             },
         ],
