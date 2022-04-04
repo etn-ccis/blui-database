@@ -90,7 +90,7 @@ export const roadmap: RoadmapBucket[] = [
                 description: 'Begin research regarding charting on mobile devices',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'in-progress',
+                status: 'finished',
                 author: 'Brightlayer UI',
             },
         ],

@@ -28,7 +28,7 @@ export const roadmap: RoadmapBucket[] = [
     {
         name: 'Adopter communication',
         description: 'Improve adopter communications',
-        type: 'development',
+        type: 'all',
         framework: ['all'],
         items: [
             {
@@ -50,6 +50,21 @@ export const roadmap: RoadmapBucket[] = [
             {
                 name: 'Visualization Components',
                 description: 'Develop reusable visualization components',
+                year: CURRENT_YEAR,
+                quarter: CURRENT_QUARTER,
+                status: 'backlog',
+                author: 'Brightlayer UI',
+            },
+        ],
+    },
+    {
+        name: 'Icon Usage Guidelines',
+        description: 'Adding usage guidelines to documentation',
+        type: 'design',
+        items: [
+            {
+                name: 'Icon Guidelines',
+                description: 'Add updated iconography documentation on doc site',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',

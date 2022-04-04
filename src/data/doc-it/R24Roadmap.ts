@@ -26,14 +26,14 @@ type RoadmapBucket = {
 
 export const roadmap: RoadmapBucket[] = [
     {
-        name: 'Update Component Documentation',
-        description: 'Design new component documentation for Brightlayer-UI',
-        type: 'design',
+        name: 'Redesign development component documentation',
+        description: 'Redesigning brightlayer-ui-components.github.io',
+        type: 'development',
         framework: ['all'],
         items: [
             {
-                name: 'Component doc design',
-                description: 'Create component documentation in Figma',
+                name: 'Component documentation',
+                description: 'Create new component documentation',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
@@ -42,28 +42,21 @@ export const roadmap: RoadmapBucket[] = [
         ],
     },
     {
-        name: 'Data Visualization Component Designs',
-        description: 'Adding data visualization designs to Figma',
+        name: 'Figma Components',
+        description: 'Add new components for Figma component sticker sheet',
         type: 'design',
         items: [
             {
-                name: 'Visualization Components',
-                description: 'Design reusable visualization components',
+                name: 'Data visualization components for dashboards',
+                description: 'Add new data visualization components designed to embed in dashboards',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
                 author: 'Brightlayer UI',
             },
-        ],
-    },
-    {
-        name: 'Icon Usage Guidelines',
-        description: 'Adding usage guidelines to documentation',
-        type: 'design',
-        items: [
             {
-                name: 'Icon Guidelines',
-                description: 'Add updated iconography documentation on doc site',
+                name: 'Data visualization components for charts',
+                description: 'Add new data visualization components for charts and diagrams',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
@@ -78,7 +71,7 @@ export const roadmap: RoadmapBucket[] = [
         framework: ['all'],
         items: [
             {
-                name: 'Bootcamp Training Materials',
+                name: 'Training Materials',
                 description: 'More substantial training materials that show you how to use Brightlayer UI resources effectively',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
