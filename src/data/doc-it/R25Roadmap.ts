@@ -4,7 +4,7 @@ export type Status = 'backlog' | 'in-progress' | 'pre-release' | 'deferred' | 'f
 export type Quarter = 'Q1' | 'Q2' | 'Q3' | 'Q4';
 
 const CURRENT_YEAR = 2022;
-const CURRENT_QUARTER: Quarter = 'Q2';
+const CURRENT_QUARTER: Quarter = 'Q3';
 
 export type RoadmapItem = {
     name: string;
@@ -26,14 +26,14 @@ type RoadmapBucket = {
 
 export const roadmap: RoadmapBucket[] = [
     {
-        name: 'Update Component Documentation',
-        description: 'Design new component documentation for Brightlayer-UI',
-        type: 'design',
+        name: 'Adopter communication',
+        description: 'Improve adopter communications',
+        type: 'development',
         framework: ['all'],
         items: [
             {
-                name: 'Component doc design',
-                description: 'Create component documentation in Figma',
+                name: 'Implement milestones dashboard',
+                description: 'Create a dashboard that adopters can reference to view Brightlayer-UI milestones',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
@@ -42,13 +42,14 @@ export const roadmap: RoadmapBucket[] = [
         ],
     },
     {
-        name: 'Data Visualization Component Designs',
-        description: 'Adding data visualization designs to Figma',
-        type: 'design',
+        name: 'Data Visualization Component Development',
+        description: 'Develop data visualization components',
+        type: 'development',
+        framework: ['all'],
         items: [
             {
                 name: 'Visualization Components',
-                description: 'Design reusable visualization components',
+                description: 'Develop reusable visualization components',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
@@ -57,29 +58,30 @@ export const roadmap: RoadmapBucket[] = [
         ],
     },
     {
-        name: 'Icon Usage Guidelines',
-        description: 'Adding usage guidelines to documentation',
-        type: 'design',
-        items: [
-            {
-                name: 'Icon Guidelines',
-                description: 'Add updated iconography documentation on doc site',
-                year: CURRENT_YEAR,
-                quarter: CURRENT_QUARTER,
-                status: 'backlog',
-                author: 'Brightlayer UI',
-            },
-        ],
-    },
-    {
-        name: 'Utilities',
-        description: 'Assorted tools for helping you work faster',
-        type: 'all',
+        name: 'Update Component Documentation',
+        description: 'Implement new component documentation for Brightlayer-UI',
+        type: 'development',
         framework: ['all'],
         items: [
             {
-                name: 'Bootcamp Training Materials',
-                description: 'More substantial training materials that show you how to use Brightlayer UI resources effectively',
+                name: 'Component doc development',
+                description: 'Create documentation for Angular components',
+                year: CURRENT_YEAR,
+                quarter: CURRENT_QUARTER,
+                status: 'backlog',
+                author: 'Brightlayer UI',
+            },
+            {
+                name: 'Component doc development',
+                description: 'Create documentation for React components',
+                year: CURRENT_YEAR,
+                quarter: CURRENT_QUARTER,
+                status: 'backlog',
+                author: 'Brightlayer UI',
+            },
+            {
+                name: 'Component doc development',
+                description: 'Create documentation for React Native components',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',

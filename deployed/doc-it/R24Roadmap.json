@@ -1,15 +1,15 @@
 [
   {
-    "name": "Angular Component Library",
-    "description": "Reusable UI elements from @brightlayer-ui/angular-components",
-    "type": "development",
+    "name": "Update Component Documentation",
+    "description": "Design new component documentation for Brightlayer-UI",
+    "type": "design",
     "framework": [
-      "angular"
+      "all"
     ],
     "items": [
       {
-        "name": "Visualization Components",
-        "description": "Reusable components for common visualization elements",
+        "name": "Component doc design",
+        "description": "Create component documentation in Figma",
         "year": 2022,
         "quarter": "Q2",
         "status": "backlog",
@@ -18,8 +18,8 @@
     ]
   },
   {
-    "name": "Figma Design Patterns",
-    "description": "Adding design pattern examples to Figma",
+    "name": "Data Visualization Component Designs",
+    "description": "Adding data visualization designs to Figma",
     "type": "design",
     "items": [
       {
@@ -33,49 +33,13 @@
     ]
   },
   {
-    "name": "React Component Library",
-    "description": "Reusable UI elements from @brightlayer-ui/react-components",
-    "type": "development",
-    "framework": [
-      "react"
-    ],
-    "items": [
-      {
-        "name": "Visualization Components",
-        "description": "Reusable components for common visualization elements",
-        "year": 2022,
-        "quarter": "Q2",
-        "status": "backlog",
-        "author": "Brightlayer UI"
-      }
-    ]
-  },
-  {
-    "name": "brightlayer-ui.github.io",
-    "description": "The Brightlayer UI documentation site",
+    "name": "Icon Usage Guidelines",
+    "description": "Adding usage guidelines to documentation",
     "type": "design",
     "items": [
       {
-        "name": "Iconography Guidelines",
-        "description": "Refactoring our icons page and updating guidelines on using icons",
-        "year": 2022,
-        "quarter": "Q2",
-        "status": "backlog",
-        "author": "Brightlayer UI"
-      }
-    ]
-  },
-  {
-    "name": "React Native Component Library",
-    "description": "Reusable UI elements from @brightlayer-ui/react-native-components",
-    "type": "development",
-    "framework": [
-      "react-native"
-    ],
-    "items": [
-      {
-        "name": "Visualization Components",
-        "description": "Reusable components for common visualization elements",
+        "name": "Icon Guidelines",
+        "description": "Add updated iconography documentation on doc site",
         "year": 2022,
         "quarter": "Q2",
         "status": "backlog",
@@ -86,7 +50,7 @@
   {
     "name": "Utilities",
     "description": "Assorted tools for helping you work faster",
-    "type": "development",
+    "type": "all",
     "framework": [
       "all"
     ],
