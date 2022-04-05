@@ -26,13 +26,13 @@ type RoadmapBucket = {
 
 export const roadmap: RoadmapBucket[] = [
     {
-        name: 'Adopter communication',
+        name: 'Adopter Communication',
         description: 'Improve adopter communications',
         type: 'all',
         framework: ['all'],
         items: [
             {
-                name: 'Implement milestones dashboard',
+                name: 'Implement Milestones Dashboard',
                 description: 'Create a dashboard that adopters can reference to view Brightlayer-UI milestones',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
@@ -79,7 +79,7 @@ export const roadmap: RoadmapBucket[] = [
         framework: ['all'],
         items: [
             {
-                name: 'Component doc development',
+                name: 'Component Documenation Development',
                 description: 'Create documentation for Angular components',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
@@ -87,7 +87,7 @@ export const roadmap: RoadmapBucket[] = [
                 author: 'Brightlayer UI',
             },
             {
-                name: 'Component doc development',
+                name: 'Component Documenation Development',
                 description: 'Create documentation for React components',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
@@ -95,7 +95,7 @@ export const roadmap: RoadmapBucket[] = [
                 author: 'Brightlayer UI',
             },
             {
-                name: 'Component doc development',
+                name: 'Component Documenation Development',
                 description: 'Create documentation for React Native components',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,

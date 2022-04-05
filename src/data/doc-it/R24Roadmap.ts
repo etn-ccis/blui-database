@@ -26,13 +26,13 @@ type RoadmapBucket = {
 
 export const roadmap: RoadmapBucket[] = [
     {
-        name: 'Redesign development component documentation',
+        name: 'Redesign Development Component Documentation',
         description: 'Redesigning brightlayer-ui-components.github.io',
         type: 'development',
         framework: ['all'],
         items: [
             {
-                name: 'Component documentation',
+                name: 'Component Documentation',
                 description: 'Create new component documentation',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
@@ -47,7 +47,7 @@ export const roadmap: RoadmapBucket[] = [
         type: 'design',
         items: [
             {
-                name: 'Data visualization components for dashboards',
+                name: 'Data Visualization Components For Dashboards',
                 description: 'Add new data visualization components designed to embed in dashboards',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
@@ -55,7 +55,7 @@ export const roadmap: RoadmapBucket[] = [
                 author: 'Brightlayer UI',
             },
             {
-                name: 'Data visualization components for charts',
+                name: 'Data Visualization Components For Charts',
                 description: 'Add new data visualization components for charts and diagrams',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
