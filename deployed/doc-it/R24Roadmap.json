@@ -1,6 +1,6 @@
 [
   {
-    "name": "Redesign development component documentation",
+    "name": "Redesign Development Component Documentation",
     "description": "Redesigning brightlayer-ui-components.github.io",
     "type": "development",
     "framework": [
@@ -8,7 +8,7 @@
     ],
     "items": [
       {
-        "name": "Component documentation",
+        "name": "Component Documentation",
         "description": "Create new component documentation",
         "year": 2022,
         "quarter": "Q2",
@@ -23,7 +23,7 @@
     "type": "design",
     "items": [
       {
-        "name": "Data visualization components for dashboards",
+        "name": "Data Visualization Components For Dashboards",
         "description": "Add new data visualization components designed to embed in dashboards",
         "year": 2022,
         "quarter": "Q2",
@@ -31,7 +31,7 @@
         "author": "Brightlayer UI"
       },
       {
-        "name": "Data visualization components for charts",
+        "name": "Data Visualization Components For Charts",
         "description": "Add new data visualization components for charts and diagrams",
         "year": 2022,
         "quarter": "Q2",
