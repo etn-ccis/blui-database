@@ -79,7 +79,7 @@ export const roadmap: RoadmapBucket[] = [
         framework: ['all'],
         items: [
             {
-                name: 'Component Documenation Development',
+                name: 'Component Documentation Development',
                 description: 'Create documentation for Angular components',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
@@ -87,7 +87,7 @@ export const roadmap: RoadmapBucket[] = [
                 author: 'Brightlayer UI',
             },
             {
-                name: 'Component Documenation Development',
+                name: 'Component Documentation Development',
                 description: 'Create documentation for React components',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
@@ -95,7 +95,7 @@ export const roadmap: RoadmapBucket[] = [
                 author: 'Brightlayer UI',
             },
             {
-                name: 'Component Documenation Development',
+                name: 'Component Documentation Development',
                 description: 'Create documentation for React Native components',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
