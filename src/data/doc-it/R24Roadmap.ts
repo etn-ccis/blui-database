@@ -26,14 +26,14 @@ type RoadmapBucket = {
 
 export const roadmap: RoadmapBucket[] = [
     {
-        name: 'Angular Component Library',
-        description: 'Reusable UI elements from @brightlayer-ui/angular-components',
+        name: 'Redesign Development Component Documentation',
+        description: 'Redesigning brightlayer-ui-components.github.io',
         type: 'development',
-        framework: ['angular'],
+        framework: ['all'],
         items: [
             {
-                name: 'Visualization Components',
-                description: 'Reusable components for common visualization elements',
+                name: 'Component Documentation',
+                description: 'Create new component documentation',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
@@ -42,60 +42,21 @@ export const roadmap: RoadmapBucket[] = [
         ],
     },
     {
-        name: 'Figma Design Patterns',
-        description: 'Adding design pattern examples to Figma',
+        name: 'Figma Components',
+        description: 'Add new components for Figma component sticker sheet',
         type: 'design',
         items: [
             {
-                name: 'Visualization Components',
-                description: 'Design reusable visualization components',
+                name: 'Data Visualization Components For Dashboards',
+                description: 'Add new data visualization components designed to embed in dashboards',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
                 author: 'Brightlayer UI',
             },
-        ],
-    },
-    {
-        name: 'React Component Library',
-        description: 'Reusable UI elements from @brightlayer-ui/react-components',
-        type: 'development',
-        framework: ['react'],
-        items: [
             {
-                name: 'Visualization Components',
-                description: 'Reusable components for common visualization elements',
-                year: CURRENT_YEAR,
-                quarter: CURRENT_QUARTER,
-                status: 'backlog',
-                author: 'Brightlayer UI',
-            },
-        ],
-    },
-    {
-        name: 'brightlayer-ui.github.io',
-        description: 'The Brightlayer UI documentation site',
-        type: 'design',
-        items: [
-            {
-                name: 'Iconography Guidelines',
-                description: 'Refactoring our icons page and updating guidelines on using icons',
-                year: CURRENT_YEAR,
-                quarter: CURRENT_QUARTER,
-                status: 'backlog',
-                author: 'Brightlayer UI',
-            },
-        ],
-    },
-    {
-        name: 'React Native Component Library',
-        description: 'Reusable UI elements from @brightlayer-ui/react-native-components',
-        type: 'development',
-        framework: ['react-native'],
-        items: [
-            {
-                name: 'Visualization Components',
-                description: 'Reusable components for common visualization elements',
+                name: 'Data Visualization Components For Charts',
+                description: 'Add new data visualization components for charts and diagrams',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
@@ -106,11 +67,11 @@ export const roadmap: RoadmapBucket[] = [
     {
         name: 'Utilities',
         description: 'Assorted tools for helping you work faster',
-        type: 'development',
+        type: 'all',
         framework: ['all'],
         items: [
             {
-                name: 'Bootcamp Training Materials',
+                name: 'Training Materials',
                 description: 'More substantial training materials that show you how to use Brightlayer UI resources effectively',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,

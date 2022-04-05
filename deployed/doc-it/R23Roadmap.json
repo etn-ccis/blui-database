@@ -12,7 +12,7 @@
         "description": "Update component library to build using Angular version 13",
         "year": 2022,
         "quarter": "Q1",
-        "status": "in-progress",
+        "status": "finished",
         "author": "Brightlayer UI"
       }
     ]
@@ -27,7 +27,7 @@
         "description": "Initial guidelines for basic chart usage",
         "year": 2022,
         "quarter": "Q1",
-        "status": "in-progress",
+        "status": "finished",
         "author": "Brightlayer UI"
       }
     ]
@@ -45,7 +45,7 @@
         "description": "Update component library to build using MUI version 5",
         "year": 2022,
         "quarter": "Q1",
-        "status": "in-progress",
+        "status": "finished",
         "author": "Brightlayer UI"
       }
     ]
@@ -68,7 +68,7 @@
         "description": "Begin research regarding charting on mobile devices",
         "year": 2022,
         "quarter": "Q1",
-        "status": "in-progress",
+        "status": "finished",
         "author": "Brightlayer UI"
       }
     ]
