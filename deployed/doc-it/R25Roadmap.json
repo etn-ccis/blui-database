@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Adopter Communication",
+    "description": "Improve adopter communications",
+    "type": "all",
+    "framework": [
+      "all"
+    ],
+    "items": [
+      {
+        "name": "Implement Milestones Dashboard",
+        "description": "Create a dashboard that adopters can reference to view Brightlayer-UI milestones",
+        "year": 2022,
+        "quarter": "Q3",
+        "status": "backlog",
+        "author": "Brightlayer UI"
+      }
+    ]
+  },
+  {
+    "name": "Data Visualization Component Development",
+    "description": "Develop data visualization components",
+    "type": "development",
+    "framework": [
+      "all"
+    ],
+    "items": [
+      {
+        "name": "Visualization Components",
+        "description": "Develop reusable visualization components",
+        "year": 2022,
+        "quarter": "Q3",
+        "status": "backlog",
+        "author": "Brightlayer UI"
+      }
+    ]
+  },
+  {
+    "name": "Icon Usage Guidelines",
+    "description": "Adding usage guidelines to documentation",
+    "type": "design",
+    "items": [
+      {
+        "name": "Icon Guidelines",
+        "description": "Add updated iconography documentation on doc site",
+        "year": 2022,
+        "quarter": "Q3",
+        "status": "backlog",
+        "author": "Brightlayer UI"
+      }
+    ]
+  },
+  {
+    "name": "Update Component Documentation",
+    "description": "Implement new component documentation for Brightlayer-UI",
+    "type": "development",
+    "framework": [
+      "all"
+    ],
+    "items": [
+      {
+        "name": "Component Documentation Development",
+        "description": "Create documentation for Angular components",
+        "year": 2022,
+        "quarter": "Q3",
+        "status": "backlog",
+        "author": "Brightlayer UI"
+      },
+      {
+        "name": "Component Documentation Development",
+        "description": "Create documentation for React components",
+        "year": 2022,
+        "quarter": "Q3",
+        "status": "backlog",
+        "author": "Brightlayer UI"
+      },
+      {
+        "name": "Component Documentation Development",
+        "description": "Create documentation for React Native components",
+        "year": 2022,
+        "quarter": "Q3",
+        "status": "backlog",
+        "author": "Brightlayer UI"
+      }
+    ]
+  }
+]
