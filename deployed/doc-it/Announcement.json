@@ -1,8 +1,7 @@
 {
   "announcement": {
-    "content": "We are now Brightlayer UI! Learn ",
-    "linkContent": "how to migrate",
-    "startDate": "04/14/2022",
-    "endDate": "04/25/2022"
+    "bannerContent": "We've related updated to <a href='/release-notes'> R24 </a>! Checkout our release presentation on <a href='https://www.youtube.com/watch?v=jFbutosoJ3Q' target='_blank'> Youtube </a>",
+    "startDate": "2022-04-15",
+    "endDate": "2022-04-25" 
   }
 }
