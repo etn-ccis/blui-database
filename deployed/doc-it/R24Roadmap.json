@@ -44,14 +44,6 @@
         "quarter": "Q2",
         "status": "in-progress",
         "author": "Brightlayer UI"
-      },
-      {
-        "name": "Data Visualization Components For Charts",
-        "description": "Add new data visualization components for charts and diagrams",
-        "year": 2022,
-        "quarter": "Q2",
-        "status": "backlog",
-        "author": "Brightlayer UI"
       }
     ]
   },

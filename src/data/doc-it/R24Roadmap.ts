@@ -69,14 +69,6 @@ export const roadmap: RoadmapBucket[] = [
                 status: 'in-progress',
                 author: 'Brightlayer UI',
             },
-            {
-                name: 'Data Visualization Components For Charts',
-                description: 'Add new data visualization components for charts and diagrams',
-                year: CURRENT_YEAR,
-                quarter: CURRENT_QUARTER,
-                status: 'backlog',
-                author: 'Brightlayer UI',
-            },
         ],
     },
     {
