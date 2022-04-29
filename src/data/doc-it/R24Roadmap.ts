@@ -32,7 +32,7 @@ export const roadmap: RoadmapBucket[] = [
         items: [
             {
                 name: 'Updated Doc Site Designs',
-                description: 'Updated designs for main documentation site and component library documentation',
+                description: 'Update designs for main documentation site and component library documentation',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'in-progress',
