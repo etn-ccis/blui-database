@@ -1,25 +1,40 @@
 [
   {
-    "name": "Redesign Development Component Documentation",
-    "description": "Redesigning brightlayer-ui-components.github.io",
-    "type": "development",
-    "framework": [
-      "all"
-    ],
+    "name": "brightlayer-ui.github.io",
+    "description": "The Brightlayer UI documentation site",
+    "type": "all",
     "items": [
       {
-        "name": "Component Documentation",
-        "description": "Create new component documentation",
+        "name": "Updated Doc Site Designs",
+        "description": "Updated designs for main documentation site and component library documentation",
         "year": 2022,
         "quarter": "Q2",
-        "status": "backlog",
+        "status": "in-progress",
         "author": "Brightlayer UI"
       }
     ]
   },
   {
-    "name": "Figma Components",
-    "description": "Add new components for Figma component sticker sheet",
+    "name": "React Component Library",
+    "description": "Reusable UI elements from @brightlayer-ui/react-components",
+    "type": "development",
+    "framework": [
+      "react"
+    ],
+    "items": [
+      {
+        "name": "MUI 5 Style Engine Update",
+        "description": "Update component library to use new Emotion style engine",
+        "year": 2022,
+        "quarter": "Q2",
+        "status": "in-progress",
+        "author": "Brightlayer UI"
+      }
+    ]
+  },
+  {
+    "name": "Figma Component Library",
+    "description": "Updates to the components in the designer sticker sheet",
     "type": "design",
     "items": [
       {
@@ -27,15 +42,7 @@
         "description": "Add new data visualization components designed to embed in dashboards",
         "year": 2022,
         "quarter": "Q2",
-        "status": "backlog",
-        "author": "Brightlayer UI"
-      },
-      {
-        "name": "Data Visualization Components For Charts",
-        "description": "Add new data visualization components for charts and diagrams",
-        "year": 2022,
-        "quarter": "Q2",
-        "status": "backlog",
+        "status": "in-progress",
         "author": "Brightlayer UI"
       }
     ]
@@ -49,8 +56,8 @@
     ],
     "items": [
       {
-        "name": "Training Materials",
-        "description": "More substantial training materials that show you how to use Brightlayer UI resources effectively",
+        "name": "BLUI Bootcamp",
+        "description": "Introduction to Brightlayer UI resources bootcamp",
         "year": 2022,
         "quarter": "Q2",
         "status": "backlog",

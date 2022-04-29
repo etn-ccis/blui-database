@@ -26,45 +26,21 @@ type RoadmapBucket = {
 
 export const roadmap: RoadmapBucket[] = [
     {
-        name: 'Adopter Communication',
-        description: 'Improve adopter communications',
+        name: 'brightlayer-ui.github.io',
+        description: 'The Brightlayer UI documentation site',
         type: 'all',
-        framework: ['all'],
         items: [
             {
-                name: 'Implement Milestones Dashboard',
-                description: 'Create a dashboard that adopters can reference to view Brightlayer-UI milestones',
+                name: 'Updated Doc Sites',
+                description: 'Implement updated designs for main documentation site',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
                 author: 'Brightlayer UI',
             },
-        ],
-    },
-    {
-        name: 'Data Visualization Component Development',
-        description: 'Develop data visualization components',
-        type: 'development',
-        framework: ['all'],
-        items: [
-            {
-                name: 'Visualization Components',
-                description: 'Develop reusable visualization components',
-                year: CURRENT_YEAR,
-                quarter: CURRENT_QUARTER,
-                status: 'backlog',
-                author: 'Brightlayer UI',
-            },
-        ],
-    },
-    {
-        name: 'Icon Usage Guidelines',
-        description: 'Adding usage guidelines to documentation',
-        type: 'design',
-        items: [
             {
                 name: 'Icon Guidelines',
-                description: 'Add updated iconography documentation on doc site',
+                description: 'Updated information on proper usage of icons',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
@@ -73,32 +49,52 @@ export const roadmap: RoadmapBucket[] = [
         ],
     },
     {
-        name: 'Update Component Documentation',
-        description: 'Implement new component documentation for Brightlayer-UI',
+        name: 'Component Libraries',
+        description: 'Re-usable UI elements for Brightlayer applications',
+        type: 'development',
+        framework: ['all'],
+        items: [
+            {
+                name: 'Dashboard Data Viz Components',
+                description: 'Develop reusable visualization components for embedding in dashboards',
+                year: CURRENT_YEAR,
+                quarter: CURRENT_QUARTER,
+                status: 'backlog',
+                author: 'Brightlayer UI',
+            },
+        ],
+    },
+
+    {
+        name: 'Component Documentation',
+        description: 'Documentation for the Brightlayer UI component libraries',
         type: 'development',
         framework: ['all'],
         items: [
             {
                 name: 'Component Documentation Development',
-                description: 'Create documentation for Angular components',
+                description: 'Implement updated designs for Angular component documentation',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
+                framework: ['angular'],
                 status: 'backlog',
                 author: 'Brightlayer UI',
             },
             {
                 name: 'Component Documentation Development',
-                description: 'Create documentation for React components',
+                description: 'Implement updated designs for React component documentation',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
+                framework: ['react'],
                 status: 'backlog',
                 author: 'Brightlayer UI',
             },
             {
                 name: 'Component Documentation Development',
-                description: 'Create documentation for React Native components',
+                description: 'Implement updated designs for React Native component documentation',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
+                framework: ['react-native'],
                 status: 'backlog',
                 author: 'Brightlayer UI',
             },
