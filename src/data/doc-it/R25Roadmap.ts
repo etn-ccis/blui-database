@@ -57,12 +57,12 @@ export const roadmap: RoadmapBucket[] = [
     },
     {
         name: 'Component Libraries',
-        description: 'Maintaining Brightlayer UI components & documentation',
+        description: 'Brightlayer UI components & documentation',
         type: 'development',
         framework: ['all'],
         items: [
             {
-                name: 'Angular Component Documentation Development',
+                name: 'Angular Component Documentation',
                 description: 'Implement updated designs for Angular component documentation',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
@@ -71,7 +71,7 @@ export const roadmap: RoadmapBucket[] = [
                 author: 'Brightlayer UI',
             },
             {
-                name: 'React Component Documentation Development',
+                name: 'React Component Documentation',
                 description: 'Implement updated designs for React component documentation',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
@@ -81,7 +81,7 @@ export const roadmap: RoadmapBucket[] = [
             },
             {
                 name: 'React Native 68 Support',
-                description: 'Update all React Native resources to support version 68',
+                description: 'Update all React Native resources to support version 0.68',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 framework: ['react-native'],
@@ -91,13 +91,13 @@ export const roadmap: RoadmapBucket[] = [
         ],
     },
     {
-        name: 'Innersourcing BLUI Lab',
+        name: 'BLUI Lab',
         description: 'Allow external contributors to add items to Brightlayer UI in a sandbox environment',
         type: 'development',
         framework: ['all'],
         items: [
             {
-                name: 'Angular BLUI Lab',
+                name: 'Angular Lab',
                 description: 'Create environment for users to contribute angular resources',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,

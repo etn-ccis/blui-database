@@ -26,7 +26,7 @@ type RoadmapBucket = {
 
 export const roadmap: RoadmapBucket[] = [
     {
-        name: 'Demo Application Maintenance',
+        name: 'Code Examples',
         description: 'Updating our Demo applications',
         type: 'development',
         framework: ['all'],
@@ -50,7 +50,7 @@ export const roadmap: RoadmapBucket[] = [
         items: [
             {
                 name: 'Sample Application Template',
-                description: 'Create a new project with a pre-populated screens',
+                description: 'Create a new project with common page layouts',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
@@ -66,27 +66,11 @@ export const roadmap: RoadmapBucket[] = [
         framework: ['all'],
         items: [
             {
-                name: 'Component Documentation Development',
+                name: 'React Native Component Documentation',
                 description: 'Implement updated designs for React Native component documentation',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 framework: ['react-native'],
-                status: 'backlog',
-                author: 'Brightlayer UI',
-            },
-        ],
-    },
-    {
-        name: 'Utilities',
-        description: 'Assorted tools for helping you work faster',
-        type: 'all',
-        framework: ['all'],
-        items: [
-            {
-                name: 'BLUI Bootcamp',
-                description: 'Bootcamp geared towards designing and developing using Brightlayer UI resources',
-                year: CURRENT_YEAR,
-                quarter: CURRENT_QUARTER,
                 status: 'backlog',
                 author: 'Brightlayer UI',
             },

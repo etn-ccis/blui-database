@@ -31,14 +31,14 @@
   },
   {
     "name": "Component Libraries",
-    "description": "Maintaining Brightlayer UI components & documentation",
+    "description": "Brightlayer UI components & documentation",
     "type": "development",
     "framework": [
       "all"
     ],
     "items": [
       {
-        "name": "Angular Component Documentation Development",
+        "name": "Angular Component Documentation",
         "description": "Implement updated designs for Angular component documentation",
         "year": 2022,
         "quarter": "Q3",
@@ -49,7 +49,7 @@
         "author": "Brightlayer UI"
       },
       {
-        "name": "React Component Documentation Development",
+        "name": "React Component Documentation",
         "description": "Implement updated designs for React component documentation",
         "year": 2022,
         "quarter": "Q3",
@@ -61,7 +61,7 @@
       },
       {
         "name": "React Native 68 Support",
-        "description": "Update all React Native resources to support version 68",
+        "description": "Update all React Native resources to support version 0.68",
         "year": 2022,
         "quarter": "Q3",
         "framework": [
@@ -73,7 +73,7 @@
     ]
   },
   {
-    "name": "Innersourcing BLUI Lab",
+    "name": "BLUI Lab",
     "description": "Allow external contributors to add items to Brightlayer UI in a sandbox environment",
     "type": "development",
     "framework": [
@@ -81,7 +81,7 @@
     ],
     "items": [
       {
-        "name": "Angular BLUI Lab",
+        "name": "Angular Lab",
         "description": "Create environment for users to contribute angular resources",
         "year": 2022,
         "quarter": "Q3",
