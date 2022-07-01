@@ -1,20 +1,12 @@
 [
   {
-    "name": "brightlayer-ui.github.io",
-    "description": "The Brightlayer UI documentation site",
-    "type": "all",
+    "name": "Figma Resources",
+    "description": "Updating and adding designs in Figma",
+    "type": "design",
     "items": [
       {
-        "name": "Updated Doc Sites",
-        "description": "Implement updated designs for main documentation site",
-        "year": 2022,
-        "quarter": "Q3",
-        "status": "backlog",
-        "author": "Brightlayer UI"
-      },
-      {
-        "name": "Icon Guidelines",
-        "description": "Updated information on proper usage of icons",
+        "name": "Accessible themes",
+        "description": "Designing accessible theme standards",
         "year": 2022,
         "quarter": "Q3",
         "status": "backlog",
@@ -24,32 +16,14 @@
   },
   {
     "name": "Component Libraries",
-    "description": "Re-usable UI elements for Brightlayer applications",
+    "description": "Maintaining Brightlayer UI components & documentation",
     "type": "development",
     "framework": [
       "all"
     ],
     "items": [
       {
-        "name": "Dashboard Data Viz Components",
-        "description": "Develop reusable visualization components for embedding in dashboards",
-        "year": 2022,
-        "quarter": "Q3",
-        "status": "backlog",
-        "author": "Brightlayer UI"
-      }
-    ]
-  },
-  {
-    "name": "Component Documentation",
-    "description": "Documentation for the Brightlayer UI component libraries",
-    "type": "development",
-    "framework": [
-      "all"
-    ],
-    "items": [
-      {
-        "name": "Component Documentation Development",
+        "name": "Angular Component Documentation Development",
         "description": "Implement updated designs for Angular component documentation",
         "year": 2022,
         "quarter": "Q3",
@@ -60,7 +34,7 @@
         "author": "Brightlayer UI"
       },
       {
-        "name": "Component Documentation Development",
+        "name": "React Component Documentation Development",
         "description": "Implement updated designs for React component documentation",
         "year": 2022,
         "quarter": "Q3",
@@ -71,14 +45,53 @@
         "author": "Brightlayer UI"
       },
       {
-        "name": "Component Documentation Development",
-        "description": "Implement updated designs for React Native component documentation",
+        "name": "React Native 68 Support",
+        "description": "Update all React Native resources to support version 68",
         "year": 2022,
         "quarter": "Q3",
         "framework": [
           "react-native"
         ],
         "status": "backlog",
+        "author": "Brightlayer UI"
+      }
+    ]
+  },
+  {
+    "name": "Innersourcing BLUI Lab",
+    "description": "Allow external contributors to add items to Brightlayer UI in a sandbox environment",
+    "type": "development",
+    "framework": [
+      "all"
+    ],
+    "items": [
+      {
+        "name": "Angular BLUI Lab",
+        "description": "Create environment for users to contribute angular resources",
+        "year": 2022,
+        "quarter": "Q3",
+        "framework": [
+          "angular"
+        ],
+        "status": "backlog",
+        "author": "Brightlayer UI"
+      }
+    ]
+  },
+  {
+    "name": "Utilities",
+    "description": "Assorted tools for helping you work faster",
+    "type": "all",
+    "framework": [
+      "all"
+    ],
+    "items": [
+      {
+        "name": "BLUI Bootcamp",
+        "description": "Introduction to Brightlayer UI resources bootcamp",
+        "year": 2022,
+        "quarter": "Q3",
+        "status": "in-progress",
         "author": "Brightlayer UI"
       }
     ]

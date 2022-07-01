@@ -26,21 +26,13 @@ type RoadmapBucket = {
 
 export const roadmap: RoadmapBucket[] = [
     {
-        name: 'brightlayer-ui.github.io',
-        description: 'The Brightlayer UI documentation site',
-        type: 'all',
+        name: 'Figma Resources',
+        description: 'Updating and adding designs in Figma',
+        type: 'design',
         items: [
             {
-                name: 'Updated Doc Sites',
-                description: 'Implement updated designs for main documentation site',
-                year: CURRENT_YEAR,
-                quarter: CURRENT_QUARTER,
-                status: 'backlog',
-                author: 'Brightlayer UI',
-            },
-            {
-                name: 'Icon Guidelines',
-                description: 'Updated information on proper usage of icons',
+                name: 'Accessible themes',
+                description: 'Designing accessible theme standards',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
@@ -50,29 +42,12 @@ export const roadmap: RoadmapBucket[] = [
     },
     {
         name: 'Component Libraries',
-        description: 'Re-usable UI elements for Brightlayer applications',
+        description: 'Maintaining Brightlayer UI components & documentation',
         type: 'development',
         framework: ['all'],
         items: [
             {
-                name: 'Dashboard Data Viz Components',
-                description: 'Develop reusable visualization components for embedding in dashboards',
-                year: CURRENT_YEAR,
-                quarter: CURRENT_QUARTER,
-                status: 'backlog',
-                author: 'Brightlayer UI',
-            },
-        ],
-    },
-
-    {
-        name: 'Component Documentation',
-        description: 'Documentation for the Brightlayer UI component libraries',
-        type: 'development',
-        framework: ['all'],
-        items: [
-            {
-                name: 'Component Documentation Development',
+                name: 'Angular Component Documentation Development',
                 description: 'Implement updated designs for Angular component documentation',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
@@ -81,7 +56,7 @@ export const roadmap: RoadmapBucket[] = [
                 author: 'Brightlayer UI',
             },
             {
-                name: 'Component Documentation Development',
+                name: 'React Component Documentation Development',
                 description: 'Implement updated designs for React component documentation',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
@@ -90,8 +65,8 @@ export const roadmap: RoadmapBucket[] = [
                 author: 'Brightlayer UI',
             },
             {
-                name: 'Component Documentation Development',
-                description: 'Implement updated designs for React Native component documentation',
+                name: 'React Native 68 Support',
+                description: 'Update all React Native resources to support version 68',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 framework: ['react-native'],
@@ -100,4 +75,38 @@ export const roadmap: RoadmapBucket[] = [
             },
         ],
     },
+    {
+        name: 'Innersourcing BLUI Lab',
+        description: 'Allow external contributors to add items to Brightlayer UI in a sandbox environment',
+        type: 'development',
+        framework: ['all'],
+        items: [
+            {
+                name: 'Angular BLUI Lab',
+                description: 'Create environment for users to contribute angular resources',
+                year: CURRENT_YEAR,
+                quarter: CURRENT_QUARTER,
+                framework: ['angular'],
+                status: 'backlog',
+                author: 'Brightlayer UI',
+            },
+        ],
+    },
+    {
+        name: 'Utilities',
+        description: 'Assorted tools for helping you work faster',
+        type: 'all',
+        framework: ['all'],
+        items: [
+            {
+                name: 'BLUI Bootcamp',
+                description: 'Introduction to Brightlayer UI resources bootcamp',
+                year: CURRENT_YEAR,
+                quarter: CURRENT_QUARTER,
+                status: 'in-progress',
+                author: 'Brightlayer UI',
+            },
+        ],
+    },
+
 ];

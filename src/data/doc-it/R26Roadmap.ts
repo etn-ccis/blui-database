@@ -4,7 +4,7 @@ export type Status = 'backlog' | 'in-progress' | 'pre-release' | 'deferred' | 'f
 export type Quarter = 'Q1' | 'Q2' | 'Q3' | 'Q4';
 
 const CURRENT_YEAR = 2022;
-const CURRENT_QUARTER: Quarter = 'Q2';
+const CURRENT_QUARTER: Quarter = 'Q4';
 
 export type RoadmapItem = {
     name: string;
@@ -26,47 +26,52 @@ type RoadmapBucket = {
 
 export const roadmap: RoadmapBucket[] = [
     {
-        name: 'brightlayer-ui.github.io',
-        description: 'The Brightlayer UI documentation site',
-        type: 'all',
-        items: [
-            {
-                name: 'Updated Doc Site Designs',
-                description: 'Update designs for main documentation site and component library documentation',
-                year: CURRENT_YEAR,
-                quarter: CURRENT_QUARTER,
-                status: 'finished',
-                author: 'Brightlayer UI',
-            },
-        ],
-    },
-    {
-        name: 'React Component Library',
-        description: 'Reusable UI elements from @brightlayer-ui/react-components',
+        name: 'Demo Application Maintenance',
+        description: 'Updating our Demo applications',
         type: 'development',
-        framework: ['react'],
+        framework: ['all'],
         items: [
             {
-                name: 'MUI 5 Style Engine Update',
-                description: 'Update component library to use new Emotion style engine',
+                name: 'Update Design Patterns',
+                description: 'Update React Demos to use emotion style engine',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'finished',
+                status: 'backlog',
                 author: 'Brightlayer UI',
+                framework: ['react'],
             },
         ],
     },
     {
-        name: 'Figma Component Library',
-        description: 'Updates to the components in the designer sticker sheet',
-        type: 'design',
+        name: 'CLI Templates',
+        description: 'Templates used to start new applications',
+        type: 'development',
+        framework: ['all'],
         items: [
             {
-                name: 'Data Visualization Components For Dashboards',
-                description: 'Add new data visualization components designed to embed in dashboards',
+                name: 'Sample Application Template',
+                description: 'Create a new project with a pre-populated screens',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'finished',
+                status: 'backlog',
+                author: 'Brightlayer UI',
+                framework: ['all'],
+            },
+        ],
+    },
+    {
+        name: 'Component Documentation',
+        description: 'Documentation for the Brightlayer UI component libraries',
+        type: 'development',
+        framework: ['all'],
+        items: [
+            {
+                name: 'Component Documentation Development',
+                description: 'Implement updated designs for React Native component documentation',
+                year: CURRENT_YEAR,
+                quarter: CURRENT_QUARTER,
+                framework: ['react-native'],
+                status: 'backlog',
                 author: 'Brightlayer UI',
             },
         ],
@@ -79,10 +84,10 @@ export const roadmap: RoadmapBucket[] = [
         items: [
             {
                 name: 'BLUI Bootcamp',
-                description: 'Introduction to Brightlayer UI resources bootcamp',
+                description: 'Bootcamp geared towards designing and developing using Brightlayer UI resources',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'deferred',
+                status: 'backlog',
                 author: 'Brightlayer UI',
             },
         ],
