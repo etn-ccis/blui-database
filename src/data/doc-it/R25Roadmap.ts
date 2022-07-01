@@ -32,22 +32,22 @@ export const roadmap: RoadmapBucket[] = [
         "items": [
             {
                 "name": "Icon Guidelines",
-                "description": "Updated information on proper usage of icons",
+                "description": "Update information on proper usage of icons",
                 "year": 2022,
                 "quarter": "Q3",
-                "status": "backlog",
+                "status": "in-progress",
                 "author": "Brightlayer UI"
             },
         ]
     },
     {
         name: 'Figma Resources',
-        description: 'Updating and adding designs in Figma',
+        description: 'Update and add designs in Figma',
         type: 'design',
         items: [
             {
                 name: 'Accessible themes',
-                description: 'Designing accessible theme standards',
+                description: 'Design accessible theme standards',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
