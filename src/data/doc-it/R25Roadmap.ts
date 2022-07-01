@@ -26,6 +26,21 @@ type RoadmapBucket = {
 
 export const roadmap: RoadmapBucket[] = [
     {
+        "name": "brightlayer-ui.github.io",
+        "description": "The Brightlayer UI documentation site",
+        "type": "all",
+        "items": [
+            {
+                "name": "Icon Guidelines",
+                "description": "Updated information on proper usage of icons",
+                "year": 2022,
+                "quarter": "Q3",
+                "status": "backlog",
+                "author": "Brightlayer UI"
+            },
+        ]
+    },
+    {
         name: 'Figma Resources',
         description: 'Updating and adding designs in Figma',
         type: 'design',
