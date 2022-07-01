@@ -6,10 +6,10 @@
     "items": [
       {
         "name": "Updated Doc Site Designs",
-        "description": "Updated designs for main documentation site and component library documentation",
+        "description": "Update designs for main documentation site and component library documentation",
         "year": 2022,
         "quarter": "Q2",
-        "status": "in-progress",
+        "status": "finished",
         "author": "Brightlayer UI"
       }
     ]
@@ -27,7 +27,7 @@
         "description": "Update component library to use new Emotion style engine",
         "year": 2022,
         "quarter": "Q2",
-        "status": "in-progress",
+        "status": "finished",
         "author": "Brightlayer UI"
       }
     ]
@@ -42,7 +42,7 @@
         "description": "Add new data visualization components designed to embed in dashboards",
         "year": 2022,
         "quarter": "Q2",
-        "status": "in-progress",
+        "status": "finished",
         "author": "Brightlayer UI"
       }
     ]
@@ -60,7 +60,7 @@
         "description": "Introduction to Brightlayer UI resources bootcamp",
         "year": 2022,
         "quarter": "Q2",
-        "status": "backlog",
+        "status": "deferred",
         "author": "Brightlayer UI"
       }
     ]
