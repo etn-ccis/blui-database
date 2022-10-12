@@ -9,22 +9,22 @@
         "description": "Update information on proper usage of icons",
         "year": 2022,
         "quarter": "Q3",
-        "status": "in-progress",
+        "status": "finished",
         "author": "Brightlayer UI"
       }
     ]
   },
   {
-    "name": "Figma Resources",
-    "description": "Update and add designs in Figma",
+    "name": "Design Resources",
+    "description": "Resources for designers",
     "type": "design",
     "items": [
       {
         "name": "Accessible themes",
-        "description": "Design accessible theme standards",
+        "description": "Audit and redesign themes to meet accessibility requirement",
         "year": 2022,
         "quarter": "Q3",
-        "status": "backlog",
+        "status": "finished",
         "author": "Brightlayer UI"
       }
     ]
@@ -45,7 +45,7 @@
         "framework": [
           "angular"
         ],
-        "status": "backlog",
+        "status": "finished",
         "author": "Brightlayer UI"
       },
       {
@@ -56,18 +56,18 @@
         "framework": [
           "react"
         ],
-        "status": "backlog",
+        "status": "finished",
         "author": "Brightlayer UI"
       },
       {
-        "name": "React Native 68 Support",
+        "name": "React Native 70 Support",
         "description": "Update all React Native resources to support version 0.68",
         "year": 2022,
         "quarter": "Q3",
         "framework": [
           "react-native"
         ],
-        "status": "backlog",
+        "status": "finished",
         "author": "Brightlayer UI"
       }
     ]
@@ -88,7 +88,7 @@
         "framework": [
           "angular"
         ],
-        "status": "backlog",
+        "status": "finished",
         "author": "Brightlayer UI"
       }
     ]
@@ -106,7 +106,7 @@
         "description": "Introduction to Brightlayer UI resources bootcamp",
         "year": 2022,
         "quarter": "Q3",
-        "status": "in-progress",
+        "status": "finished",
         "author": "Brightlayer UI"
       }
     ]

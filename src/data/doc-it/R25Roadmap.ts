@@ -26,31 +26,31 @@ type RoadmapBucket = {
 
 export const roadmap: RoadmapBucket[] = [
     {
-        "name": "brightlayer-ui.github.io",
-        "description": "The Brightlayer UI documentation site",
-        "type": "all",
-        "items": [
+        name: 'brightlayer-ui.github.io',
+        description: 'The Brightlayer UI documentation site',
+        type: 'all',
+        items: [
             {
-                "name": "Icon Guidelines",
-                "description": "Update information on proper usage of icons",
-                "year": 2022,
-                "quarter": "Q3",
-                "status": "in-progress",
-                "author": "Brightlayer UI"
+                name: 'Icon Guidelines',
+                description: 'Update information on proper usage of icons',
+                year: CURRENT_YEAR,
+                quarter: CURRENT_QUARTER,
+                status: 'finished',
+                author: 'Brightlayer UI',
             },
-        ]
+        ],
     },
     {
-        name: 'Figma Resources',
-        description: 'Update and add designs in Figma',
+        name: 'Design Resources',
+        description: 'Resources for designers',
         type: 'design',
         items: [
             {
                 name: 'Accessible themes',
-                description: 'Design accessible theme standards',
+                description: 'Audit and redesign themes to meet accessibility requirement',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'backlog',
+                status: 'finished',
                 author: 'Brightlayer UI',
             },
         ],
@@ -67,7 +67,7 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 framework: ['angular'],
-                status: 'backlog',
+                status: 'finished',
                 author: 'Brightlayer UI',
             },
             {
@@ -76,16 +76,16 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 framework: ['react'],
-                status: 'backlog',
+                status: 'finished',
                 author: 'Brightlayer UI',
             },
             {
-                name: 'React Native 68 Support',
+                name: 'React Native 70 Support',
                 description: 'Update all React Native resources to support version 0.68',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 framework: ['react-native'],
-                status: 'backlog',
+                status: 'finished',
                 author: 'Brightlayer UI',
             },
         ],
@@ -102,7 +102,7 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 framework: ['angular'],
-                status: 'backlog',
+                status: 'finished',
                 author: 'Brightlayer UI',
             },
         ],
@@ -118,10 +118,9 @@ export const roadmap: RoadmapBucket[] = [
                 description: 'Introduction to Brightlayer UI resources bootcamp',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'in-progress',
+                status: 'finished',
                 author: 'Brightlayer UI',
             },
         ],
     },
-
 ];
