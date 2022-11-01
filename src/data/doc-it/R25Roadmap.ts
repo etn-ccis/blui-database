@@ -1,6 +1,16 @@
-export type FrameworkFilter = 'all' | 'angular' | 'react' | 'ionic' | 'react-native';
+export type FrameworkFilter =
+    | 'all'
+    | 'angular'
+    | 'react'
+    | 'ionic'
+    | 'react-native';
 export type ItemTypeFilter = 'all' | 'design' | 'development';
-export type Status = 'backlog' | 'in-progress' | 'pre-release' | 'deferred' | 'finished';
+export type Status =
+    | 'backlog'
+    | 'in-progress'
+    | 'pre-release'
+    | 'deferred'
+    | 'finished';
 export type Quarter = 'Q1' | 'Q2' | 'Q3' | 'Q4';
 
 const CURRENT_YEAR = 2022;
@@ -26,31 +36,32 @@ type RoadmapBucket = {
 
 export const roadmap: RoadmapBucket[] = [
     {
-        "name": "brightlayer-ui.github.io",
-        "description": "The Brightlayer UI documentation site",
-        "type": "all",
-        "items": [
+        name: 'brightlayer-ui.github.io',
+        description: 'The Brightlayer UI documentation site',
+        type: 'all',
+        items: [
             {
-                "name": "Icon Guidelines",
-                "description": "Update information on proper usage of icons",
-                "year": 2022,
-                "quarter": "Q3",
-                "status": "in-progress",
-                "author": "Brightlayer UI"
+                name: 'Icon Guidelines',
+                description: 'Update information on proper usage of icons',
+                year: CURRENT_YEAR,
+                quarter: CURRENT_QUARTER,
+                status: 'finished',
+                author: 'Brightlayer UI',
             },
-        ]
+        ],
     },
     {
-        name: 'Figma Resources',
-        description: 'Update and add designs in Figma',
+        name: 'Design Resources',
+        description: 'Resources for designers',
         type: 'design',
         items: [
             {
                 name: 'Accessible themes',
-                description: 'Design accessible theme standards',
+                description:
+                    'Audit and redesign themes to meet accessibility requirement',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'backlog',
+                status: 'finished',
                 author: 'Brightlayer UI',
             },
         ],
@@ -63,46 +74,51 @@ export const roadmap: RoadmapBucket[] = [
         items: [
             {
                 name: 'Angular Component Documentation',
-                description: 'Implement updated designs for Angular component documentation',
+                description:
+                    'Implement updated designs for Angular component documentation',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 framework: ['angular'],
-                status: 'backlog',
+                status: 'finished',
                 author: 'Brightlayer UI',
             },
             {
                 name: 'React Component Documentation',
-                description: 'Implement updated designs for React component documentation',
+                description:
+                    'Implement updated designs for React component documentation',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 framework: ['react'],
-                status: 'backlog',
+                status: 'finished',
                 author: 'Brightlayer UI',
             },
             {
-                name: 'React Native 68 Support',
-                description: 'Update all React Native resources to support version 0.68',
+                name: 'React Native 70 Support',
+                description:
+                    'Update all React Native resources to support version 0.70',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 framework: ['react-native'],
-                status: 'backlog',
+                status: 'finished',
                 author: 'Brightlayer UI',
             },
         ],
     },
     {
         name: 'BLUI Lab',
-        description: 'Allow external contributors to add items to Brightlayer UI in a sandbox environment',
+        description:
+            'Allow external contributors to add items to Brightlayer UI in a sandbox environment',
         type: 'development',
         framework: ['all'],
         items: [
             {
                 name: 'Angular Lab',
-                description: 'Create environment for users to contribute angular resources',
+                description:
+                    'Create environment for users to contribute angular resources',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 framework: ['angular'],
-                status: 'backlog',
+                status: 'deferred',
                 author: 'Brightlayer UI',
             },
         ],
@@ -115,13 +131,13 @@ export const roadmap: RoadmapBucket[] = [
         items: [
             {
                 name: 'BLUI Bootcamp',
-                description: 'Introduction to Brightlayer UI resources bootcamp',
+                description:
+                    'Introduction to Brightlayer UI resources bootcamp',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'in-progress',
+                status: 'finished',
                 author: 'Brightlayer UI',
             },
         ],
     },
-
 ];
