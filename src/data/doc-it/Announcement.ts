@@ -10,10 +10,11 @@ type Announcement = {
 
 export const announcement: Announcement = {
     announcement: {
-        id: 2,
-        bannerContent: "We've released updates for Q2 2022!  See our release notes for <a href='/release-notes'>details</a>.  ",
+        id: 3,
+        bannerContent: "R25 has been released — see the <a href='/release-notes'>release notes</a>! Check out our new component documentation for <a href='https://brightlayer-ui-components.github.io/angular/'>Angular</a> and <a href='https://brightlayer-ui-components.github.io/react/'>",
         startDate: "2022-07-01",
         endDate: "2022-07-14",
-        devOnly: false
+        devOnly: true
     }
 };
+
