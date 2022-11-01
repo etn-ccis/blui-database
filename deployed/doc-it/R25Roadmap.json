@@ -76,7 +76,7 @@
         "year": 2022,
         "quarter": "Q3",
         "framework": ["angular"],
-        "status": "finished",
+        "status": "deferred",
         "author": "Brightlayer UI"
       }
     ]
