@@ -1,6 +1,16 @@
-export type FrameworkFilter = 'all' | 'angular' | 'react' | 'ionic' | 'react-native';
+export type FrameworkFilter =
+    | 'all'
+    | 'angular'
+    | 'react'
+    | 'ionic'
+    | 'react-native';
 export type ItemTypeFilter = 'all' | 'design' | 'development';
-export type Status = 'backlog' | 'in-progress' | 'pre-release' | 'deferred' | 'finished';
+export type Status =
+    | 'backlog'
+    | 'in-progress'
+    | 'pre-release'
+    | 'deferred'
+    | 'finished';
 export type Quarter = 'Q1' | 'Q2' | 'Q3' | 'Q4';
 
 const CURRENT_YEAR = 2022;
@@ -26,53 +36,55 @@ type RoadmapBucket = {
 
 export const roadmap: RoadmapBucket[] = [
     {
-        name: 'Code Examples',
-        description: 'Updating our Demo applications',
+        name: 'Angular Component Library',
+        description:
+            'Reusable UI elements from @brightlayer-ui/angular-components',
         type: 'development',
-        framework: ['all'],
+        framework: ['angular'],
         items: [
             {
-                name: 'Update Design Patterns',
-                description: 'Update React Demos to use emotion style engine',
+                name: 'Angular 14 Support',
+                description:
+                    'Update component library to build using Angular version 14',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
                 author: 'Brightlayer UI',
-                framework: ['react'],
             },
         ],
     },
     {
-        name: 'CLI Templates',
-        description: 'Templates used to start new applications',
+        name: 'Design Patterns',
+        description: 'Adding new design patterns',
+        type: 'design',
+        framework: ['all'],
+        items: [
+            {
+                name: 'Button Guidelines',
+                description: 'New design pattern for button usage',
+                year: CURRENT_YEAR,
+                quarter: CURRENT_QUARTER,
+                framework: ['all'],
+                status: 'backlog',
+                author: 'Brightlayer UI',
+            },
+        ],
+    },
+
+    {
+        name: 'Miscellaneous',
+        description: 'Miscellaneous platform updates',
         type: 'development',
         framework: ['all'],
         items: [
             {
-                name: 'Sample Application Template',
-                description: 'Create a new project with common page layouts',
+                name: 'Bug Fixes',
+                description: 'High priority bug fixes',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
                 author: 'Brightlayer UI',
                 framework: ['all'],
-            },
-        ],
-    },
-    {
-        name: 'Component Documentation',
-        description: 'Documentation for the Brightlayer UI component libraries',
-        type: 'development',
-        framework: ['all'],
-        items: [
-            {
-                name: 'React Native Component Documentation',
-                description: 'Implement updated designs for React Native component documentation',
-                year: CURRENT_YEAR,
-                quarter: CURRENT_QUARTER,
-                framework: ['react-native'],
-                status: 'backlog',
-                author: 'Brightlayer UI',
             },
         ],
     },
