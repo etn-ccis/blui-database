@@ -12,14 +12,14 @@
         "description": "Update component library to build using Angular version 14",
         "year": 2022,
         "quarter": "Q4",
-        "status": "backlog",
+        "status": "in-progress",
         "author": "Brightlayer UI"
       }
     ]
   },
   {
-    "name": "Design Patterns",
-    "description": "Adding new design patterns",
+    "name": "Design Guidelines",
+    "description": "Adding new design guidelines",
     "type": "design",
     "framework": [
       "all"
@@ -33,7 +33,18 @@
         "framework": [
           "all"
         ],
-        "status": "backlog",
+        "status": "in-progress",
+        "author": "Brightlayer UI"
+      },
+      {
+        "name": "Design Audit Guidelines",
+        "description": "A how-to guide for requesting and conducting design audits",
+        "year": 2022,
+        "quarter": "Q4",
+        "framework": [
+          "all"
+        ],
+        "status": "in-progress",
         "author": "Brightlayer UI"
       }
     ]
@@ -51,7 +62,7 @@
         "description": "High priority bug fixes",
         "year": 2022,
         "quarter": "Q4",
-        "status": "backlog",
+        "status": "in-progress",
         "author": "Brightlayer UI",
         "framework": [
           "all"
