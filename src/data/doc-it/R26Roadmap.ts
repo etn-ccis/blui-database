@@ -1,16 +1,6 @@
-export type FrameworkFilter =
-    | 'all'
-    | 'angular'
-    | 'react'
-    | 'ionic'
-    | 'react-native';
+export type FrameworkFilter = 'all' | 'angular' | 'react' | 'ionic' | 'react-native';
 export type ItemTypeFilter = 'all' | 'design' | 'development';
-export type Status =
-    | 'backlog'
-    | 'in-progress'
-    | 'pre-release'
-    | 'deferred'
-    | 'finished';
+export type Status = 'backlog' | 'in-progress' | 'pre-release' | 'deferred' | 'finished';
 export type Quarter = 'Q1' | 'Q2' | 'Q3' | 'Q4';
 
 const CURRENT_YEAR = 2022;
@@ -37,25 +27,23 @@ type RoadmapBucket = {
 export const roadmap: RoadmapBucket[] = [
     {
         name: 'Angular Component Library',
-        description:
-            'Reusable UI elements from @brightlayer-ui/angular-components',
+        description: 'Reusable UI elements from @brightlayer-ui/angular-components',
         type: 'development',
         framework: ['angular'],
         items: [
             {
                 name: 'Angular 14 Support',
-                description:
-                    'Update component library to build using Angular version 14',
+                description: 'Update component library to build using Angular version 14',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'backlog',
+                status: 'in-progress',
                 author: 'Brightlayer UI',
             },
         ],
     },
     {
-        name: 'Design Patterns',
-        description: 'Adding new design patterns',
+        name: 'Design Guidelines',
+        description: 'Adding new design guidelines',
         type: 'design',
         framework: ['all'],
         items: [
@@ -65,7 +53,16 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 framework: ['all'],
-                status: 'backlog',
+                status: 'in-progress',
+                author: 'Brightlayer UI',
+            },
+            {
+                name: 'Design Audit Guidelines',
+                description: 'A how-to guide for requesting and conducting design audits',
+                year: CURRENT_YEAR,
+                quarter: CURRENT_QUARTER,
+                framework: ['all'],
+                status: 'in-progress',
                 author: 'Brightlayer UI',
             },
         ],
@@ -82,7 +79,7 @@ export const roadmap: RoadmapBucket[] = [
                 description: 'High priority bug fixes',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'backlog',
+                status: 'in-progress',
                 author: 'Brightlayer UI',
                 framework: ['all'],
             },
