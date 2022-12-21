@@ -1,38 +1,7 @@
-export type FrameworkFilter =
-    | 'all'
-    | 'angular'
-    | 'react'
-    | 'ionic'
-    | 'react-native';
-export type ItemTypeFilter = 'all' | 'design' | 'development';
-export type Status =
-    | 'backlog'
-    | 'in-progress'
-    | 'pre-release'
-    | 'deferred'
-    | 'finished';
-export type Quarter = 'Q1' | 'Q2' | 'Q3' | 'Q4';
+import { Quarter, RoadmapBucket } from './_types';
 
 const CURRENT_YEAR = 2022;
 const CURRENT_QUARTER: Quarter = 'Q3';
-
-export type RoadmapItem = {
-    name: string;
-    description: string;
-    year: string | number;
-    quarter: Quarter;
-    status: Status;
-    author?: string;
-    type?: ItemTypeFilter;
-    framework?: FrameworkFilter[];
-};
-type RoadmapBucket = {
-    name: string;
-    description: string;
-    type: ItemTypeFilter;
-    framework?: FrameworkFilter[];
-    items: RoadmapItem[];
-};
 
 export const roadmap: RoadmapBucket[] = [
     {
@@ -57,8 +26,7 @@ export const roadmap: RoadmapBucket[] = [
         items: [
             {
                 name: 'Accessible themes',
-                description:
-                    'Audit and redesign themes to meet accessibility requirement',
+                description: 'Audit and redesign themes to meet accessibility requirement',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'finished',
@@ -74,8 +42,7 @@ export const roadmap: RoadmapBucket[] = [
         items: [
             {
                 name: 'Angular Component Documentation',
-                description:
-                    'Implement updated designs for Angular component documentation',
+                description: 'Implement updated designs for Angular component documentation',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 framework: ['angular'],
@@ -84,8 +51,7 @@ export const roadmap: RoadmapBucket[] = [
             },
             {
                 name: 'React Component Documentation',
-                description:
-                    'Implement updated designs for React component documentation',
+                description: 'Implement updated designs for React component documentation',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 framework: ['react'],
@@ -94,8 +60,7 @@ export const roadmap: RoadmapBucket[] = [
             },
             {
                 name: 'React Native 70 Support',
-                description:
-                    'Update all React Native resources to support version 0.70',
+                description: 'Update all React Native resources to support version 0.70',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 framework: ['react-native'],
@@ -106,15 +71,13 @@ export const roadmap: RoadmapBucket[] = [
     },
     {
         name: 'BLUI Lab',
-        description:
-            'Allow external contributors to add items to Brightlayer UI in a sandbox environment',
+        description: 'Allow external contributors to add items to Brightlayer UI in a sandbox environment',
         type: 'development',
         framework: ['all'],
         items: [
             {
                 name: 'Angular Lab',
-                description:
-                    'Create environment for users to contribute angular resources',
+                description: 'Create environment for users to contribute angular resources',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 framework: ['angular'],
@@ -131,8 +94,7 @@ export const roadmap: RoadmapBucket[] = [
         items: [
             {
                 name: 'BLUI Bootcamp',
-                description:
-                    'Introduction to Brightlayer UI resources bootcamp',
+                description: 'Introduction to Brightlayer UI resources bootcamp',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'finished',
