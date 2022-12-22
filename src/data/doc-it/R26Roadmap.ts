@@ -1,28 +1,7 @@
-export type FrameworkFilter = 'all' | 'angular' | 'react' | 'ionic' | 'react-native';
-export type ItemTypeFilter = 'all' | 'design' | 'development';
-export type Status = 'backlog' | 'in-progress' | 'pre-release' | 'deferred' | 'finished';
-export type Quarter = 'Q1' | 'Q2' | 'Q3' | 'Q4';
+import { Quarter, RoadmapBucket } from './_types';
 
 const CURRENT_YEAR = 2022;
 const CURRENT_QUARTER: Quarter = 'Q4';
-
-export type RoadmapItem = {
-    name: string;
-    description: string;
-    year: string | number;
-    quarter: Quarter;
-    status: Status;
-    author?: string;
-    type?: ItemTypeFilter;
-    framework?: FrameworkFilter[];
-};
-type RoadmapBucket = {
-    name: string;
-    description: string;
-    type: ItemTypeFilter;
-    framework?: FrameworkFilter[];
-    items: RoadmapItem[];
-};
 
 export const roadmap: RoadmapBucket[] = [
     {
@@ -36,7 +15,7 @@ export const roadmap: RoadmapBucket[] = [
                 description: 'Update component library to build using Angular version 14',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'in-progress',
+                status: 'finished',
                 author: 'Brightlayer UI',
             },
         ],
@@ -53,7 +32,7 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 framework: ['all'],
-                status: 'in-progress',
+                status: 'finished',
                 author: 'Brightlayer UI',
             },
             {
@@ -62,7 +41,7 @@ export const roadmap: RoadmapBucket[] = [
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 framework: ['all'],
-                status: 'in-progress',
+                status: 'finished',
                 author: 'Brightlayer UI',
             },
         ],
