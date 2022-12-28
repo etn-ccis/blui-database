@@ -1,28 +1,7 @@
-export type FrameworkFilter = 'all' | 'angular' | 'react' | 'ionic' | 'react-native';
-export type ItemTypeFilter = 'all' | 'design' | 'development';
-export type Status = 'backlog' | 'in-progress' | 'pre-release' | 'deferred' | 'finished';
-export type Quarter = 'Q1' | 'Q2' | 'Q3' | 'Q4';
+import { Quarter, RoadmapBucket } from './_types';
 
 const CURRENT_YEAR = 2020;
 const CURRENT_QUARTER: Quarter = 'Q3';
-
-export type RoadmapItem = {
-    name: string;
-    description: string;
-    year: string | number;
-    quarter: Quarter;
-    status: Status;
-    author?: string;
-    type?: ItemTypeFilter;
-    framework?: FrameworkFilter[];
-};
-type RoadmapBucket = {
-    name: string;
-    description: string;
-    type: ItemTypeFilter;
-    framework?: FrameworkFilter[];
-    items: RoadmapItem[];
-};
 
 export const roadmap: RoadmapBucket[] = [
     {
@@ -32,8 +11,7 @@ export const roadmap: RoadmapBucket[] = [
         items: [
             {
                 name: 'Additional Material Components',
-                description:
-                    'Add components for Chips, Bottom Sheet, Cards, Sliders, Snackbar, and Tooltip',
+                description: 'Add components for Chips, Bottom Sheet, Cards, Sliders, Snackbar, and Tooltip',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'finished',
@@ -85,7 +63,7 @@ export const roadmap: RoadmapBucket[] = [
         name: 'Figma Design Patterns',
         description: 'Adding design pattern examples to Figma',
         type: 'design',
-        items: [ ],
+        items: [],
     },
     {
         name: 'Angular Component Library',
@@ -230,7 +208,6 @@ export const roadmap: RoadmapBucket[] = [
                 author: 'PX Blue',
                 framework: ['react'],
             },
-        
         ],
     },
     {
@@ -238,6 +215,6 @@ export const roadmap: RoadmapBucket[] = [
         description: 'Assorted tools for helping you work faster',
         type: 'development',
         framework: ['all'],
-        items: [ ],
+        items: [],
     },
 ];
