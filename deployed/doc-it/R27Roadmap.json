@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Reuseable Workflows",
+    "description": "Components for implementing common workflows across applications",
+    "type": "all",
+    "framework": [
+      "all"
+    ],
+    "items": [
+      {
+        "name": "Device Lifecycle Management",
+        "description": "Collaboration with Brightlayer Cloud to build connected workflows for device lifecycle management leveraging IoT83",
+        "year": 2023,
+        "quarter": "Q1",
+        "status": "backlog",
+        "author": "Brightlayer UI",
+        "framework": [
+          "all"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Miscellaneous",
+    "description": "Miscellaneous platform updates",
+    "type": "development",
+    "framework": [
+      "all"
+    ],
+    "items": [
+      {
+        "name": "Bug Fixes",
+        "description": "High priority bug fixes",
+        "year": 2023,
+        "quarter": "Q1",
+        "status": "in-progress",
+        "author": "Brightlayer UI",
+        "framework": [
+          "all"
+        ]
+      }
+    ]
+  }
+]

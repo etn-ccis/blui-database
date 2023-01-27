@@ -58,7 +58,7 @@ export const roadmap: RoadmapBucket[] = [
                 description: 'High priority bug fixes',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'in-progress',
+                status: 'finished',
                 author: 'Brightlayer UI',
                 framework: ['all'],
             },
