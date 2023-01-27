@@ -62,7 +62,7 @@
         "description": "High priority bug fixes",
         "year": 2022,
         "quarter": "Q4",
-        "status": "in-progress",
+        "status": "finished",
         "author": "Brightlayer UI",
         "framework": [
           "all"
