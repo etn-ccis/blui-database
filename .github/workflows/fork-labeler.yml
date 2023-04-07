@@ -1,6 +1,7 @@
 name: 'Fork PR Labeler'
 on:
-    - pull_request_target
+    pull_request_target:
+        types: [opened]
 
 jobs:
     triage:
