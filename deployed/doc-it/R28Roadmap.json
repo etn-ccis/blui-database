@@ -1,23 +1,15 @@
 [
   {
-    "name": "Design for Reusable Resources",
-    "description": "Workflows and innersource marketplace to be shared across all Eaton",
-    "type": "design",
+    "name": "Innersource 2.0",
+    "description": "Resources to help Eaton teams share reusable assets",
+    "type": "all",
     "framework": [
       "all"
     ],
     "items": [
       {
-        "name": "Device Lifecycle Management",
-        "description": "Help design connected workflows for device lifecycle management",
-        "year": 2023,
-        "quarter": "Q2",
-        "status": "backlog",
-        "author": "Brightlayer UI"
-      },
-      {
-        "name": "Innersource 2.0 Portal",
-        "description": "A portal to look up developer resources within Eaton",
+        "name": "MVP Release of Innersource Portal",
+        "description": "Initial release of an innersource marketplace with resources shared across all Eaton",
         "year": 2023,
         "quarter": "Q2",
         "status": "backlog",
@@ -26,23 +18,23 @@
     ]
   },
   {
-    "name": "Customizable React Authentication Workflow",
-    "description": "Update React Authentication Workflows for easier customization",
+    "name": "Reusable Workflows",
+    "description": "Components for implementing common workflows across applications",
     "type": "development",
     "framework": [
       "react"
     ],
     "items": [
       {
-        "name": "Screen componentization",
-        "description": "Componentize and export screens individually to allow for better custom screen ordering and innjection",
+        "name": "React Auth Workflow Screen Componentization",
+        "description": "Componentize and export screens individually to allow for better custom screen ordering and injection",
         "year": 2023,
         "quarter": "Q2",
         "status": "backlog",
         "author": "Brightlayer UI"
       },
       {
-        "name": "Router support",
+        "name": "React Auth Workflow Router Support",
         "description": "React Router v6 updates and router customizability",
         "year": 2023,
         "quarter": "Q2",
@@ -50,7 +42,7 @@
         "author": "Brightlayer UI"
       },
       {
-        "name": "Internationalization",
+        "name": "React Auth Workflow Internationalization",
         "description": "Better support for internationalization (NEED MORE DETAILS HERE)",
         "year": 2023,
         "quarter": "Q2",
@@ -68,8 +60,8 @@
     ],
     "items": [
       {
-        "name": "Angular 14",
-        "description": "Update platform resources to support Angular 14",
+        "name": "Angular 14 Auth Workflow",
+        "description": "Update the Angular Authentication Workflow package to support Angular 14",
         "year": 2023,
         "quarter": "Q2",
         "status": "backlog",
@@ -94,6 +86,14 @@
     ],
     "items": [
       {
+        "name": "Device Lifecycle Management",
+        "description": "Help design connected workflows for device lifecycle management",
+        "year": 2023,
+        "quarter": "Q2",
+        "status": "backlog",
+        "author": "Brightlayer UI"
+      },
+      {
         "name": "Tag Guidelines",
         "description": "New design pattern for tag usage",
         "year": 2023,
@@ -112,7 +112,7 @@
     ],
     "items": [
       {
-        "name": "Reusable documentation tools",
+        "name": "Reusable Documentation Tools",
         "description": "Extract reusable documentation components from React developer documentation",
         "year": 2023,
         "quarter": "Q2",
@@ -123,7 +123,7 @@
         ]
       },
       {
-        "name": "Documentation site bug fixes",
+        "name": "Documentation Site Bug Fixes",
         "description": "Fix bugs of Brightlayer UI's main documentation site",
         "year": 2023,
         "quarter": "Q2",

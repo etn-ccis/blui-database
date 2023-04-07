@@ -5,22 +5,14 @@ const CURRENT_QUARTER: Quarter = 'Q2';
 
 export const roadmap: RoadmapBucket[] = [
     {
-        name: 'Design for Reusable Resources',
-        description: 'Workflows and innersource marketplace to be shared across all Eaton',
-        type: 'design',
+        name: 'Innersource 2.0',
+        description: 'Resources to help Eaton teams share reusable assets',
+        type: 'all',
         framework: ['all'],
         items: [
             {
-                name: 'Device Lifecycle Management',
-                description: 'Help design connected workflows for device lifecycle management',
-                year: CURRENT_YEAR,
-                quarter: CURRENT_QUARTER,
-                status: 'backlog',
-                author: 'Brightlayer UI',
-            },
-            {
-                name: 'Innersource 2.0 Portal',
-                description: 'A portal to look up developer resources within Eaton',
+                name: 'MVP Release of Innersource Portal',
+                description: 'Initial release of an innersource marketplace with resources shared across all Eaton',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
@@ -29,22 +21,22 @@ export const roadmap: RoadmapBucket[] = [
         ],
     },
     {
-        name: 'Customizable React Authentication Workflow',
-        description: 'Update React Authentication Workflows for easier customization',
+        name: 'Reusable Workflows',
+        description: 'Components for implementing common workflows across applications',
         type: 'development',
         framework: ['react'],
         items: [
             {
-                name: 'Screen componentization',
+                name: 'React Auth Workflow Screen Componentization',
                 description:
-                    'Componentize and export screens individually to allow for better custom screen ordering and innjection',
+                    'Componentize and export screens individually to allow for better custom screen ordering and injection',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
                 author: 'Brightlayer UI',
             },
             {
-                name: 'Router support',
+                name: 'React Auth Workflow Router Support',
                 description: 'React Router v6 updates and router customizability',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
@@ -52,7 +44,7 @@ export const roadmap: RoadmapBucket[] = [
                 author: 'Brightlayer UI',
             },
             {
-                name: 'Internationalization',
+                name: 'React Auth Workflow Internationalization',
                 description: 'Better support for internationalization (NEED MORE DETAILS HERE)',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
@@ -68,8 +60,8 @@ export const roadmap: RoadmapBucket[] = [
         framework: ['angular'],
         items: [
             {
-                name: 'Angular 14',
-                description: 'Update platform resources to support Angular 14',
+                name: 'Angular 14 Auth Workflow',
+                description: 'Update the Angular Authentication Workflow package to support Angular 14',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
@@ -92,6 +84,14 @@ export const roadmap: RoadmapBucket[] = [
         framework: ['all'],
         items: [
             {
+                name: 'Device Lifecycle Management',
+                description: 'Help design connected workflows for device lifecycle management',
+                year: CURRENT_YEAR,
+                quarter: CURRENT_QUARTER,
+                status: 'backlog',
+                author: 'Brightlayer UI',
+            },
+            {
                 name: 'Tag Guidelines',
                 description: 'New design pattern for tag usage',
                 year: CURRENT_YEAR,
@@ -108,7 +108,7 @@ export const roadmap: RoadmapBucket[] = [
         framework: ['all'],
         items: [
             {
-                name: 'Reusable documentation tools',
+                name: 'Reusable Documentation Tools',
                 description: 'Extract reusable documentation components from React developer documentation',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
@@ -117,7 +117,7 @@ export const roadmap: RoadmapBucket[] = [
                 framework: ['react'],
             },
             {
-                name: 'Documentation site bug fixes',
+                name: 'Documentation Site Bug Fixes',
                 description: `Fix bugs of Brightlayer UI's main documentation site`,
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
