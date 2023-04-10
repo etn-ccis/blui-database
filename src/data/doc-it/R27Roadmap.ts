@@ -15,7 +15,7 @@ export const roadmap: RoadmapBucket[] = [
                 description: 'Help design connected workflows for device lifecycle management',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'finished',
+                status: 'deferred',
                 author: 'Brightlayer UI',
             },
         ],

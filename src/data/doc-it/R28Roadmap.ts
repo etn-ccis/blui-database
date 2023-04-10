@@ -45,7 +45,7 @@ export const roadmap: RoadmapBucket[] = [
             },
             {
                 name: 'React Auth Workflow Internationalization',
-                description: 'Better support for internationalization (NEED MORE DETAILS HERE)',
+                description: 'Support for the latest versions of i18n and react-i18n',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'backlog',
@@ -54,19 +54,11 @@ export const roadmap: RoadmapBucket[] = [
         ],
     },
     {
-        name: 'Angular Resource Updates',
-        description: 'Update Angular packages',
+        name: 'Angular Component Library',
+        description: 'Reusable UI elements from @brightlayer-ui/angular-components',
         type: 'development',
         framework: ['angular'],
         items: [
-            {
-                name: 'Angular 14 Auth Workflow',
-                description: 'Update the Angular Authentication Workflow package to support Angular 14',
-                year: CURRENT_YEAR,
-                quarter: CURRENT_QUARTER,
-                status: 'backlog',
-                author: 'Brightlayer UI',
-            },
             {
                 name: 'Angular 15',
                 description: 'Update platform resources to support Angular 15',
@@ -115,15 +107,6 @@ export const roadmap: RoadmapBucket[] = [
                 status: 'backlog',
                 author: 'Brightlayer UI',
                 framework: ['react'],
-            },
-            {
-                name: 'Documentation Site Bug Fixes',
-                description: `Fix bugs of Brightlayer UI's main documentation site`,
-                year: CURRENT_YEAR,
-                quarter: CURRENT_QUARTER,
-                status: 'backlog',
-                author: 'Brightlayer UI',
-                framework: ['all'],
             },
         ],
     },
