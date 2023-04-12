@@ -46,7 +46,6 @@ export const roadmap: RoadmapBucket[] = [
             },
         ],
     },
-
     {
         name: 'Miscellaneous',
         description: 'Miscellaneous platform updates',
