@@ -7,18 +7,16 @@ export const roadmap: RoadmapBucket[] = [
     {
         name: 'Reuseable Workflows',
         description: 'Components for implementing common workflows across applications',
-        type: 'all',
+        type: 'design',
         framework: ['all'],
         items: [
             {
                 name: 'Device Lifecycle Management',
-                description:
-                    'Collaboration with Brightlayer Cloud to build connected workflows for device lifecycle management leveraging IoT83',
+                description: 'Help design connected workflows for device lifecycle management',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'backlog',
+                status: 'deferred',
                 author: 'Brightlayer UI',
-                framework: ['all'],
             },
         ],
     },
@@ -33,7 +31,7 @@ export const roadmap: RoadmapBucket[] = [
                 description: 'High priority bug fixes',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'in-progress',
+                status: 'finished',
                 author: 'Brightlayer UI',
                 framework: ['all'],
             },
