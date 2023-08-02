@@ -11,8 +11,8 @@
         "name": "MVP Release of Innersource Portal",
         "description": "Initial release of an innersource marketplace with resources shared across all Eaton",
         "year": 2023,
-        "quarter": "Q2",
-        "status": "deferred",
+        "quarter": "Q3",
+        "status": "in-progress",
         "author": "Brightlayer UI"
       }
     ]
@@ -29,68 +29,76 @@
         "name": "React Auth Workflow Screen Componentization",
         "description": "Componentize and export screens individually to allow for better custom screen ordering and injection",
         "year": 2023,
-        "quarter": "Q2",
-        "status": "deferred",
+        "quarter": "Q3",
+        "status": "in-progress",
         "author": "Brightlayer UI"
       },
       {
         "name": "React Auth Workflow Router Support",
         "description": "React Router v6 updates and router customizability",
         "year": 2023,
-        "quarter": "Q2",
-        "status": "deferred",
+        "quarter": "Q3",
+        "status": "in-progress",
         "author": "Brightlayer UI"
       },
       {
         "name": "React Auth Workflow Internationalization",
         "description": "Support for the latest versions of i18n and react-i18n",
         "year": 2023,
-        "quarter": "Q2",
-        "status": "deferred",
+        "quarter": "Q3",
+        "status": "in-progress",
         "author": "Brightlayer UI"
       }
     ]
   },
   {
-    "name": "Angular Component Library",
-    "description": "Reusable UI elements from @brightlayer-ui/angular-components",
+    "name": "React Native Paper V5",
+    "description": "Update React Native Component and Theme Library to support Paper V5 (MD3)",
     "type": "development",
     "framework": [
-      "angular"
+      "react-native"
     ],
     "items": [
       {
-        "name": "Angular 15",
-        "description": "Update platform resources to support Angular 15",
+        "name": "React Native Component Library",
+        "description": "Update Component Library to support Paper V5 (MD3)",
         "year": 2023,
-        "quarter": "Q2",
-        "status": "finished",
+        "quarter": "Q3",
+        "status": "in-progress",
+        "author": "Brightlayer UI"
+      },
+      {
+        "name": "React Native Theme Library",
+        "description": "Update Theme Library to support Paper V5 (MD3)",
+        "year": 2023,
+        "quarter": "Q3",
+        "status": "in-progress",
         "author": "Brightlayer UI"
       }
     ]
   },
   {
     "name": "Design Guidelines",
-    "description": "Adding new design guidelines",
+    "description": "User Testing and Design Support",
     "type": "design",
     "framework": [
       "all"
     ],
     "items": [
       {
-        "name": "Device Lifecycle Management",
-        "description": "Help design connected workflows for device lifecycle management",
+        "name": "DLM User Testing and design support",
+        "description": "Conduct User Testing and provide support to DLM workflow screens",
         "year": 2023,
-        "quarter": "Q2",
-        "status": "finished",
+        "quarter": "Q3",
+        "status": "in-progress",
         "author": "Brightlayer UI"
       },
       {
-        "name": "Tag Guidelines",
-        "description": "New design pattern for tag usage",
+        "name": "MD3 design guidelines",
+        "description": "New design guidelines to support MD3 for React Native Resources",
         "year": 2023,
-        "quarter": "Q2",
-        "status": "finished",
+        "quarter": "Q3",
+        "status": "in-progress",
         "author": "Brightlayer UI"
       }
     ]
@@ -104,11 +112,33 @@
     ],
     "items": [
       {
-        "name": "Reusable Documentation Tools",
-        "description": "Extract reusable documentation components from React developer documentation",
+        "name": "Brightlayer Documentation site improvements",
+        "description": "Accessibility Support to Brightlayer Documentation site",
         "year": 2023,
-        "quarter": "Q2",
-        "status": "finished",
+        "quarter": "Q3",
+        "status": "backlog",
+        "author": "Brightlayer UI",
+        "framework": [
+          "react"
+        ]
+      },
+      {
+        "name": "Templates & Examples Upgrades to latest",
+        "description": "Support for the latest versions",
+        "year": 2023,
+        "quarter": "Q3",
+        "status": "backlog",
+        "author": "Brightlayer UI",
+        "framework": [
+          "react"
+        ]
+      },
+      {
+        "name": "React Dev Docs Phase 2",
+        "description": "Add new features in React Dev Docs",
+        "year": 2023,
+        "quarter": "Q3",
+        "status": "backlog",
         "author": "Brightlayer UI",
         "framework": [
           "react"
