@@ -104,7 +104,7 @@ export const roadmap: RoadmapBucket[] = [
                 description: 'Extract reusable documentation components from React developer documentation',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'finished',
+                status: 'deferred',
                 author: 'Brightlayer UI',
                 framework: ['react'],
             },

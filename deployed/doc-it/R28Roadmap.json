@@ -108,7 +108,7 @@
         "description": "Extract reusable documentation components from React developer documentation",
         "year": 2023,
         "quarter": "Q2",
-        "status": "finished",
+        "status": "deferred",
         "author": "Brightlayer UI",
         "framework": [
           "react"
