@@ -1,7 +1,7 @@
 import { Quarter, RoadmapBucket } from './_types';
 
 const CURRENT_YEAR = 2023;
-const CURRENT_QUARTER: Quarter = 'Q2';
+const CURRENT_QUARTER: Quarter = 'Q3';
 
 export const roadmap: RoadmapBucket[] = [
     {
@@ -15,7 +15,7 @@ export const roadmap: RoadmapBucket[] = [
                 description: 'Initial release of an innersource marketplace with resources shared across all Eaton',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'deferred',
+                status: 'in-progress',
                 author: 'Brightlayer UI',
             },
         ],
@@ -32,7 +32,7 @@ export const roadmap: RoadmapBucket[] = [
                     'Componentize and export screens individually to allow for better custom screen ordering and injection',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'deferred',
+                status: 'in-progress',
                 author: 'Brightlayer UI',
             },
             {
@@ -40,7 +40,7 @@ export const roadmap: RoadmapBucket[] = [
                 description: 'React Router v6 updates and router customizability',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'deferred',
+                status: 'in-progress',
                 author: 'Brightlayer UI',
             },
             {
@@ -48,65 +48,33 @@ export const roadmap: RoadmapBucket[] = [
                 description: 'Support for the latest versions of i18n and react-i18n',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'deferred',
+                status: 'in-progress',
                 author: 'Brightlayer UI',
             },
         ],
     },
     {
-        name: 'Angular Component Library',
-        description: 'Reusable UI elements from @brightlayer-ui/angular-components',
+        name: 'React Native Paper V5 with Material Design 3',
+        description: 'Update React Native Component Library and Themes to support Paper V5 with Material Design 3',
         type: 'development',
-        framework: ['angular'],
+        framework: ['react-native'],
         items: [
             {
-                name: 'Angular 15',
-                description: 'Update platform resources to support Angular 15',
+                name: 'React Native Component Library',
+                description:
+                    'Update Component Library to support React Native Paper V5 with Material Design 3',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'finished',
-                author: 'Brightlayer UI',
-            },
-        ],
-    },
-    {
-        name: 'Design Guidelines',
-        description: 'Adding new design guidelines',
-        type: 'design',
-        framework: ['all'],
-        items: [
-            {
-                name: 'Device Lifecycle Management',
-                description: 'Help design connected workflows for device lifecycle management',
-                year: CURRENT_YEAR,
-                quarter: CURRENT_QUARTER,
-                status: 'finished',
+                status: 'in-progress',
                 author: 'Brightlayer UI',
             },
             {
-                name: 'Tag Guidelines',
-                description: 'New design pattern for tag usage',
+                name: 'React Native Themes',
+                description: 'Update Themes to support React Native Paper V5 with Material Design 3',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'finished',
+                status: 'in-progress',
                 author: 'Brightlayer UI',
-            },
-        ],
-    },
-    {
-        name: 'Miscellaneous',
-        description: 'Miscellaneous platform updates',
-        type: 'development',
-        framework: ['all'],
-        items: [
-            {
-                name: 'Reusable Documentation Tools',
-                description: 'Extract reusable documentation components from React developer documentation',
-                year: CURRENT_YEAR,
-                quarter: CURRENT_QUARTER,
-                status: 'deferred',
-                author: 'Brightlayer UI',
-                framework: ['react'],
             },
         ],
     },

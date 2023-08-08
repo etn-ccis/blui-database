@@ -12,7 +12,7 @@
         "description": "Initial release of an innersource marketplace with resources shared across all Eaton",
         "year": 2023,
         "quarter": "Q2",
-        "status": "backlog",
+        "status": "deferred",
         "author": "Brightlayer UI"
       }
     ]
@@ -30,7 +30,7 @@
         "description": "Componentize and export screens individually to allow for better custom screen ordering and injection",
         "year": 2023,
         "quarter": "Q2",
-        "status": "backlog",
+        "status": "deferred",
         "author": "Brightlayer UI"
       },
       {
@@ -38,7 +38,7 @@
         "description": "React Router v6 updates and router customizability",
         "year": 2023,
         "quarter": "Q2",
-        "status": "backlog",
+        "status": "deferred",
         "author": "Brightlayer UI"
       },
       {
@@ -46,7 +46,7 @@
         "description": "Support for the latest versions of i18n and react-i18n",
         "year": 2023,
         "quarter": "Q2",
-        "status": "backlog",
+        "status": "deferred",
         "author": "Brightlayer UI"
       }
     ]
@@ -64,7 +64,7 @@
         "description": "Update platform resources to support Angular 15",
         "year": 2023,
         "quarter": "Q2",
-        "status": "backlog",
+        "status": "finished",
         "author": "Brightlayer UI"
       }
     ]
@@ -82,7 +82,7 @@
         "description": "Help design connected workflows for device lifecycle management",
         "year": 2023,
         "quarter": "Q2",
-        "status": "backlog",
+        "status": "finished",
         "author": "Brightlayer UI"
       },
       {
@@ -90,7 +90,7 @@
         "description": "New design pattern for tag usage",
         "year": 2023,
         "quarter": "Q2",
-        "status": "backlog",
+        "status": "finished",
         "author": "Brightlayer UI"
       }
     ]
@@ -108,7 +108,7 @@
         "description": "Extract reusable documentation components from React developer documentation",
         "year": 2023,
         "quarter": "Q2",
-        "status": "backlog",
+        "status": "deferred",
         "author": "Brightlayer UI",
         "framework": [
           "react"
