@@ -15,7 +15,7 @@ export const roadmap: RoadmapBucket[] = [
                 description: 'Initial release of an innersource marketplace with resources shared across all Eaton',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
-                status: 'in-progress',
+                status: 'finished',
                 author: 'Brightlayer UI',
             },
         ],
