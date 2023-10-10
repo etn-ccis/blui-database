@@ -45,7 +45,7 @@ export const roadmap: RoadmapBucket[] = [
             },
             {
                 name: 'React Auth Workflow Internationalization',
-                description: 'Support for the latest versions of i18n and react-i18n',
+                description: 'Support for the latest versions of i18next and react-i18next',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'deferred',
