@@ -12,8 +12,7 @@ export const roadmap: RoadmapBucket[] = [
         items: [
             {
                 name: 'React Native Component Library',
-                description:
-                    'Update Component Library to support React Native Paper V5 with Material Design 3',
+                description: 'Update Component Library to support React Native Paper V5 with Material Design 3',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'in-progress',
@@ -37,8 +36,7 @@ export const roadmap: RoadmapBucket[] = [
         items: [
             {
                 name: 'React Native Auth Workflow patch release',
-                description:
-                    'Fix user-reported issues in the React Native Auth Workflow so that the adopters have robust and bug-free workflows',
+                description: 'Fix adopter-reported issues in the React Native Auth Workflow',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'in-progress',
@@ -53,13 +51,13 @@ export const roadmap: RoadmapBucket[] = [
         framework: ['react'],
         items: [
             {
-                name: 'Brightlayer Cloud API login/auth integrations',
+                name: 'Brightlayer Cloud API auth integrations',
                 description:
-                    'Innersource the BLC API login/auth integrations from DERMS CoE so that new products using React can connect their BLUI Auth workflow screens to BLC with minimal configuration',
+                    'Innersource the Brightlayer Cloud API auth integrations from DERMS CoE so that new products using React can connect their Brightlayer UI Auth workflows to Brightlayer Cloud with minimal configuration',
                 year: CURRENT_YEAR,
                 quarter: CURRENT_QUARTER,
                 status: 'in-progress',
-                author: 'Brightlayer UI',
+                author: 'DERMS CoE',
             },
         ],
     },
