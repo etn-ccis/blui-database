@@ -12,7 +12,7 @@
         "description": "Initial release of an innersource marketplace with resources shared across all Eaton",
         "year": 2023,
         "quarter": "Q3",
-        "status": "in-progress",
+        "status": "finished",
         "author": "Brightlayer UI"
       }
     ]
@@ -30,7 +30,7 @@
         "description": "Componentize and export screens individually to allow for better custom screen ordering and injection",
         "year": 2023,
         "quarter": "Q3",
-        "status": "in-progress",
+        "status": "finished",
         "author": "Brightlayer UI"
       },
       {
@@ -38,15 +38,15 @@
         "description": "React Router v6 updates and router customizability",
         "year": 2023,
         "quarter": "Q3",
-        "status": "in-progress",
+        "status": "finished",
         "author": "Brightlayer UI"
       },
       {
         "name": "React Auth Workflow Internationalization",
-        "description": "Support for the latest versions of i18n and react-i18n",
+        "description": "Support for the latest versions of i18next and react-i18next",
         "year": 2023,
         "quarter": "Q3",
-        "status": "in-progress",
+        "status": "finished",
         "author": "Brightlayer UI"
       }
     ]
