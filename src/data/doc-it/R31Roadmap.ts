@@ -14,7 +14,7 @@ export const roadmap: RoadmapBucket[] = [
       {
         name: "React Native Registration Workflow",
         description:
-          "Develop a Flexible Architecture for React Native Registration Workflow",
+          "Develop a flexible architecture for React Native registration workflow",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
         status: "in-progress",
@@ -23,19 +23,18 @@ export const roadmap: RoadmapBucket[] = [
     ],
   },
   {
-    name: "Figma Components",
-    description: "Brightlayer Charts Figma Components",
+    name: "Figma Component Library",
+    description: "Updates to the components in the designer sticker sheet",
     type: "design",
-    framework: ["all"],
     items: [
       {
-        name: "Brightlayer UI Component Sticker Sheet",
+        name: "Data Visualization Components For Dashboards",
         description:
-          "Merge Brightlayer Charts to Brightlayer UI Component Sticker Sheet(Material Design 3)",
+          "Add new data visualization components designed to embed in dashboards",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
         status: "in-progress",
-        author: "DERMS CoE",
+        author: "Brightlayer UI",
       },
     ],
   },
