@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Reusable Workflows",
+    "description": "Components for implementing common workflows across applications",
+    "type": "development",
+    "framework": [
+      "react-native"
+    ],
+    "items": [
+      {
+        "name": "React Native Registration Workflow",
+        "description": "Develop a flexible architecture for React Native registration workflow",
+        "year": 2024,
+        "quarter": "Q1",
+        "status": "in-progress",
+        "author": "Brightlayer UI"
+      }
+    ]
+  },
+  {
+    "name": "Figma Component Library",
+    "description": "Updates to the components in the designer sticker sheet",
+    "type": "design",
+    "items": [
+      {
+        "name": "Data Visualization Components For Dashboards",
+        "description": "Add new data visualization components designed to embed in dashboards",
+        "year": 2024,
+        "quarter": "Q1",
+        "status": "in-progress",
+        "author": "Brightlayer UI"
+      }
+    ]
+  }
+]
