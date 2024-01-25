@@ -64,7 +64,7 @@
         "description": "Update Component Library to support React Native Paper V5 with Material Design 3",
         "year": 2023,
         "quarter": "Q3",
-        "status": "in-progress",
+        "status": "finished",
         "author": "Brightlayer UI"
       },
       {
@@ -72,7 +72,7 @@
         "description": "Update Themes to support React Native Paper V5 with Material Design 3",
         "year": 2023,
         "quarter": "Q3",
-        "status": "in-progress",
+        "status": "finished",
         "author": "Brightlayer UI"
       }
     ]
