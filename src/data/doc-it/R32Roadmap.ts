@@ -32,7 +32,7 @@ export const roadmap: RoadmapBucket[] = [
       {
         name: "UI Code Generation tools",
         description:
-          "Explore a tool that automatically generates UI code",
+          "Explore available tools and provide recommendations for usage/integration",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
         status: "in-progress",
@@ -41,16 +41,16 @@ export const roadmap: RoadmapBucket[] = [
     ],
   },
   {
-    name: "Lit framework",
+    name: "Framework Agnostic Components",
     description:
-      "Implement framework agnostic component library using Lit",
+      "Components that can be used in multiple frameworks",
     type: "development",
     framework: ["react", "angular"],
     items: [
       {
-        name: "Lit framework component library",
+        name: "Lit component library",
         description:
-          "Implement a framework-independent component library using Lit framework",
+          "Implement BLUI component library using Lit",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
         status: "in-progress",
@@ -59,16 +59,16 @@ export const roadmap: RoadmapBucket[] = [
     ],
   },
   {
-    name: "React Native Dev Docs Site",
+    name: "Miscellaneous",
     description:
-      "Develop a new documentation site for React Native components",
+      "Miscellaneous platform updates",
     type: "development",
     framework: ["react-native"],
     items: [
       {
         name: "React Native Dev Docs",
         description:
-          "Develop a new React Native documentation site to provide adopters working on mobile applications",
+          "Develop a new & improved documentation site for React Native packages",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
         status: "in-progress",
