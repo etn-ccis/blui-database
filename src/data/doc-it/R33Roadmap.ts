@@ -24,15 +24,14 @@ export const roadmap: RoadmapBucket[] = [
   },
   {
     name: "User Management Workflow",
-    description:
-      "  ",
+    description: "Enhance the applications by implementing a comprehensive user management workflow to improve security and user experience",
     type: "development",
     framework: ["react"],
     items: [
       {
         name: "React User Management Implementation",
         description:
-          "  ",
+          "Develop a user management workflow for React applications, enabling functionalities such as role based access control for adding, deleting and updating user.",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
         status: "backlog",
