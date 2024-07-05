@@ -5,92 +5,25 @@ const CURRENT_QUARTER: Quarter = "Q3";
 
 export const roadmap: RoadmapBucket[] = [
   {
-    name: "Okta Login",
+    name: "Reusable Workflows",
     description:
-      "For implementing secure and streamlined user access.",
+      "Components for implementing common workflows across applications",
     type: "development",
     framework: ["react", "react-native"],
     items: [
       {
-        name: "React and React Native okta login authentication workflow",
+        name: "Auth Workflow with Okta Redirect support",
         description:
-          "Develop Okta authentication for React and React Native applications in collaboration with the Eaton Home team, focusing on secure and streamlined user access.",
+          "Develop Okta authentication workflow for both React and React Native",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
         status: "backlog",
         author: "Brightlayer UI",
-      }
-    ],
-  },
-  {
-    name: "User Management Workflow",
-    description: "Enhance the applications by implementing a comprehensive user management workflow to improve security and user experience",
-    type: "development",
-    framework: ["react"],
-    items: [
+      },
       {
-        name: "React User Management Implementation",
+        name: "React User Management Workflow",
         description:
-          "Develop a user management workflow for React applications, enabling functionalities such as role based access control for adding, deleting and updating user.",
-        year: CURRENT_YEAR,
-        quarter: CURRENT_QUARTER,
-        status: "backlog",
-        author: "all",
-      },
-    ],
-  },
-  {
-    name: "Support Initiatives",
-    description:
-      "Supporting other teams with critical integrations and UI enhancements.",
-    type: "development",
-    framework: ["react", "react-native"],
-    items: [
-      {
-        name: "DCMS/QT API Integration Support",
-        description:
-          "Replace the existing API with DCMS/QT API to streamline user management workflows, including adding, editing, and a new deletion flow.",
-        year: CURRENT_YEAR,
-        quarter: CURRENT_QUARTER,
-        status: "backlog",
-        author: "Brightlayer UI",
-      },
-      {
-        name: "Edge Seed UI Mobile Responsiveness",
-        description: "  ",
-        year: CURRENT_YEAR,
-        quarter: CURRENT_QUARTER,
-        status: "backlog",
-        author: "Brightlayer UI",
-      },
-      {
-        name: "Development of Fiji Components",
-        description: "  ",
-        year: CURRENT_YEAR,
-        quarter: CURRENT_QUARTER,
-        status: "backlog",
-        author: "Brightlayer UI",
-      },
-    ],
-  },
-  {
-    name: "React Native Developer Documentation Enhancement",
-    description:
-      "Enhance the React Native developer documentation to improve developer experience and resource accessibility.",
-    type: "development",
-    framework: ["react-native"],
-    items: [
-      {
-        name: "Component Playground for React Native",
-        description: "Develop a component playground within the React Native documentation to allow developers to interactively test and experiment with components.",
-        year: CURRENT_YEAR,
-        quarter: CURRENT_QUARTER,
-        status: "backlog",
-        author: "Brightlayer UI",
-      },
-      {
-        name: "React Native Repository Consolidation",
-        description: "Consolidate multiple React Native repositories into a single, organized repository.",
+          "Develop a react user management workflow, enabling functionalities such as role based access control for adding, deleting and updating user",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
         status: "backlog",
@@ -101,16 +34,16 @@ export const roadmap: RoadmapBucket[] = [
   {
     name: "Brightlayer Chart",
     description:
-      " ",
+      "Integrating charting guidelines and reusable charting utilities from Brightlayer Charts",
     type: "development",
-    framework: ["react-native"],
+    framework: ["react", "react-native"],
     items: [
       {
         name: "Integration of Brightlayer Charts",
         description:
-          " ",
-        year: CURRENT_YEAR,
-        quarter: CURRENT_QUARTER,
+          "Migrate Brightlayer Charts Storybook to Brightlayer dev doc",
+        year: 2024,
+        quarter: "Q3",
         status: "backlog",
         author: "Brightlayer UI",
       },
@@ -126,7 +59,7 @@ export const roadmap: RoadmapBucket[] = [
       {
         name: "New Vite-based CLI Templates for React",
         description:
-          "Develop a new CLI Templates for react(vite) and deprecate the existing BLUI CLI.",
+          "Develop a new CLI Templates for react(vite) and deprecate the existing BLUI CLI",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
         status: "backlog",
@@ -135,16 +68,15 @@ export const roadmap: RoadmapBucket[] = [
     ],
   },
   {
-    name: "Patch Release and Bug Fixes",
-    description:
-      "Address critical bug fixes and patch release across targeted repositories, ensuring stability and performance improvements.",
+    name: "Miscellaneous",
+    description: "Miscellaneous platform updates",
     type: "development",
-    framework: ["react", "react-native"],
+    framework: ["react-native"],
     items: [
       {
-        name: "Targeted Repository Bug Fixes",
+        name: "React Native Dev Docs",
         description:
-          "Identify and fix critical bugs in specified repositories for React and React Native, followed by a patch release.",
+          "Develop a new & improved documentation site for React Native packages",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
         status: "backlog",
@@ -153,5 +85,3 @@ export const roadmap: RoadmapBucket[] = [
     ],
   },
 ];
-
-
