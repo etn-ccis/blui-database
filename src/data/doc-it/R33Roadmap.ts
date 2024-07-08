@@ -32,7 +32,7 @@ export const roadmap: RoadmapBucket[] = [
     ],
   },
   {
-    name: "Brightlayer Chart",
+    name: "Brightlayer Charts",
     description:
       "Integrating charting guidelines and reusable charting utilities from Brightlayer Charts",
     type: "development",
