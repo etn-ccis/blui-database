@@ -23,7 +23,7 @@ export const roadmap: RoadmapBucket[] = [
       {
         name: "React User Management Workflow",
         description:
-          "Develop a react user management workflow, enabling functionalities such as role based access control for adding, deleting and updating user",
+          "Develop a plan/architecture for a set of workflows around user management that could be dropped-in to product team applications.",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
         status: "backlog",
