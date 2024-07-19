@@ -50,31 +50,13 @@ export const roadmap: RoadmapBucket[] = [
     ],
   },
   {
-    name: "CLI Templates",
-    description:
-      "To streamline project setup and enhance developer experience.",
-    type: "development",
-    framework: ["react"],
-    items: [
-      {
-        name: "New Vite-based CLI Templates for React",
-        description:
-          "Develop a new CLI Templates for react(vite) and deprecate the existing BLUI CLI",
-        year: CURRENT_YEAR,
-        quarter: CURRENT_QUARTER,
-        status: "backlog",
-        author: "Brightlayer UI",
-      },
-    ],
-  },
-  {
     name: "Miscellaneous",
     description: "Miscellaneous platform updates",
     type: "development",
     framework: ["react-native"],
     items: [
       {
-        name: "React Native Dev Docs",
+        name: "React Native Dev Docs Component Playground",
         description:
           "Develop a new & improved documentation site for React Native packages",
         year: CURRENT_YEAR,

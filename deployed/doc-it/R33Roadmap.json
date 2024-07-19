@@ -46,24 +46,6 @@
     ]
   },
   {
-    "name": "CLI Templates",
-    "description": "To streamline project setup and enhance developer experience.",
-    "type": "development",
-    "framework": [
-      "react"
-    ],
-    "items": [
-      {
-        "name": "New Vite-based CLI Templates for React",
-        "description": "Develop a new CLI Templates for react(vite) and deprecate the existing BLUI CLI",
-        "year": 2024,
-        "quarter": "Q3",
-        "status": "backlog",
-        "author": "Brightlayer UI"
-      }
-    ]
-  },
-  {
     "name": "Miscellaneous",
     "description": "Miscellaneous platform updates",
     "type": "development",
@@ -72,7 +54,7 @@
     ],
     "items": [
       {
-        "name": "React Native Dev Docs",
+        "name": "React Native Dev Docs Component Playground",
         "description": "Develop a new & improved documentation site for React Native packages",
         "year": 2024,
         "quarter": "Q3",
