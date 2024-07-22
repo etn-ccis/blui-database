@@ -17,16 +17,16 @@ export const roadmap: RoadmapBucket[] = [
           "Develop Okta authentication workflow for both React and React Native",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
-        status: "backlog",
+        status: "in-progress",
         author: "Brightlayer UI",
       },
       {
         name: "React User Management Workflow",
         description:
-          "Develop a react user management workflow, enabling functionalities such as role based access control for adding, deleting and updating user",
+          "Develop a plan/architecture for a set of workflows around user management that could be dropped-in to product team applications.",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
-        status: "backlog",
+        status: "in-progress",
         author: "Brightlayer UI",
       },
     ],
@@ -44,25 +44,7 @@ export const roadmap: RoadmapBucket[] = [
           "Migrate Brightlayer Charts Storybook to Brightlayer dev doc",
         year: 2024,
         quarter: "Q3",
-        status: "backlog",
-        author: "Brightlayer UI",
-      },
-    ],
-  },
-  {
-    name: "CLI Templates",
-    description:
-      "To streamline project setup and enhance developer experience.",
-    type: "development",
-    framework: ["react"],
-    items: [
-      {
-        name: "New Vite-based CLI Templates for React",
-        description:
-          "Develop a new CLI Templates for react(vite) and deprecate the existing BLUI CLI",
-        year: CURRENT_YEAR,
-        quarter: CURRENT_QUARTER,
-        status: "backlog",
+        status: "in-progress",
         author: "Brightlayer UI",
       },
     ],
@@ -74,12 +56,12 @@ export const roadmap: RoadmapBucket[] = [
     framework: ["react-native"],
     items: [
       {
-        name: "React Native Dev Docs",
+        name: "React Native Dev Docs Component Playground",
         description:
           "Develop a new & improved documentation site for React Native packages",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
-        status: "backlog",
+        status: "in-progress",
         author: "Brightlayer UI",
       },
     ],
