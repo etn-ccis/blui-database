@@ -12,7 +12,7 @@
         "description": "Develop a flexible architecture for React Native authentication workflow",
         "year": 2024,
         "quarter": "Q2",
-        "status": "in-progress",
+        "status": "finished",
         "author": "Brightlayer UI"
       }
     ]
@@ -30,7 +30,7 @@
         "description": "Explore available tools and provide recommendations for usage/integration",
         "year": 2024,
         "quarter": "Q2",
-        "status": "in-progress",
+        "status": "finished",
         "author": "all"
       }
     ]
@@ -49,7 +49,7 @@
         "description": "Implement BLUI component library using Lit",
         "year": 2024,
         "quarter": "Q2",
-        "status": "in-progress",
+        "status": "finished",
         "author": "Brightlayer UI"
       }
     ]
@@ -67,7 +67,7 @@
         "description": "Develop a new & improved documentation site for React Native packages",
         "year": 2024,
         "quarter": "Q2",
-        "status": "in-progress",
+        "status": "finished",
         "author": "Brightlayer UI"
       }
     ]
