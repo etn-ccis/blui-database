@@ -58,7 +58,7 @@ export const roadmap: RoadmapBucket[] = [
       {
         name: "React Native Dev Docs Component Playground",
         description:
-          "Develop a new & improved documentation site for React Native packages",
+          "Added the playground for react native development documentation",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
         status: "finished",

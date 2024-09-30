@@ -55,7 +55,7 @@
     "items": [
       {
         "name": "React Native Dev Docs Component Playground",
-        "description": "Develop a new & improved documentation site for React Native packages",
+        "description": "Added the playground for react native development documentation",
         "year": 2024,
         "quarter": "Q3",
         "status": "finished",

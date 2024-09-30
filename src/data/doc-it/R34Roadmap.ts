@@ -16,7 +16,7 @@ export const roadmap: RoadmapBucket[] = [
           "Develop a workflow for managing user accounts and permissions",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
-        status: "in-progress",
+        status: "backlog",
         author: "Brightlayer UI",
       },
     ],
