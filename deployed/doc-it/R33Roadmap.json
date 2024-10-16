@@ -13,7 +13,7 @@
         "description": "Develop Okta authentication workflow for both React and React Native",
         "year": 2024,
         "quarter": "Q3",
-        "status": "in-progress",
+        "status": "finished",
         "author": "Brightlayer UI"
       },
       {
@@ -21,7 +21,7 @@
         "description": "Develop a plan/architecture for a set of workflows around user management that could be dropped-in to product team applications.",
         "year": 2024,
         "quarter": "Q3",
-        "status": "in-progress",
+        "status": "finished",
         "author": "Brightlayer UI"
       }
     ]
@@ -40,7 +40,7 @@
         "description": "Migrate Brightlayer Charts Storybook to Brightlayer dev doc",
         "year": 2024,
         "quarter": "Q3",
-        "status": "in-progress",
+        "status": "finished",
         "author": "Brightlayer UI"
       }
     ]
@@ -55,10 +55,10 @@
     "items": [
       {
         "name": "React Native Dev Docs Component Playground",
-        "description": "Develop a new & improved documentation site for React Native packages",
+        "description": "Added the playground for react native development documentation",
         "year": 2024,
         "quarter": "Q3",
-        "status": "in-progress",
+        "status": "finished",
         "author": "Brightlayer UI"
       }
     ]
