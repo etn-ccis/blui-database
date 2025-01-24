@@ -13,10 +13,10 @@ export const roadmap: RoadmapBucket[] = [
       {
         name: "React User Management Workflow",
         description:
-          "Developed a user management workflow for sites and add RBAC controls to the workflows",
+          "Extend user management workflows with Sites components and RBAC controls",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
-        status: "backlog",
+        status: "in-progress",
         author: "Brightlayer UI",
       },
     ],
@@ -28,15 +28,6 @@ export const roadmap: RoadmapBucket[] = [
     framework: ["react", "react-native"],
     items: [
       {
-        name: "Brightlayer Charts",
-        description:
-          "Enhance BL Charts Playground",
-        year: CURRENT_YEAR,
-        quarter: CURRENT_QUARTER,
-        status: "backlog",
-        author: "Brightlayer UI",
-      },
-      {
         name: "Email Templates",
         description: "Innersource Email Templates from Predict Pulse",
         year: CURRENT_YEAR,
@@ -46,7 +37,7 @@ export const roadmap: RoadmapBucket[] = [
       },
       {
         name: "Community Docs",
-        description:"Documentation site for Community Package will be available",
+        description:"Deploy documentation site for Community Packages and enhance tooling for future package additions",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
         status: "backlog",
