@@ -9,10 +9,10 @@
     "items": [
       {
         "name": "React User Management Workflow",
-        "description": "Developed a user management workflow for sites and add RBAC controls to the workflows",
+        "description": "Extend user management workflows with Sites components and RBAC controls",
         "year": 2025,
         "quarter": "Q1",
-        "status": "backlog",
+        "status": "in-progress",
         "author": "Brightlayer UI"
       }
     ]
@@ -27,14 +27,6 @@
     ],
     "items": [
       {
-        "name": "Brightlayer Charts",
-        "description": "Enhance BL Charts Playground",
-        "year": 2025,
-        "quarter": "Q1",
-        "status": "backlog",
-        "author": "Brightlayer UI"
-      },
-      {
         "name": "Email Templates",
         "description": "Innersource Email Templates from Predict Pulse",
         "year": 2025,
@@ -44,7 +36,7 @@
       },
       {
         "name": "Community Docs",
-        "description": "Documentation site for Community Package will be available",
+        "description": "Deploy documentation site for Community Packages and enhance tooling for future package additions",
         "year": 2025,
         "quarter": "Q1",
         "status": "backlog",
