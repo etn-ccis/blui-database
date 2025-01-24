@@ -23,7 +23,7 @@ export const roadmap: RoadmapBucket[] = [
   },
   {
     name: "Community Packages",
-    description: " Shared UI components and resources",
+    description: "Shared UI components and resources",
     type: "development",
     framework: ["react", "react-native"],
     items: [
