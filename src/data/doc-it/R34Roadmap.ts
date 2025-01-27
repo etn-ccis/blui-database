@@ -13,10 +13,10 @@ export const roadmap: RoadmapBucket[] = [
       {
         name: "React User Management Workflow",
         description:
-          "Develop a workflow for managing user accounts and permissions",
+          "Develop a user management workflow for roles and operations",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
-        status: "backlog",
+        status: "finished",
         author: "Brightlayer UI",
       },
     ],
@@ -33,7 +33,7 @@ export const roadmap: RoadmapBucket[] = [
           description: 'Update libraries to build using MUI version 6',
           year: CURRENT_YEAR,
           quarter: CURRENT_QUARTER,
-          status: 'in-progress',
+          status: 'finished',
           author: 'Brightlayer UI',
       },
   ],
