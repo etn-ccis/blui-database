@@ -12,6 +12,32 @@
         "description": "Extend user management workflows with Sites components and RBAC controls",
         "year": 2025,
         "quarter": "Q1",
+        "status": "finished",
+        "author": "Brightlayer UI"
+      }
+    ]
+  },
+  {
+    "name": "React Native Library",
+    "description": "Consolidated all disparate React Native repositories and examples into a single monorepo.",
+    "type": "development",
+    "framework": [
+      "react-native"
+    ],
+    "items": [
+      {
+        "name": "React Native Library",
+        "description": "Consolidated all disparate React Native repositories and examples into a single monorepo.",
+        "year": 2025,
+        "quarter": "Q1",
+        "status": "in-progress",
+        "author": "Brightlayer UI"
+      },
+      {
+        "name": "React Native Library",
+        "description": "added the authentication workflow in React Native example for secure user login experience.",
+        "year": 2025,
+        "quarter": "Q1",
         "status": "in-progress",
         "author": "Brightlayer UI"
       }
@@ -31,7 +57,7 @@
         "description": "Innersource Email Templates from Predict Pulse",
         "year": 2025,
         "quarter": "Q1",
-        "status": "backlog",
+        "status": "finished",
         "author": "Brightlayer UI"
       },
       {
@@ -39,7 +65,7 @@
         "description": "Deploy documentation site for Community Packages and enhance tooling for future package additions",
         "year": 2025,
         "quarter": "Q1",
-        "status": "backlog",
+        "status": "finished",
         "author": "Brightlayer UI"
       }
     ]
