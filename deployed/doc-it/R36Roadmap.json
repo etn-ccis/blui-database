@@ -37,7 +37,7 @@
   },
   {
     "name": "React Native Library",
-    "description": "Consolidated all disparate React Native repositories and examples into a single monorepo.",
+    "description": "Consolidate all disparate React Native repositories and examples into a single monorepo.",
     "type": "development",
     "framework": [
       "react-native"
@@ -45,7 +45,7 @@
     "items": [
       {
         "name": "React Native Library",
-        "description": "Consolidated all disparate React Native repositories and examples into a single monorepo.",
+        "description": "Consolidate all disparate React Native repositories and examples into a single monorepo.",
         "year": 2025,
         "quarter": "Q2",
         "status": "in-progress",
@@ -53,7 +53,7 @@
       },
       {
         "name": "React Native Library",
-        "description": "added the authentication workflow in React Native example for secure user login experience.",
+        "description": "add the authentication workflow in React Native example for secure user login experience.",
         "year": 2025,
         "quarter": "Q2",
         "status": "in-progress",
