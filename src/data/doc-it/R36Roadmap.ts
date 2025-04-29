@@ -13,7 +13,7 @@ export const roadmap: RoadmapBucket[] = [
       {
         name: "React User Management Workflow",
         description:
-          "Extend user management workflows with Sites components and RBAC controls",
+          "Extend user management workflows with User components and management workflows.",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
         status: "in-progress",
