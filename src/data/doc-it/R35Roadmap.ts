@@ -16,7 +16,7 @@ export const roadmap: RoadmapBucket[] = [
           "Extend user management workflows with Sites components and RBAC controls",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
-        status: "in-progress",
+        status: "finished",
         author: "Brightlayer UI",
       },
     ],
