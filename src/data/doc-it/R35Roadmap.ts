@@ -22,6 +22,32 @@ export const roadmap: RoadmapBucket[] = [
     ],
   },
   {
+    name: "React Native Library",
+    description: "Consolidate all disparate React Native repositories and examples into a single monorepo.",
+    type: "development",
+    framework: [
+      "react-native"
+    ],
+    items: [
+      {
+        name: "React Native Library",
+        description: "Consolidate all disparate React Native repositories and examples into a single monorepo.",
+        year: CURRENT_YEAR,
+        quarter: CURRENT_QUARTER,
+        status: "in-progress",
+        author: "Brightlayer UI"
+      },
+      {
+        name: "React Native Library",
+        description: "add the authentication workflow in React Native example for secure user login experience.",
+        year: CURRENT_YEAR,
+        quarter: CURRENT_QUARTER,
+        status: "in-progress",
+        author: "Brightlayer UI"
+      }
+    ]
+  },
+  {
     name: "Community Packages",
     description: "Shared UI components and resources",
     type: "development",
@@ -32,7 +58,7 @@ export const roadmap: RoadmapBucket[] = [
         description: "Innersource Email Templates from Predict Pulse",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
-        status: "backlog",
+        status: "finished",
         author: "Brightlayer UI",
       },
       {
@@ -40,7 +66,7 @@ export const roadmap: RoadmapBucket[] = [
         description:"Deploy documentation site for Community Packages and enhance tooling for future package additions",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
-        status: "backlog",
+        status: "finished",
         author: "Brightlayer UI",
       }
     ],

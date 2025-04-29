@@ -1,0 +1,74 @@
+import { Quarter, RoadmapBucket } from "./_types";
+
+const CURRENT_YEAR = 2025;
+const CURRENT_QUARTER: Quarter = "Q2";
+
+export const roadmap: RoadmapBucket[] = [
+  {
+    name: "Reusable Workflows",
+    description: "Components for implementing common workflows across applications",
+    type: "development",
+    framework: ["react"],
+    items: [
+      {
+        name: "React User Management Workflow",
+        description:
+          "Extend user management workflows with Sites components and RBAC controls",
+        year: CURRENT_YEAR,
+        quarter: CURRENT_QUARTER,
+        status: "in-progress",
+        author: "Brightlayer UI",
+      },
+    ],
+  },
+  {
+    name: "React Library",
+    description: "Consolidate all disparate React repositories and examples into a single monorepo.",
+    type: "development",
+    framework: ["react"],
+    "items": [
+      {
+        name: "React Library",
+        description: "Consolidate all disparate React repositories and examples into a single monorepo.",
+        year: CURRENT_YEAR,
+        quarter: CURRENT_QUARTER,
+        status: "backlog",
+        author: "Brightlayer UI"
+      },
+      {
+        name: "MUI 7 Support",
+        description: "Update libraries to build using MUI version 7",
+        year: CURRENT_YEAR,
+        quarter: CURRENT_QUARTER,
+        status: "backlog",
+        author: "Brightlayer UI"
+      }
+    ]
+  },
+  {
+    name: "React Native Library",
+    description: "Consolidate all disparate React Native repositories and examples into a single monorepo.",
+    type: "development",
+    framework: [
+      "react-native"
+    ],
+    items: [
+      {
+        name: "React Native Library",
+        description: "Consolidate all disparate React Native repositories and examples into a single monorepo.",
+        year: CURRENT_YEAR,
+        quarter: CURRENT_QUARTER,
+        status: "in-progress",
+        author: "Brightlayer UI"
+      },
+      {
+        name: "React Native Library",
+        description: "add the authentication workflow in React Native example for secure user login experience.",
+        year: CURRENT_YEAR,
+        quarter: CURRENT_QUARTER,
+        status: "in-progress",
+        author: "Brightlayer UI"
+      }
+    ]
+  }
+];
