@@ -6,7 +6,8 @@ const CURRENT_QUARTER: Quarter = "Q2";
 export const roadmap: RoadmapBucket[] = [
   {
     name: "Reusable Workflows",
-    description: "Components for implementing common workflows across applications",
+    description:
+      "Components for implementing common workflows across applications",
     type: "development",
     framework: ["react"],
     items: [
@@ -16,59 +17,62 @@ export const roadmap: RoadmapBucket[] = [
           "Extend user management workflows with User components and management workflows.",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
-        status: "in-progress",
+        status: "finished",
         author: "Brightlayer UI",
       },
     ],
   },
   {
     name: "React Library",
-    description: "Consolidate all disparate React repositories and examples into a single monorepo.",
+    description:
+      "Consolidate all disparate React repositories and examples into a single monorepo.",
     type: "development",
     framework: ["react"],
-    "items": [
+    items: [
       {
         name: "React Library",
-        description: "Consolidate all disparate React repositories and examples into a single monorepo.",
+        description:
+          "Consolidate all disparate React repositories and examples into a single monorepo.",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
-        status: "backlog",
-        author: "Brightlayer UI"
+        status: "finished",
+        author: "Brightlayer UI",
       },
       {
         name: "MUI 7 Support",
         description: "Update libraries to build using MUI version 7",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
-        status: "backlog",
-        author: "Brightlayer UI"
-      }
-    ]
+        status: "finished",
+        author: "Brightlayer UI",
+      },
+    ],
   },
   {
     name: "React Native Library",
-    description: "Consolidate all disparate React Native repositories and examples into a single monorepo.",
+    description:
+      "Consolidate all disparate React Native repositories and examples into a single monorepo.",
     type: "development",
-    framework: [
-      "react-native"
-    ],
+    framework: ["react-native"],
     items: [
       {
         name: "React Native Library",
-        description: "Consolidate all disparate React Native repositories and examples into a single monorepo.",
+        description:
+          "Consolidate all disparate React Native repositories and examples into a single monorepo.",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
-        status: "in-progress",
-        author: "Brightlayer UI"
+        status: "finished",
+        author: "Brightlayer UI",
       },
       {
         name: "React Native Library",
-        description: "add the authentication workflow in React Native example for secure user login experience.",
+        description:
+          "add the authentication workflow in React Native example for secure user login experience.",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
-        status: "in-progress",
-        author: "Brightlayer UI"
-      }
-    ]
-  }
+        status: "finished",
+        author: "Brightlayer UI",
+      },
+    ],
+  },
 ];
