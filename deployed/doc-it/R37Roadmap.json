@@ -1,7 +1,7 @@
 [
   {
     "name": "Reusable Workflows",
-    "description": "Components for implementing common workflows across applications",
+    "description": "Components for implementing common workflows across applications.",
     "type": "development",
     "framework": [
       "react"
@@ -9,61 +9,53 @@
     "items": [
       {
         "name": "React User Management Workflow",
-        "description": "Extend user management workflows with User components and management workflows.",
+        "description": "Extend user management workflows with adoptor and application workflows/components.",
         "year": 2025,
-        "quarter": "Q2",
+        "quarter": "Q3",
         "status": "in-progress",
         "author": "Brightlayer UI"
       }
     ]
   },
   {
-    "name": "React Library",
-    "description": "Consolidate all disparate React repositories and examples into a single monorepo.",
+    "name": "HMI Design System POC",
+    "description": "Creation of common components and themes to be used with HMI.",
     "type": "development",
     "framework": [
       "react"
     ],
     "items": [
       {
-        "name": "React Library",
-        "description": "Consolidate all disparate React repositories and examples into a single monorepo.",
+        "name": "React HMI Themes",
+        "description": "Creation of common themes to be used with HMI.",
         "year": 2025,
-        "quarter": "Q2",
+        "quarter": "Q3",
         "status": "backlog",
         "author": "Brightlayer UI"
       },
       {
-        "name": "MUI 7 Support",
-        "description": "Update libraries to build using MUI version 7",
+        "name": "React HMI Components",
+        "description": "Creation of common comoponents to be used with HMI.",
         "year": 2025,
-        "quarter": "Q2",
+        "quarter": "Q3",
         "status": "backlog",
         "author": "Brightlayer UI"
       }
     ]
   },
   {
-    "name": "React Native Library",
-    "description": "Consolidate all disparate React Native repositories and examples into a single monorepo.",
+    "name": "Doc-It Updates",
+    "description": "Updates to the Doc-It documentation site to improve user experience and content.",
     "type": "development",
     "framework": [
-      "react-native"
+      "all"
     ],
     "items": [
       {
-        "name": "React Native Library",
-        "description": "Consolidate all disparate React Native repositories and examples into a single monorepo.",
+        "name": "Updating Dependencies and Private Content Support",
+        "description": "Update dependencies to latest versions and exploring ways to support mixed content (public and private) in Doc-It.",
         "year": 2025,
-        "quarter": "Q2",
-        "status": "in-progress",
-        "author": "Brightlayer UI"
-      },
-      {
-        "name": "React Native Library",
-        "description": "add the authentication workflow in React Native example for secure user login experience.",
-        "year": 2025,
-        "quarter": "Q2",
+        "quarter": "Q3",
         "status": "in-progress",
         "author": "Brightlayer UI"
       }
