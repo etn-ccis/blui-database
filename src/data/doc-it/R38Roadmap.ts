@@ -1,29 +1,11 @@
 import { Quarter, RoadmapBucket } from "./_types";
 
 const CURRENT_YEAR = 2025;
-const CURRENT_QUARTER: Quarter = "Q3";
+const CURRENT_QUARTER: Quarter = "Q4";
 
 export const roadmap: RoadmapBucket[] = [
   {
-    name: "Reusable Workflows",
-    description:
-      "Components for implementing common workflows across applications.",
-    type: "development",
-    framework: ["react"],
-    items: [
-      {
-        name: "React User Management Workflow",
-        description:
-          "Extend user management workflows with adoptor and application workflows/components.",
-        year: CURRENT_YEAR,
-        quarter: CURRENT_QUARTER,
-        status: "finished",
-        author: "Brightlayer UI",
-      },
-    ],
-  },
-  {
-    name: "HMI Design System POC",
+    name: "HMI Design System",
     description:
       "Creation of common components and themes to be used with HMI.",
     type: "development",
@@ -55,12 +37,12 @@ export const roadmap: RoadmapBucket[] = [
     framework: ["all"],
     items: [
       {
-        name: "Updating Dependencies and Private Content Support",
+        name: "Create backend services for public and private content to deploy on Azure",
         description:
-          "Update dependencies to latest versions and exploring ways to support mixed content (public and private) in Doc-It.",
+          "Develop backend services to manage and serve both public and private content, ensuring secure access and deployment on Azure.",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
-        status: "finished",
+        status: "in-progress",
         author: "Brightlayer UI",
       },
     ],
