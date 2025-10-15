@@ -12,7 +12,7 @@
         "description": "Extend user management workflows with adoptor and application workflows/components.",
         "year": 2025,
         "quarter": "Q3",
-        "status": "in-progress",
+        "status": "finished",
         "author": "Brightlayer UI"
       }
     ]
@@ -30,7 +30,7 @@
         "description": "Creation of common themes to be used with HMI.",
         "year": 2025,
         "quarter": "Q3",
-        "status": "backlog",
+        "status": "in-progress",
         "author": "Brightlayer UI"
       },
       {
@@ -38,7 +38,7 @@
         "description": "Creation of common comoponents to be used with HMI.",
         "year": 2025,
         "quarter": "Q3",
-        "status": "backlog",
+        "status": "in-progress",
         "author": "Brightlayer UI"
       }
     ]
@@ -56,7 +56,7 @@
         "description": "Update dependencies to latest versions and exploring ways to support mixed content (public and private) in Doc-It.",
         "year": 2025,
         "quarter": "Q3",
-        "status": "in-progress",
+        "status": "finished",
         "author": "Brightlayer UI"
       }
     ]
