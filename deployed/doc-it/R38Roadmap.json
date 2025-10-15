@@ -1,24 +1,6 @@
 [
   {
-    "name": "Reusable Workflows",
-    "description": "Components for implementing common workflows across applications.",
-    "type": "development",
-    "framework": [
-      "react"
-    ],
-    "items": [
-      {
-        "name": "React User Management Workflow",
-        "description": "Extend user management workflows with adoptor and application workflows/components.",
-        "year": 2025,
-        "quarter": "Q3",
-        "status": "finished",
-        "author": "Brightlayer UI"
-      }
-    ]
-  },
-  {
-    "name": "HMI Design System POC",
+    "name": "HMI Design System",
     "description": "Creation of common components and themes to be used with HMI.",
     "type": "development",
     "framework": [
@@ -29,7 +11,7 @@
         "name": "React HMI Themes",
         "description": "Creation of common themes to be used with HMI.",
         "year": 2025,
-        "quarter": "Q3",
+        "quarter": "Q4",
         "status": "in-progress",
         "author": "Brightlayer UI"
       },
@@ -37,7 +19,7 @@
         "name": "React HMI Components",
         "description": "Creation of common components to be used with HMI.",
         "year": 2025,
-        "quarter": "Q3",
+        "quarter": "Q4",
         "status": "in-progress",
         "author": "Brightlayer UI"
       }
@@ -52,11 +34,11 @@
     ],
     "items": [
       {
-        "name": "Updating Dependencies and Private Content Support",
-        "description": "Update dependencies to latest versions and exploring ways to support mixed content (public and private) in Doc-It.",
+        "name": "Create backend services for public and private content to deploy on Azure",
+        "description": "Develop backend services to manage and serve both public and private content, ensuring secure access and deployment on Azure.",
         "year": 2025,
-        "quarter": "Q3",
-        "status": "finished",
+        "quarter": "Q4",
+        "status": "in-progress",
         "author": "Brightlayer UI"
       }
     ]
