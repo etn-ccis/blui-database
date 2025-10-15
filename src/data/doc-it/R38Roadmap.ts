@@ -21,7 +21,7 @@ export const roadmap: RoadmapBucket[] = [
       },
       {
         name: "React HMI Components",
-        description: "Creation of common comoponents to be used with HMI.",
+        description: "Creation of common components to be used with HMI.",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
         status: "in-progress",
