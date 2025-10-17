@@ -7,7 +7,7 @@ export const roadmap: RoadmapBucket[] = [
   {
     name: "HMI Design System",
     description:
-      "Creation of common components and themes to be used with HMI.",
+      "Implementation of common components and themes to be used with HMI.",
     type: "development",
     framework: ["react"],
     items: [
@@ -21,7 +21,7 @@ export const roadmap: RoadmapBucket[] = [
       },
       {
         name: "React HMI Components",
-        description: "Creation of common components to be used with HMI.",
+        description: "Implementation of common components to be used with HMI.",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
         status: "in-progress",
@@ -37,9 +37,9 @@ export const roadmap: RoadmapBucket[] = [
     framework: ["all"],
     items: [
       {
-        name: "Create backend services for public and private content to deploy on Azure",
+        name: "Create backend services for HMI design system.",
         description:
-          "Develop backend services to manage and serve both public and private content, ensuring secure access and deployment on Azure.",
+          "Develop backend services for HMI design system and deploy it on Azure.",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
         status: "in-progress",
