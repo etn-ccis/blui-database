@@ -29,7 +29,6 @@ export const roadmap: RoadmapBucket[] = [
       },
     ],
   },
-  ,
   {
     name: "React Libraries",
     description:
