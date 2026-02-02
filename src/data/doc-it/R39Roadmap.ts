@@ -37,34 +37,32 @@ export const roadmap: RoadmapBucket[] = [
     framework: ["react"],
     items: [
       {
-          name: "Addition of Icons",
-          description: "Adding new icons and progress icons",
-          year: CURRENT_YEAR,
-          quarter: CURRENT_QUARTER,
-          status: "in-progress",
-          author: "Brightlayer UI",
+        name: "Addition of Icons",
+        description: "Adding new icons and progress icons",
+        year: CURRENT_YEAR,
+        quarter: CURRENT_QUARTER,
+        status: "in-progress",
+        author: "Brightlayer UI",
       },
       {
-          name: "Addition of New Components",
-          description: "Adding a new editable Datatable desktop component",
-          year: CURRENT_YEAR,
-          quarter: CURRENT_QUARTER,
-          status: "in-progress",
-          author: "Brightlayer UI",
+        name: "Addition of New Components",
+        description: "Adding a new editable Datatable desktop component",
+        year: CURRENT_YEAR,
+        quarter: CURRENT_QUARTER,
+        status: "in-progress",
+        author: "Brightlayer UI",
       },
   ],
   },
   {
     name: "Doc-It Updates",
-    description:
-      "Updates to the Doc-It documentation site to improve user experience and content.",
+    description: "Updates to the Doc-It documentation site to improve user experience and content.",
     type: "development",
     framework: ["all"],
     items: [
       {
         name: "Create backend services for HMI design system.",
-        description:
-          "Develop backend services for HMI design system and deploy it on Azure.",
+        description: "Develop backend services for HMI design system and deploy it on Azure.",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
         status: "in-progress",
