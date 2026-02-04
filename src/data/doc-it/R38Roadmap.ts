@@ -16,7 +16,7 @@ export const roadmap: RoadmapBucket[] = [
         description: "Creation of common themes to be used with HMI.",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
-        status: "finished",
+        status: "in-progress",
         author: "Brightlayer UI",
         framework: ["react"],
       },
