@@ -5,34 +5,8 @@ const CURRENT_QUARTER: Quarter = "Q1";
 
 export const roadmap: RoadmapBucket[] = [
   {
-    name: "HMI Design System",
-    description:
-      "Implementation of common components and themes to be used with HMI.",
-    type: "development",
-    framework: ["react"],
-    items: [
-      {
-        name: "React HMI Themes",
-        description: "Creation of common themes to be used with HMI.",
-        year: CURRENT_YEAR,
-        quarter: CURRENT_QUARTER,
-        status: "in-progress",
-        author: "Brightlayer UI",
-      },
-      {
-        name: "React HMI Components",
-        description: "Implementation of common components to be used with HMI.",
-        year: CURRENT_YEAR,
-        quarter: CURRENT_QUARTER,
-        status: "in-progress",
-        author: "Brightlayer UI",
-      },
-    ],
-  },
-  {
     name: "React Libraries",
-    description:
-      "The Brightlayer UI react libraries",
+    description: "The Brightlayer UI react libraries",
     type: "development",
     framework: ["react"],
     items: [
@@ -43,6 +17,7 @@ export const roadmap: RoadmapBucket[] = [
         quarter: CURRENT_QUARTER,
         status: "in-progress",
         author: "Brightlayer UI",
+        framework: ["react"],
       },
       {
         name: "Addition of New Components",
@@ -51,8 +26,26 @@ export const roadmap: RoadmapBucket[] = [
         quarter: CURRENT_QUARTER,
         status: "in-progress",
         author: "Brightlayer UI",
+        framework: ["react"],
       },
-  ],
+    ],
+  },
+  {
+    name: "React Native Libraries",
+    description: "The Brightlayer UI react native libraries",
+    type: "development",
+    framework: ["react-native"],
+    items: [
+      {
+        name: "React Native 84 Support",
+        description: "Update all React Native resources to support version 0.84",
+        year: CURRENT_YEAR,
+        quarter: CURRENT_QUARTER,
+        framework: ["react-native"],
+        status: "in-progress",
+        author: "Brightlayer UI",
+      },
+    ],
   },
   {
     name: "Doc-It Updates",
@@ -67,6 +60,7 @@ export const roadmap: RoadmapBucket[] = [
         quarter: CURRENT_QUARTER,
         status: "in-progress",
         author: "Brightlayer UI",
+        framework: ["all"],
       },
     ],
   }
