@@ -11,8 +11,8 @@ export const roadmap: RoadmapBucket[] = [
     framework: ["react"],
     items: [
       {
-        name: "Drag & Drop Upload Component",
-        description: "Adding a new Drag & Drop Upload component",
+        name: "React Drag & Drop Upload Component",
+        description: "Adding a new Drag & Drop Upload React component",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
         status: "in-progress",
@@ -20,8 +20,8 @@ export const roadmap: RoadmapBucket[] = [
         framework: ["react"],
       },
       {
-        name: "Horizontal Stacked Bar Component",
-        description: "Adding a new Horizontal Stacked Bar component",
+        name: "React Horizontal Stacked Bar Component",
+        description: "Adding a new Horizontal Stacked Bar React component",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
         status: "in-progress",
@@ -36,6 +36,23 @@ export const roadmap: RoadmapBucket[] = [
         status: "in-progress",
         author: "Brightlayer UI",
         framework: ["react"],
+      },
+    ],
+  },
+  {
+    name: "React Native Libraries",
+    description: "The Brightlayer UI react native libraries",
+    type: "development",
+    framework: ["react-native"],
+    items: [
+      {
+        name: "React Native Horizontal Stacked Bar Component",
+        description: "Adding a new Horizontal Stacked Bar React Native component",
+        year: CURRENT_YEAR,
+        quarter: CURRENT_QUARTER,
+        status: "in-progress",
+        author: "Brightlayer UI",
+        framework: ["react-native"],
       },
     ],
   },
