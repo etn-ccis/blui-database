@@ -1,0 +1,63 @@
+[
+  {
+    "name": "React Libraries",
+    "description": "The Brightlayer UI react libraries",
+    "type": "development",
+    "framework": [
+      "react"
+    ],
+    "items": [
+      {
+        "name": "Drag & Drop Upload Component",
+        "description": "Adding a new Drag & Drop Upload component",
+        "year": 2026,
+        "quarter": "Q2",
+        "status": "in-progress",
+        "author": "Brightlayer UI",
+        "framework": [
+          "react"
+        ]
+      },
+      {
+        "name": "Horizontal Stacked Bar Component",
+        "description": "Adding a new Horizontal Stacked Bar component",
+        "year": 2026,
+        "quarter": "Q2",
+        "status": "in-progress",
+        "author": "Brightlayer UI",
+        "framework": [
+          "react"
+        ]
+      },
+      {
+        "name": "Addition of Icons",
+        "description": "Adding new icons",
+        "year": 2026,
+        "quarter": "Q2",
+        "status": "in-progress",
+        "author": "Brightlayer UI",
+        "framework": [
+          "react"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Doc-It Updates",
+    "description": "Updates to the Doc-It documentation site to improve user experience and content.",
+    "type": "development",
+    "framework": [
+      "all"
+    ],
+    "items": [
+      {
+        "name": "Figma Code Connect Docs",
+        "description": "Figma code connect documentation",
+        "year": 2026,
+        "quarter": "Q2",
+        "status": "in-progress",
+        "author": "Brightlayer UI"
+      }
+    ]
+  }
+]
