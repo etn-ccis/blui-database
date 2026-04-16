@@ -1,7 +1,7 @@
 import { Quarter, RoadmapBucket } from "./_types";
 
 const CURRENT_YEAR = 2026;
-const CURRENT_QUARTER: Quarter = "Q1";
+const CURRENT_QUARTER: Quarter = "Q2";
 
 export const roadmap: RoadmapBucket[] = [
   {
@@ -11,8 +11,8 @@ export const roadmap: RoadmapBucket[] = [
     framework: ["react"],
     items: [
       {
-        name: "Addition of Icons",
-        description: "Adding new icons and progress icons",
+        name: "React Drag & Drop Upload Component",
+        description: "Adding a new Drag & Drop Upload React component",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
         status: "in-progress",
@@ -20,11 +20,20 @@ export const roadmap: RoadmapBucket[] = [
         framework: ["react"],
       },
       {
-        name: "Addition of New Components",
-        description: "Adding a new editable Datatable desktop component",
+        name: "React Horizontal Stacked Bar Component",
+        description: "Adding a new Horizontal Stacked Bar React component",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
-        status: "finished",
+        status: "in-progress",
+        author: "Brightlayer UI",
+        framework: ["react"],
+      },
+      {
+        name: "Addition of Icons",
+        description: "Adding new icons",
+        year: CURRENT_YEAR,
+        quarter: CURRENT_QUARTER,
+        status: "in-progress",
         author: "Brightlayer UI",
         framework: ["react"],
       },
@@ -37,31 +46,31 @@ export const roadmap: RoadmapBucket[] = [
     framework: ["react-native"],
     items: [
       {
-        name: "React Native 84 Support",
-        description: "Update all React Native resources to support version 0.84",
+        name: "React Native Horizontal Stacked Bar Component",
+        description: "Adding a new Horizontal Stacked Bar React Native component",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
-        framework: ["react-native"],
-        status: "finished",
+        status: "in-progress",
         author: "Brightlayer UI",
+        framework: ["react-native"],
       },
     ],
   },
   {
     name: "Doc-It Updates",
-    description: "Updates to the Doc-It documentation site to improve user experience and content.",
+    description:
+      "Updates to the Doc-It documentation site to improve user experience and content.",
     type: "development",
     framework: ["all"],
     items: [
       {
-        name: "Create backend services for HMI design system.",
-        description: "Develop backend services for HMI design system and deploy it on Azure.",
+        name: "Figma Code Connect Docs",
+        description: "Figma code connect documentation",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
         status: "in-progress",
         author: "Brightlayer UI",
-        framework: ["all"],
       },
     ],
-  }
+  },
 ];

@@ -8,10 +8,10 @@
     ],
     "items": [
       {
-        "name": "Addition of Icons",
-        "description": "Adding new icons and progress icons",
+        "name": "React Drag & Drop Upload Component",
+        "description": "Adding a new Drag & Drop Upload React component",
         "year": 2026,
-        "quarter": "Q1",
+        "quarter": "Q2",
         "status": "in-progress",
         "author": "Brightlayer UI",
         "framework": [
@@ -19,11 +19,22 @@
         ]
       },
       {
-        "name": "Addition of New Components",
-        "description": "Adding a new editable Datatable desktop component",
+        "name": "React Horizontal Stacked Bar Component",
+        "description": "Adding a new Horizontal Stacked Bar React component",
         "year": 2026,
-        "quarter": "Q1",
-        "status": "finished",
+        "quarter": "Q2",
+        "status": "in-progress",
+        "author": "Brightlayer UI",
+        "framework": [
+          "react"
+        ]
+      },
+      {
+        "name": "Addition of Icons",
+        "description": "Adding new icons",
+        "year": 2026,
+        "quarter": "Q2",
+        "status": "in-progress",
         "author": "Brightlayer UI",
         "framework": [
           "react"
@@ -40,15 +51,15 @@
     ],
     "items": [
       {
-        "name": "React Native 84 Support",
-        "description": "Update all React Native resources to support version 0.84",
+        "name": "React Native Horizontal Stacked Bar Component",
+        "description": "Adding a new Horizontal Stacked Bar React Native component",
         "year": 2026,
-        "quarter": "Q1",
+        "quarter": "Q2",
+        "status": "in-progress",
+        "author": "Brightlayer UI",
         "framework": [
           "react-native"
-        ],
-        "status": "finished",
-        "author": "Brightlayer UI"
+        ]
       }
     ]
   },
@@ -61,15 +72,12 @@
     ],
     "items": [
       {
-        "name": "Create backend services for HMI design system.",
-        "description": "Develop backend services for HMI design system and deploy it on Azure.",
+        "name": "Figma Code Connect Docs",
+        "description": "Figma code connect documentation",
         "year": 2026,
-        "quarter": "Q1",
+        "quarter": "Q2",
         "status": "in-progress",
-        "author": "Brightlayer UI",
-        "framework": [
-          "all"
-        ]
+        "author": "Brightlayer UI"
       }
     ]
   }
