@@ -24,7 +24,7 @@ export const roadmap: RoadmapBucket[] = [
         description: "Adding a new editable Datatable desktop component",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
-        status: "finished",
+        status: "in-progress",
         author: "Brightlayer UI",
         framework: ["react"],
       },

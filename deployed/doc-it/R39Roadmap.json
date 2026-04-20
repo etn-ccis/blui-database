@@ -23,7 +23,7 @@
         "description": "Adding a new editable Datatable desktop component",
         "year": 2026,
         "quarter": "Q1",
-        "status": "finished",
+        "status": "in-progress",
         "author": "Brightlayer UI",
         "framework": [
           "react"
