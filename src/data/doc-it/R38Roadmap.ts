@@ -31,22 +31,4 @@ export const roadmap: RoadmapBucket[] = [
       },
     ],
   },
-  {
-    name: "Doc-It Updates",
-    description:
-      "Updates to the Doc-It documentation site to improve user experience and content.",
-    type: "development",
-    framework: ["all"],
-    items: [
-      {
-        name: "Create backend services for HMI design system.",
-        description:
-          "Develop backend services for HMI design system and deploy it on Azure.",
-        year: CURRENT_YEAR,
-        quarter: CURRENT_QUARTER,
-        status: "in-progress",
-        author: "Brightlayer UI",
-      },
-    ],
-  },
 ];
