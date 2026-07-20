@@ -1,7 +1,7 @@
 import { Quarter, RoadmapBucket } from "./_types";
 
 const CURRENT_YEAR = 2026;
-const CURRENT_QUARTER: Quarter = "Q2";
+const CURRENT_QUARTER: Quarter = "Q3";
 
 export const roadmap: RoadmapBucket[] = [
   {
@@ -11,17 +11,8 @@ export const roadmap: RoadmapBucket[] = [
     framework: ["react"],
     items: [
       {
-        name: "React Drag & Drop Upload Component",
-        description: "Adding a new Drag & Drop Upload React component",
-        year: CURRENT_YEAR,
-        quarter: CURRENT_QUARTER,
-        status: "finished",
-        author: "Brightlayer UI",
-        framework: ["react"],
-      },
-      {
-        name: "React Horizontal Stacked Bar Component",
-        description: "Adding a new Horizontal Stacked Bar React component",
+        name: "Transparent App Bar Component",
+        description: "Adding a transparent style variant for both App Bar & Extended App Bar component",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
         status: "finished",
@@ -33,26 +24,9 @@ export const roadmap: RoadmapBucket[] = [
         description: "Adding new icons",
         year: CURRENT_YEAR,
         quarter: CURRENT_QUARTER,
-        status: "finished",
+        status: "in-progress",
         author: "Brightlayer UI",
         framework: ["react"],
-      },
-    ],
-  },
-  {
-    name: "React Native Libraries",
-    description: "The Brightlayer UI react native libraries",
-    type: "development",
-    framework: ["react-native"],
-    items: [
-      {
-        name: "React Native Horizontal Stacked Bar Component",
-        description: "Adding a new Horizontal Stacked Bar React Native component",
-        year: CURRENT_YEAR,
-        quarter: CURRENT_QUARTER,
-        status: "finished",
-        author: "Brightlayer UI",
-        framework: ["react-native"],
       },
     ],
   },
