@@ -12,7 +12,7 @@
         "description": "Adding new icons and progress icons",
         "year": 2026,
         "quarter": "Q1",
-        "status": "in-progress",
+        "status": "finished",
         "author": "Brightlayer UI",
         "framework": [
           "react"
@@ -23,7 +23,7 @@
         "description": "Adding a new editable Datatable desktop component",
         "year": 2026,
         "quarter": "Q1",
-        "status": "in-progress",
+        "status": "finished",
         "author": "Brightlayer UI",
         "framework": [
           "react"
