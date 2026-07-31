@@ -19,44 +19,11 @@
         ]
       },
       {
-        "name": "Display historical versions of doc-It​",
-        "description": "Adding a feature to display historical versions of doc-It",
+        "name": "Addition of New Components",
+        "description": "Adding new components including Mapbox, Heatmap, and enhancements to the App Bar component",
         "year": 2026,
         "quarter": "Q3",
         "status": "in-progress",
-        "author": "Brightlayer UI",
-        "framework": [
-          "react"
-        ]
-      },
-      {
-        "name": "Heatmap Component",
-        "description": "Adding a heatmap component",
-        "year": 2026,
-        "quarter": "Q3",
-        "status": "in-progress",
-        "author": "Brightlayer UI",
-        "framework": [
-          "react"
-        ]
-      },
-      {
-        "name": "Mapbox Component",
-        "description": "Adding a Mapbox component",
-        "year": 2026,
-        "quarter": "Q3",
-        "status": "in-progress",
-        "author": "Brightlayer UI",
-        "framework": [
-          "react"
-        ]
-      },
-      {
-        "name": "Transparent App Bar Component",
-        "description": "Adding a transparent style variant for both App Bar & Extended App Bar component",
-        "year": 2026,
-        "quarter": "Q3",
-        "status": "finished",
         "author": "Brightlayer UI",
         "framework": [
           "react"
@@ -79,6 +46,17 @@
         "quarter": "Q3",
         "status": "in-progress",
         "author": "Brightlayer UI"
+      },
+      {
+        "name": "Display historical versions of doc-It​",
+        "description": "Adding a feature to display historical versions of doc-It",
+        "year": 2026,
+        "quarter": "Q3",
+        "status": "in-progress",
+        "author": "Brightlayer UI",
+        "framework": [
+          "react"
+        ]
       }
     ]
   }
