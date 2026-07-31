@@ -12,7 +12,7 @@
         "description": "Adding a new Drag & Drop Upload React component",
         "year": 2026,
         "quarter": "Q2",
-        "status": "in-progress",
+        "status": "finished",
         "author": "Brightlayer UI",
         "framework": [
           "react"
@@ -23,7 +23,7 @@
         "description": "Adding a new Horizontal Stacked Bar React component",
         "year": 2026,
         "quarter": "Q2",
-        "status": "in-progress",
+        "status": "finished",
         "author": "Brightlayer UI",
         "framework": [
           "react"
@@ -34,7 +34,7 @@
         "description": "Adding new icons",
         "year": 2026,
         "quarter": "Q2",
-        "status": "in-progress",
+        "status": "finished",
         "author": "Brightlayer UI",
         "framework": [
           "react"
@@ -55,7 +55,7 @@
         "description": "Adding a new Horizontal Stacked Bar React Native component",
         "year": 2026,
         "quarter": "Q2",
-        "status": "in-progress",
+        "status": "finished",
         "author": "Brightlayer UI",
         "framework": [
           "react-native"
