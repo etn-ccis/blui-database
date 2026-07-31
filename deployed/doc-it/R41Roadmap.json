@@ -8,57 +8,58 @@
     ],
     "items": [
       {
-        "name": "React Drag & Drop Upload Component",
-        "description": "Adding a new Drag & Drop Upload React component",
-        "year": 2026,
-        "quarter": "Q2",
-        "status": "finished",
-        "author": "Brightlayer UI",
-        "framework": [
-          "react"
-        ]
-      },
-      {
-        "name": "React Horizontal Stacked Bar Component",
-        "description": "Adding a new Horizontal Stacked Bar React component",
-        "year": 2026,
-        "quarter": "Q2",
-        "status": "finished",
-        "author": "Brightlayer UI",
-        "framework": [
-          "react"
-        ]
-      },
-      {
         "name": "Addition of Icons",
-        "description": "Adding new icons",
+        "description": "Adding new icons, including a progress icon, icon modifier and two tone icons",
         "year": 2026,
-        "quarter": "Q2",
-        "status": "finished",
+        "quarter": "Q3",
+        "status": "in-progress",
         "author": "Brightlayer UI",
         "framework": [
           "react"
         ]
-      }
-    ]
-  },
-  {
-    "name": "React Native Libraries",
-    "description": "The Brightlayer UI react native libraries",
-    "type": "development",
-    "framework": [
-      "react-native"
-    ],
-    "items": [
+      },
       {
-        "name": "React Native Horizontal Stacked Bar Component",
-        "description": "Adding a new Horizontal Stacked Bar React Native component",
+        "name": "Display historical versions of doc-It​",
+        "description": "Adding a feature to display historical versions of doc-It",
         "year": 2026,
-        "quarter": "Q2",
+        "quarter": "Q3",
+        "status": "in-progress",
+        "author": "Brightlayer UI",
+        "framework": [
+          "react"
+        ]
+      },
+      {
+        "name": "Heatmap Component",
+        "description": "Adding a heatmap component",
+        "year": 2026,
+        "quarter": "Q3",
+        "status": "in-progress",
+        "author": "Brightlayer UI",
+        "framework": [
+          "react"
+        ]
+      },
+      {
+        "name": "Mapbox Component",
+        "description": "Adding a Mapbox component",
+        "year": 2026,
+        "quarter": "Q3",
+        "status": "in-progress",
+        "author": "Brightlayer UI",
+        "framework": [
+          "react"
+        ]
+      },
+      {
+        "name": "Transparent App Bar Component",
+        "description": "Adding a transparent style variant for both App Bar & Extended App Bar component",
+        "year": 2026,
+        "quarter": "Q3",
         "status": "finished",
         "author": "Brightlayer UI",
         "framework": [
-          "react-native"
+          "react"
         ]
       }
     ]
@@ -75,7 +76,7 @@
         "name": "Figma Code Connect Docs",
         "description": "Figma code connect documentation",
         "year": 2026,
-        "quarter": "Q2",
+        "quarter": "Q3",
         "status": "in-progress",
         "author": "Brightlayer UI"
       }
