@@ -11,7 +11,7 @@
         "name": "Map-Related Components and Styles",
         "description": "Adding a Map Pin component, Pin Cluster component, Map Buttons, and a Map Style update",
         "year": 2026,
-        "quarter": "Q3",
+        "quarter": "Q4",
         "status": "in-progress",
         "author": "Brightlayer UI",
         "framework": [
@@ -22,7 +22,7 @@
         "name": "Heatmap Enhancement",
         "description": "Adding animation/motion on mount and hover interactions for the plotted graph and legends",
         "year": 2026,
-        "quarter": "Q3",
+        "quarter": "Q4",
         "status": "in-progress",
         "author": "Brightlayer UI",
         "framework": [
@@ -33,7 +33,7 @@
         "name": "DataTable Rich Menu Improvements",
         "description": "Enhancing DataTable select menu options with richer content",
         "year": 2026,
-        "quarter": "Q3",
+        "quarter": "Q4",
         "status": "in-progress",
         "author": "Brightlayer UI",
         "framework": [
@@ -54,7 +54,7 @@
         "name": "Merge Community Docs into Developer Docs",
         "description": "Merging community documentation into developer documentation",
         "year": 2026,
-        "quarter": "Q3",
+        "quarter": "Q4",
         "status": "in-progress",
         "author": "Brightlayer UI"
       }

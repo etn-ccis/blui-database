@@ -1,7 +1,7 @@
 import { Quarter, RoadmapBucket } from "./_types";
 
 const CURRENT_YEAR = 2026;
-const CURRENT_QUARTER: Quarter = "Q3";
+const CURRENT_QUARTER: Quarter = "Q4";
 
 export const roadmap: RoadmapBucket[] = [
   {
