@@ -12,7 +12,7 @@
         "description": "Adding new icons, including a progress icon, icon modifier and two tone icons",
         "year": 2026,
         "quarter": "Q3",
-        "status": "in-progress",
+        "status": "finished",
         "author": "Brightlayer UI",
         "framework": [
           "react"
@@ -52,7 +52,7 @@
         "description": "Adding a feature to display historical versions of doc-It",
         "year": 2026,
         "quarter": "Q3",
-        "status": "in-progress",
+        "status": "finished",
         "author": "Brightlayer UI",
         "framework": [
           "react"
